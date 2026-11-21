@@ -1,7 +1,10 @@
 """verify.py - statistical recomputation (R1) against the committed official results.
 
 This does **not** re-run retrieval: it reads the committed per-question results and recomputes
-every statistic with the same script and seed, then compares every field. The two official
+every statistic with the same script and seed, then compares every field. It **does** need the
+corpus (`cleaned/`): `by_length_tercile` derives clause lengths from the evidence layer, so a
+checkout without the snapshot would produce zeros and a misleading failure. Install it with
+`tools/fetch_data.py` first. The two official
 splits were checked this way when the package was built: `stats.json` is byte-identical after
 JSON parsing for both splits, and for test2 the `OUTCOME.json` matches except `created_at`.
 
@@ -58,6 +61,18 @@ def diff(a, b, path: str = "", skip: set[str] | None = None) -> list[str]:
     return out
 
 
+def corpus_problems(root: Path) -> list[str]:
+    import csv
+    required = list(csv.DictReader(
+        (root / "data" / "REQUIRED_SOURCES.csv").open(encoding="utf-8", newline="")))
+    missing = [r["doc_id"] for r in required
+               if not (root / "cleaned" / f"{r['doc_id']}.evidence.jsonl").exists()]
+    for rel in ("corpus_safe_512/corpus_safe_512.jsonl", "corpus_safe_512/chunk_index.jsonl"):
+        if not (root / rel).exists():
+            missing.append(rel)
+    return missing
+
+
 def run(cmd: list[str]) -> None:
     print("$ " + " ".join(cmd))
     subprocess.run([sys.executable, *cmd], cwd=str(ROOT), check=True)
@@ -77,6 +92,14 @@ def main() -> int:
         src = root / "results" / "final_test2"
         official_stats = src / "stats.json"
         questions = "annotations/questions_test2.jsonl"
+
+    missing = corpus_problems(root)
+    if missing:
+        print(f"REFUSING: R1 needs the corpus snapshot; {len(missing)} files are missing "
+              f"({', '.join(missing[:3])}...). Run:\n"
+              "  python tools/fetch_data.py --snapshot <release-url> --verify\n"
+              "  python tools/check_data.py --snapshot", file=sys.stderr)
+        return 2
 
     work = root / "results" / "repro" / "r1" / args.split
     if work.exists():
