@@ -122,7 +122,9 @@ def main() -> int:
                  "--env-role", conf.get("env_role", "compatibility"),
                  "--grid", f"{lr:g}:{neg}", "--run-tag", "repro"]
     if conf.get("base_model"):
-        train_cmd += ["--model-path", f"models/reranker/base"]
+        local_base = ROOT / "models" / "reranker" / "base"
+        train_cmd += ["--model-path", str(local_base) if local_base.exists()
+                      else conf["base_model"]]
     if args.smoke:
         train_cmd += ["--smoke", "--max-steps", "1"]
     pair_cmd = [str(python), str(ROOT / "scripts" / "17_build_rerank_data.py"),
