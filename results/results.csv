@@ -1,0 +1,9 @@
+split,track,complete@10,ci_low,ci_high,groups,run_attempt,source
+test,main,0.3579,0.2991,0.4177,59,1,results/final/stats.json
+test,C1,0.3579,0.2991,0.4177,59,1,results/final/stats.json
+test,C2,0.3579,0.2991,0.4177,59,1,results/final/stats.json
+test,C3,0.4048,0.3469,0.4636,59,1,results/final/stats.json
+test2,main,0.4902,0.4222,0.5569,45,1,results/final_test2/stats.json
+test2,C1,0.4902,0.4222,0.5569,45,1,results/final_test2/stats.json
+test2,C2,0.4902,0.4222,0.5569,45,1,results/final_test2/stats.json
+test2,C3,0.5425,0.481,0.6013,45,1,results/final_test2/stats.json

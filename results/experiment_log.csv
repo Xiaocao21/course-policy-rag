@@ -1,0 +1,7 @@
+logged_at,kind,track,split,run_id,env_role,gpu,val_complete@10,questions,configs
+2026-10-25T03:46:14+08:00,training,rerank_train,,8c0e9c786bb6,canonical,NVIDIA GeForce RTX 3060 Laptop GPU,0.3877005347593583,,
+2026-10-28T21:02:07+08:00,eval,four_track,dev,b945f839f808,,,,112,2
+2026-10-28T21:17:07+08:00,eval,four_track,dev,b945f839f808,,,,112,17
+2026-10-28T21:27:22+08:00,eval,four_track,test,9e24c700d55c,,,,60,17
+2026-11-11T23:02:47+08:00,training,rerank_train,,c3d403324448,compatibility,NVIDIA RTX A5000,0.393048128342246,,
+2026-11-13T02:01:25+08:00,eval,four_track,test2,df576d5eeb67,,,,45,17
