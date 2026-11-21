@@ -66,6 +66,18 @@ def resolve_out(root: Path, out: str) -> Path:
     return resolved
 
 
+def index_problems(root: Path, preregistration: str) -> list[str]:
+    """Official indexes are byte-pinned by the test2 pre-registration; rebuilt ones differ."""
+    if not preregistration:
+        return []
+    path = root / preregistration
+    if not path.exists():
+        return []
+    artifacts = json.loads(path.read_text(encoding="utf-8")).get("artifacts", {})
+    return [rel for rel, want in artifacts.items()
+            if rel.startswith("indexes/") and sha256(root / rel) != want]
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", required=True)
@@ -76,6 +88,14 @@ def main() -> int:
                     help="interpreter with torch (default: .venv-gpu if present, else this one)")
     args = ap.parse_args()
     conf = cfg.load(ROOT / args.config)
+
+    missing_indexes = index_problems(ROOT, conf.get("preregistration", ""))
+    if missing_indexes:
+        print(f"REFUSING: {len(missing_indexes)} index files do not match the pre-registration "
+              f"({', '.join(missing_indexes[:3])}...).\n"
+              "  Exact replay needs the official indexes; install them with:\n"
+              "  python tools/fetch_indexes.py --url <release-indexes-url>", file=sys.stderr)
+        return 2
 
     status_path = ROOT / "data" / "STATUS.json"
     status = json.loads(status_path.read_text(encoding="utf-8")) if status_path.exists() else {}
