@@ -1,0 +1,9 @@
+name: baseline_test
+split: test
+questions: annotations/questions.jsonl
+locked_dir: annotations/LOCKED
+device: cuda
+eval_batch: 32
+out: results/repro/baseline_test
+official_results: results/final
+official_run: results/final/FINAL_RUN.json

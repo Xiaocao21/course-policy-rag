@@ -21,6 +21,7 @@ data/STATUS.json
 data/INCOMPLETE.json
 data/SNAPSHOT_STATUS.json
 results/repro/
+results/repro_*.log
 results/test2/scratch/
 
 # Model weights stay out of git (published as a release asset); metadata stays in

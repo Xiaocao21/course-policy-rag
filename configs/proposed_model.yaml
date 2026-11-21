@@ -1,0 +1,10 @@
+name: proposed_model_test2
+split: test2
+questions: annotations/questions_test2.jsonl
+locked_dir: annotations/LOCKED_TEST2
+preregistration: results/test2/PREREGISTRATION.json
+device: cuda
+eval_batch: 32
+out: results/repro/proposed_model_test2
+official_results: results/final_test2
+official_run: results/final_test2/FINAL_RUN.json

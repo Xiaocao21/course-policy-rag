@@ -1,0 +1,14 @@
+# Stage C: retrieval replay (R2) and training (R3) on the course A5000.
+# CPU-only R1 does not need these; use requirements.txt there.
+#
+#   py -3.12 -m venv .venv-gpu
+#   .\.venv-gpu\Scripts\python -m pip install -r requirements-gpu.txt
+#
+# The extra index is required for the CUDA build of PyTorch.
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+transformers==5.20.2
+sentence-transformers==6.2.0
+faiss-cpu==1.15.1
+huggingface_hub>=0.34
+numpy==2.5.4
