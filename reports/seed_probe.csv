@@ -1,0 +1,43 @@
+tier,institution,country,doc_type,url,robots_url,robots_allow,http_status,chars,domains_hit,domain_list,kw_total,clause_count,exception_count,crossref_count,alt_evidence_count,academic_year,version_marker,verdict
+faculty,MIT,US,dept_grading_policy,https://www.eecs.mit.edu/academics/graduate-programs/,https://www.eecs.mit.edu/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,MIT,US,dept_academic_policy,https://www.eecs.mit.edu/academics/,https://www.eecs.mit.edu/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,Boston University,US,college_policies,https://www.bu.edu/cas/academics/policies/,https://www.bu.edu/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+faculty,Boston University,US,college_policies,https://www.bu.edu/eng/academics/undergraduate/policies/,https://www.bu.edu/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+faculty,Boston University,US,college_policies,https://www.bu.edu/academics/,https://www.bu.edu/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+faculty,University of Edinburgh,UK,school_policies,https://www.ed.ac.uk/informatics/undergraduate/studying/policies,https://www.ed.ac.uk/robots.txt,True,404,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+faculty,University of Edinburgh,UK,school_policies,https://www.ed.ac.uk/engineering/students/taught-students,https://www.ed.ac.uk/robots.txt,True,404,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+faculty,Imperial College London,UK,dept_policies,https://www.imperial.ac.uk/computing/current-students/,https://www.imperial.ac.uk/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+faculty,Imperial College London,UK,dept_policies,https://www.imperial.ac.uk/engineering/study/undergraduate/,https://www.imperial.ac.uk/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+faculty,University of Wisconsin-Madison,US,college_policies,https://www.engr.wisc.edu/academics/student-services/academic-policies/,https://www.engr.wisc.edu/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,Purdue University,US,college_policies,https://www.purdue.edu/engineering/students/,https://www.purdue.edu/robots.txt,True,RemoteDisconnected: Remote end closed connection without response,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+faculty,Purdue University,US,college_policies,https://www.purdue.edu/science/Current_Students/,https://www.purdue.edu/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+faculty,University of Washington,US,college_policies,https://www.engr.washington.edu/current/policies,https://www.engr.washington.edu/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+faculty,University of Washington,US,college_policies,https://www.cs.washington.edu/academics/ugrad/policies,https://www.cs.washington.edu/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+faculty,Georgia Tech,US,college_policies,https://www.cc.gatech.edu/academics/policies,https://www.cc.gatech.edu/robots.txt,True,404,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+faculty,University of Illinois Urbana-Champaign,US,college_policies,https://grainger.illinois.edu/academics/undergraduate/policies,https://grainger.illinois.edu/robots.txt,True,404,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+faculty,University of Toronto,CA,faculty_policies,https://www.engineering.utoronto.ca/current-students/academic-policies/,https://www.engineering.utoronto.ca/robots.txt,True,404,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+faculty,University of British Columbia,CA,faculty_policies,https://www.apsc.ubc.ca/students/undergraduate/academic-policies/,https://www.apsc.ubc.ca/robots.txt,True,404,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+faculty,University of Melbourne,AU,faculty_policies,https://eng.unimelb.edu.au/students/undergraduate/policies,https://eng.unimelb.edu.au/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,Monash University,AU,faculty_policies,https://www.monash.edu/engineering/current-students/policies,https://www.monash.edu/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,University of Manchester,UK,school_policies,https://www.manchester.ac.uk/study/undergraduate/apply/policies/,https://www.manchester.ac.uk/robots.txt,True,404,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+faculty,University College London,UK,dept_policies,https://www.ucl.ac.uk/engineering/study/undergraduate,https://www.ucl.ac.uk/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,University of Michigan,US,college_policies,https://cse.engin.umich.edu/academics/undergraduate/policies/,https://cse.engin.umich.edu/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,Ohio State University,US,college_policies,https://engineering.osu.edu/current-students/academic-policies,https://engineering.osu.edu/robots.txt,True,404,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+faculty,Penn State University,US,college_policies,https://www.eecs.psu.edu/students/undergraduate/advising/policies.aspx,https://www.eecs.psu.edu/robots.txt,True,404,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+faculty,University of Texas at Austin,US,college_policies,https://www.cs.utexas.edu/undergraduate/academics/policies,https://www.cs.utexas.edu/robots.txt,True,404,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+faculty,Cornell University,US,college_policies,https://www.cs.cornell.edu/undergrad/rulesandprocedures,https://www.cs.cornell.edu/robots.txt,True,404,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+faculty,Carnegie Mellon University,US,dept_policies,https://www.cmu.edu/student-affairs/theword/academic/index.html,https://www.cmu.edu/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+faculty,National University of Singapore,SG,faculty_policies,https://www.comp.nus.edu.sg/undergraduates/,https://www.comp.nus.edu.sg/robots.txt,True,404,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+faculty,University of Sydney,AU,faculty_policies,https://www.sydney.edu.au/engineering/study/current-students.html,https://www.sydney.edu.au/robots.txt,True,404,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+institution,Boston University,US,academic_conduct_code,https://www.bu.edu/academics/policies/academic-conduct-code/,https://www.bu.edu/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+institution,Boston University,US,attendance_policy,https://www.bu.edu/academics/policies/attendance/,https://www.bu.edu/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+institution,Boston University,US,policy_index,https://www.bu.edu/academics/policies/,https://www.bu.edu/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+institution,University of Edinburgh,UK,assessment_regulations,https://www.ed.ac.uk/academic-services/students/assessment,https://www.ed.ac.uk/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+institution,University of Edinburgh,UK,degree_regulations,https://www.ed.ac.uk/academic-services/policies-regulations/regulations,https://www.ed.ac.uk/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+institution,University of Edinburgh,UK,policy_index,https://www.ed.ac.uk/academic-services/policies-regulations,https://www.ed.ac.uk/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+institution,ICAI,INT,integrity_fundamentals,https://academicintegrity.org/resources/fundamental-values,https://academicintegrity.org/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+institution,ICAI,INT,integrity_resources,https://academicintegrity.org/resources/,https://academicintegrity.org/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+institution,Stanford University,US,community_standards,https://communitystandards.stanford.edu/,https://communitystandards.stanford.edu/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+institution,Imperial College London,UK,student_policies,https://www.imperial.ac.uk/students/,https://www.imperial.ac.uk/robots.txt,True,200,0,0,,0,0,0,0,0,,False,pending_review
+institution,Purdue University,US,registrar_policies,https://www.purdue.edu/registrar/,https://www.purdue.edu/robots.txt,True,RemoteDisconnected: Remote end closed connection without response,0,0,,0,0,0,0,0,,False,manual_only_unreachable
+institution,QAA,UK,quality_code,https://www.qaa.ac.uk/quality-code,https://www.qaa.ac.uk/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots

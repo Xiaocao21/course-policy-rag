@@ -1,0 +1,102 @@
+# Policy domain taxonomy + structural/evidence detectors.
+# Consumed by: probe_seeds.py, 01_collect.py (content gate, capability metrics),
+#              02_extract_clean.py (block flags), 05_audit_splits.py (distribution checks).
+
+domains:
+  grading:
+    label: Grading and assessment
+    keywords: [grading, grade, gpa, mark, marks, "assessment criteria", score, weighting,
+               "final grade", rubric, "pass/fail", moderation, "grade appeal"]
+  late:
+    label: Late work and deadlines
+    keywords: [late, deadline, extension, overdue, penalt, "submission date",
+               "grace period", "late submission", "without penalty"]
+  attendance:
+    label: Attendance and participation
+    keywords: [attendance, absence, absent, attend, participation, presence,
+               "excused absence", "mandatory attendance", "roll"]
+  exam:
+    label: Examinations and make-up
+    keywords: [exam, examination, "make-up", makeup, deferred, resit, retake, test, quiz,
+               "special examination", "medical certificate", invigilat]
+  integrity:
+    label: Academic integrity
+    keywords: [integrity, plagiar, misconduct, cheat, dishonest, citation, collusion,
+               fabricat, "honor code", "academic offence", "misconduct hearing"]
+  resources:
+    label: Course resources and support
+    keywords: [resource, "office hours", tutoring, advising, library, accommodation,
+               accessib, "learning support", "study skills", "course materials"]
+
+# ---------------------------------------------------------------- source tiers
+tiers:
+  course:
+    label: "Course-level (syllabus / course policy)"
+    expected_scope: "one course section"
+    setter: "instructor"
+  faculty:
+    label: "Faculty / department / college policy"
+    expected_scope: "one faculty or department"
+    setter: "faculty or department committee"
+  institution:
+    label: "Institutional policy (university-wide)"
+    expected_scope: "whole institution"
+    setter: "provost, registrar, integrity office"
+
+# ---------------------------------------------------------------- detectors
+detectors:
+  # exception / qualifier language: primary signal for rule-and-exception questions
+  exception: >-
+    (?i)\b(except|unless|provided that|notwithstanding|subject to|may be waived|
+    in exceptional circumstances|other than|with the exception of|however|
+    in extenuating circumstances|at the discretion of|where appropriate)\b
+
+  # cross-references: primary signal for cross-clause questions
+  crossref: >-
+    (?i)\b(see\s+(section|article|clause|appendix|policy)|as\s+defined\s+in|
+    pursuant\s+to|referred\s+to\s+in|in\s+accordance\s+with\s+(section|article)|
+    set\s+out\s+in|under\s+(section|article)|as\s+specified\s+in)\b
+
+  # alternative sufficient evidence: two clauses either of which answers the question
+  alt_evidence: >-
+    (?i)\b(either\b|or\s+alternatively|alternatively|may\s+instead|one\s+of\s+the\s+following|
+    any\s+of\s+the\s+following|as\s+an\s+alternative|instead\s+of|whichever\s+applies)\b
+
+  # clause numbering patterns -> candidate clause_id anchors
+  clause: >-
+    (?m)(?:^|\n)\s*(?:\d+(?:\.\d+){1,3}\b|[A-Z]\.\s|\(\s*[a-z]\s*\)\s|
+    Article\s+\d+|Section\s+\d+|Rule\s+\d+)
+
+  # version / effective-date markers -> version metadata
+  version: >-
+    (?i)\b(version|revised?|effective\s+(date|from)|last\s+updated|approved\s+on|
+    supersedes?|this\s+edition|academic\s+year)\b
+
+  # academic year -> term metadata
+  academic_year: "(?i)\\b(20\\d{2})\\s*[-/\u2013]\\s*(20\\d{2})\\b"
+
+  # term / semester markers
+  term: "(?i)\\b(fall|spring|summer|winter|autumn|semester\\s+[12]|term\\s+[123])\\b"
+
+# ---------------------------------------------------------------- question design
+# Drives annotation templates and the capability report; NOT automatic question generation.
+evidence_types:
+  single-clause:
+    description: "Answer is fully supported by one clause."
+    needs: [clause]
+  rule-and-exception:
+    description: "A general rule plus an applicability condition or exception in different clauses."
+    needs: [clause, exception]
+  cross-clause:
+    description: "Several clauses (including cross-references) needed; any-hit metrics over-credit here."
+    needs: [clause, crossref]
+
+conditions:
+  baseline:
+    description: "Straightforward application of a rule."
+  exception:
+    description: "Turns on an exception or qualifier clause."
+  conflicting-version:
+    description: "Two versions of the same policy give different answers."
+  alternative-evidence:
+    description: "More than one minimal sufficient evidence set exists."

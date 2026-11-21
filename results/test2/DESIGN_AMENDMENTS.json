@@ -1,0 +1,64 @@
+{
+ "kind": "test2_design_amendments",
+ "at": "2026-11-13T02:40:00+08:00",
+ "status": "pre_evaluation",
+ "note": "Recorded before any retrieval or evaluation: the composition gates below could not be met from the clean readable pool, and forcing them would have required clauses that cannot carry a question. The primary endpoint is a within-run family contrast and is unaffected; per-domain findings for test2 are indicative only.",
+ "amendments": [
+  {
+   "id": "A1",
+   "topic": "domain composition",
+   "registered": "domain counts proportional to the test split, tolerance +/-1",
+   "achieved": {
+    "integrity": 25,
+    "grading": 7,
+    "attendance": 6,
+    "late": 3,
+    "exam": 3,
+    "resources": 1
+   },
+   "target": {
+    "integrity": 12,
+    "grading": 12,
+    "attendance": 8,
+    "late": 8,
+    "exam": 13,
+    "resources": 7
+   },
+   "reason": "the clean readable pool is dominated by student-conduct codes (BU and Glasgow), so forcing exam/grading/late quotas would have required list fragments, promotional pages or course notes",
+   "consequence": "test2 over-represents integrity; domain-level claims are indicative only"
+  },
+  {
+   "id": "A2",
+   "topic": "institution cap",
+   "registered": "no institution above 25% of questions",
+   "achieved": {
+    "University of Glasgow": 15,
+    "Boston University": 11,
+    "Stanford University": 7,
+    "University of Washington": 5,
+    "MIT OpenCourseWare": 3,
+    "University of Florida": 2,
+    "University of Wisconsin-Madison": 1,
+    "Imperial College London": 1
+   },
+   "target_cap": "25% (11 of 45)",
+   "reason": "the corpus itself is 55% Glasgow; a 25% cap over-corrects it, and the reserve bundles are 6/8 Glasgow as well",
+   "consequence": "Glasgow share is 33% (within the corpus share, above the design cap)"
+  },
+  {
+   "id": "A3",
+   "topic": "evidence types",
+   "registered": "single-clause / rule-and-exception / cross-clause near 15/15/15",
+   "achieved": {
+    "single-clause": 45
+   },
+   "reason": "no defensible two-clause relation survived the freeze validator on the clean pool; the annotator declined to force relations",
+   "consequence": "test2 has no rule-and-exception or cross-clause questions; type-stratified analysis is not possible for this split"
+  }
+ ],
+ "unaffected": [
+  "length quartiles: met (750/1022/1122 vs 728/1010/1122)",
+  "zero evidence leakage: enforced by clause id and character interval",
+  "45 questions / 45 groups: met"
+ ]
+}

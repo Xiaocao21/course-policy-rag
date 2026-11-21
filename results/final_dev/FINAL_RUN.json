@@ -1,0 +1,18 @@
+{
+  "attempt": 1,
+  "split": "dev",
+  "completed_at": "2026-10-28T21:17:07+08:00",
+  "frozen_sha256": "68e06ad79e7ab3c49ad4bcb0687c394a2eddad754872cdb9f0e34b7aeb21911d",
+  "lock_sha256": "",
+  "code_sha256": "30debae2e9709cf28f28723ba5b1eb89af3127be0f8b2c527486204aa0992d7b",
+  "configs": 17,
+  "questions": 112,
+  "tracks": [
+    "main",
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "test_previously_used": false,
+  "note": "The test split was evaluated once before (exploratory pilot, results/pilot/). This run is a formal re-evaluation with settings frozen beforehand; it is NOT a first, unseen use of the split."
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "institution": "University of Alberta",
+    "host": "apps.ualberta.ca",
+    "reason": "robots.txt: Disallow: /catalogue/syllabus",
+    "note": "syllabus PDFs must be downloaded by hand and dropped into raw/"
+  },
+  {
+    "institution": "University of Michigan",
+    "host": "ro.umich.edu",
+    "reason": "robots.txt: Disallow: /",
+    "note": "blanket disallow on the registrar host"
+  },
+  {
+    "institution": "University of Michigan",
+    "host": "cse.engin.umich.edu",
+    "reason": "robots.txt disallows the policies path"
+  },
+  {
+    "institution": "QAA",
+    "host": "www.qaa.ac.uk",
+    "reason": "robots.txt disallows /the-quality-code*"
+  },
+  {
+    "institution": "University College London",
+    "host": "www.ucl.ac.uk",
+    "reason": "robots.txt disallows the academic-manual and examinations paths"
+  },
+  {
+    "institution": "Monash University",
+    "host": "www.monash.edu",
+    "reason": "robots.txt disallows /students/policies"
+  },
+  {
+    "institution": "University of Melbourne",
+    "host": "policy.unimelb.edu.au",
+    "reason": "JavaScript-rendered shell; no server-side content"
+  },
+  {
+    "institution": "University of Edinburgh",
+    "host": "www.ed.ac.uk",
+    "reason": "policy pages return ~80-100 char JavaScript shells to non-browser clients"
+  }
+]

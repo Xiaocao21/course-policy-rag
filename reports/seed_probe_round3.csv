@@ -1,0 +1,49 @@
+tier,institution,country,doc_type,url,robots_url,robots_allow,http_status,chars,domains_hit,domain_list,kw_total,clause_count,exception_count,crossref_count,alt_evidence_count,academic_year,version_marker,verdict
+faculty,MIT,US,dept_grading_policy,https://www.eecs.mit.edu/academics/graduate-programs/,https://www.eecs.mit.edu/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,MIT,US,dept_academic_policy,https://www.eecs.mit.edu/academics/,https://www.eecs.mit.edu/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,Boston University,US,college_policies,https://www.bu.edu/cas/academics/policies/,https://www.bu.edu/robots.txt,True,200,658,1,grading:2,2,0,0,0,0,,False,pending_review
+faculty,Boston University,US,college_policies,https://www.bu.edu/eng/academics/undergraduate/policies/,https://www.bu.edu/robots.txt,True,200,29,0,,0,0,0,0,0,,False,pending_review
+faculty,Boston University,US,college_policies,https://www.bu.edu/academics/,https://www.bu.edu/robots.txt,True,200,2349,2,grading:1;resources:4,5,0,0,0,0,2026-2027,False,pending_review
+faculty,University of Edinburgh,UK,school_policies,https://www.ed.ac.uk/informatics/undergraduate/studying/policies,https://www.ed.ac.uk/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,University of Edinburgh,UK,school_policies,https://www.ed.ac.uk/engineering/students/taught-students,https://www.ed.ac.uk/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,Imperial College London,UK,dept_policies,https://www.imperial.ac.uk/computing/current-students/,https://www.imperial.ac.uk/robots.txt,True,200,5321,4,attendance:2;exam:1;integrity:2;resources:6,11,0,0,0,0,,False,usable
+faculty,Imperial College London,UK,dept_policies,https://www.imperial.ac.uk/engineering/study/undergraduate/,https://www.imperial.ac.uk/robots.txt,True,200,1794,0,,0,0,0,0,0,,False,pending_review
+faculty,University of Wisconsin-Madison,US,college_policies,https://www.engr.wisc.edu/academics/student-services/academic-policies/,https://www.engr.wisc.edu/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,Purdue University,US,college_policies,https://www.purdue.edu/engineering/students/,https://www.purdue.edu/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,Purdue University,US,college_policies,https://www.purdue.edu/science/Current_Students/,https://www.purdue.edu/robots.txt,True,200,3373,2,grading:2;resources:12,14,0,0,0,0,,False,pending_review
+faculty,University of Washington,US,college_policies,https://www.engr.washington.edu/current/policies,https://www.engr.washington.edu/robots.txt,True,200,34125,6,grading:17;late:12;attendance:8;exam:9;integrity:32;resources:8,86,0,4,1,4,,True,usable
+faculty,University of Washington,US,college_policies,https://www.cs.washington.edu/academics/ugrad/policies,https://www.cs.washington.edu/robots.txt,True,200,21678,6,grading:33;late:21;attendance:5;exam:1;integrity:22;resources:8,90,0,5,1,1,,False,usable
+faculty,Georgia Tech,US,college_policies,https://www.cc.gatech.edu/academics/policies,https://www.cc.gatech.edu/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,University of Illinois Urbana-Champaign,US,college_policies,https://grainger.illinois.edu/academics/undergraduate/policies,https://grainger.illinois.edu/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,University of Toronto,CA,faculty_policies,https://www.engineering.utoronto.ca/current-students/academic-policies/,https://www.engineering.utoronto.ca/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,University of British Columbia,CA,faculty_policies,https://www.apsc.ubc.ca/students/undergraduate/academic-policies/,https://www.apsc.ubc.ca/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,University of Melbourne,AU,faculty_policies,https://eng.unimelb.edu.au/students/undergraduate/policies,https://eng.unimelb.edu.au/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,Monash University,AU,faculty_policies,https://www.monash.edu/engineering/current-students/policies,https://www.monash.edu/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,University of Manchester,UK,school_policies,https://www.manchester.ac.uk/study/undergraduate/apply/policies/,https://www.manchester.ac.uk/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,University College London,UK,dept_policies,https://www.ucl.ac.uk/engineering/study/undergraduate,https://www.ucl.ac.uk/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,University of Michigan,US,college_policies,https://cse.engin.umich.edu/academics/undergraduate/policies/,https://cse.engin.umich.edu/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,Ohio State University,US,college_policies,https://engineering.osu.edu/current-students/academic-policies,https://engineering.osu.edu/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,Penn State University,US,college_policies,https://www.eecs.psu.edu/students/undergraduate/advising/policies.aspx,https://www.eecs.psu.edu/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,University of Texas at Austin,US,college_policies,https://www.cs.utexas.edu/undergraduate/academics/policies,https://www.cs.utexas.edu/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,Cornell University,US,college_policies,https://www.cs.cornell.edu/undergrad/rulesandprocedures,https://www.cs.cornell.edu/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,Carnegie Mellon University,US,dept_policies,https://www.cmu.edu/student-affairs/theword/academic/index.html,https://www.cmu.edu/robots.txt,True,200,2270,6,grading:2;late:3;attendance:1;exam:5;integrity:5;resources:3,19,0,0,0,0,,False,usable
+faculty,National University of Singapore,SG,faculty_policies,https://www.comp.nus.edu.sg/undergraduates/,https://www.comp.nus.edu.sg/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,University of Sydney,AU,faculty_policies,https://www.sydney.edu.au/engineering/study/current-students.html,https://www.sydney.edu.au/robots.txt,True,404,0,0,,0,0,0,0,0,,False,not_found_404
+faculty,University of British Columbia,CA,academic_regulations,https://vancouver.calendar.ubc.ca/campus-wide-policies-and-regulations,https://vancouver.calendar.ubc.ca/robots.txt,True,200,1131,4,grading:1;attendance:2;integrity:1;resources:2,6,0,0,0,0,,True,pending_review
+faculty,University of Glasgow,UK,senate_policies,https://www.gla.ac.uk/myglasgow/senateoffice/policies/,https://www.gla.ac.uk/robots.txt,True,200,2118,4,grading:1;late:2;exam:1;resources:1,5,0,0,0,0,,True,usable
+faculty,University of Nottingham,UK,quality_manual,https://www.nottingham.ac.uk/academicservices/qualitymanual/,https://www.nottingham.ac.uk/robots.txt,True,200,4914,4,grading:1;attendance:4;exam:2;resources:2,9,0,1,0,0,,False,usable
+faculty,University of Manchester,UK,academic_regulations,https://www.regulations.manchester.ac.uk/academic/,https://www.regulations.manchester.ac.uk/robots.txt,True,200,4871,5,late:8;attendance:13;exam:5;integrity:10;resources:5,41,0,0,0,0,,False,usable
+faculty,University of Wisconsin-Madison,US,policy_library,https://policy.wisc.edu/,https://policy.wisc.edu/robots.txt,True,200,328,2,attendance:1;resources:2,3,0,0,0,0,,False,pending_review
+faculty,University of Wisconsin-Madison,US,registrar,https://registrar.wisc.edu/,https://registrar.wisc.edu/robots.txt,True,200,2982,4,grading:1;late:3;exam:1;resources:3,8,0,0,0,0,,False,usable
+faculty,University of Washington,US,registrar,https://registrar.washington.edu/,https://registrar.washington.edu/robots.txt,True,200,1840,3,grading:7;late:8;resources:2,17,0,0,0,0,,False,usable
+faculty,University of Toronto,CA,governing_council,https://governingcouncil.utoronto.ca/policies,https://governingcouncil.utoronto.ca/robots.txt,True,200,660,1,grading:1,1,0,0,0,0,,False,pending_review
+faculty,Syracuse University,US,registrar,https://registrar.syr.edu/,https://registrar.syr.edu/robots.txt,True,200,464,0,,0,0,0,0,0,,False,pending_review
+faculty,University of Virginia,US,undergraduate_record,https://records.ureg.virginia.edu/,https://records.ureg.virginia.edu/robots.txt,True,200,1586,2,late:2;resources:1,3,0,0,0,0,2026-2027,False,pending_review
+faculty,Indiana University,US,policy_library,https://policies.iu.edu/,https://policies.iu.edu/robots.txt,True,200,1191,1,resources:2,2,0,0,0,0,,False,pending_review
+faculty,University of Minnesota,US,policy_library,https://policy.umn.edu/education,https://policy.umn.edu/robots.txt,False,,0,0,,0,0,0,0,0,,False,manual_only_robots
+faculty,University of California Berkeley,US,academic_policies,https://guide.berkeley.edu/academic-policies/,https://guide.berkeley.edu/robots.txt,True,200,589,0,,0,0,0,0,0,,False,pending_review
+faculty,University of Texas at Austin,US,general_information,https://catalog.utexas.edu/general-information/,https://catalog.utexas.edu/robots.txt,True,200,249,1,resources:1,1,0,0,0,0,2026-2027,False,pending_review
+faculty,Georgia Institute of Technology,US,catalog_academics,https://catalog.gatech.edu/academics/,https://catalog.gatech.edu/robots.txt,True,200,217,1,resources:1,1,0,0,0,0,,False,pending_review
+faculty,University of North Carolina,US,catalog_policies,https://catalog.unc.edu/policies-procedures/,https://catalog.unc.edu/robots.txt,True,200,2922,4,grading:1;late:1;attendance:2;exam:2,6,0,2,0,0,,True,usable
+faculty,University of Florida,US,academic_regulations,https://catalog.ufl.edu/UGRD/academic-regulations/,https://catalog.ufl.edu/robots.txt,True,200,2546,5,grading:13;late:6;attendance:3;exam:2;integrity:1,25,0,0,0,0,,False,usable
+faculty,University of Maryland,US,registrar,https://www.registrar.umd.edu/,https://www.registrar.umd.edu/robots.txt,True,200,2442,3,late:2;exam:1;integrity:1,4,0,0,0,0,,False,usable

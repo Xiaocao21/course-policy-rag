@@ -1,0 +1,211 @@
+{
+  "kind": "test2_preregistration",
+  "created_at": "2026-11-13T01:57:09+08:00",
+  "status": "finalised",
+  "env_role": "canonical_model",
+  "evaluation_env": "one run on the A5000 (fp16); the primary endpoint is a contrast between two configuration families computed inside that same run, so it is not compared with the RTX 3060 numbers",
+  "questions_sha256": "0e00fa5ca59977393bc7e14de9c25ba354fae5890a4d1ef2fa292c35144a00c2",
+  "lock_sha256": "0ade93b55152ec52a52d47917fe10fe193dc3367ec1d812bfa138ba4dcb45fac",
+  "artifacts": {
+    "corpus_safe_512/corpus_safe_512.jsonl": "c05f6afac0d0f4bdc492078a4bd3f82e259880c33a61648d9d0516e64c85f053",
+    "chunks/fixed/size128_ov0.jsonl": "9d751a6a49ca957a5370d8c4e7cddde4f56e32fc609af3dd5823e6cd0423ecdf",
+    "chunks/fixed/size128_ov32.jsonl": "a0f1729122e0d2f038314c358bdfe2c451262bf86d885d58d74a29abd4803d41",
+    "chunks/fixed/size128_ov64.jsonl": "df797a652cd80d664cfd711864592c2caae72ffee3d90a69613cf3d1ecaea671",
+    "chunks/fixed/size256_ov0.jsonl": "d42d4586ecb8b394cc6609860c85ca982094008ff41c4b8b76213a9a04fa468d",
+    "chunks/fixed/size256_ov32.jsonl": "c4153c9648a06cdd13a1d00b92e69108144df9e10417cd36405ed34577c85316",
+    "chunks/fixed/size256_ov64.jsonl": "1e0359ca5a6ce7398d49c8e214aa421a2272c761f08d1891a6255ab49c71ba48",
+    "chunks/fixed/size384_ov0.jsonl": "1e2a2882cea2f98741c38d27104833c694ea24a2ffd5719f86076fe21c124cea",
+    "chunks/fixed/size384_ov32.jsonl": "eb2e7d8237cab522a7abe8a17e2d0a0e86ebbe993a6f26b5946e599cccb02549",
+    "chunks/fixed/size384_ov64.jsonl": "75cd641fd6a76dfb0817037ec3bb1c43c921ae2a21c9f2d462d02b948dfbc26c",
+    "chunks/fixed/size512_ov0.jsonl": "dbe97cda2b059baa2e810a3ec8f556af00effdaa3b46538663e43b7339813cec",
+    "chunks/fixed/size512_ov32.jsonl": "7d1c7d74c728f09e0e813fe08cdcf44b2696848660ee627bb16e6f86e5db563a",
+    "chunks/fixed/size512_ov64.jsonl": "d02be3b99c714cf7a2f652993e4f4ccb737e917b2447c31b54559a23ce7790d6",
+    "chunks/heading/heading.jsonl": "d1bcbe7ca7631ac258c5649d70c4e6aec7c2a390c0a4164b7e2df073356995ba",
+    "chunks/paragraph/paragraph.jsonl": "fbed55c6204a0fe6df6785d2889f64da6b05c725b4a122e42bfb4b8bd36d52eb",
+    "chunks/semantic/thr0.70.jsonl": "8f6c224afc0999e7fd102c548fd2ceaddb081b702ccb5a6e4933ae394c79032c",
+    "chunks/semantic/thr0.75.jsonl": "31b162d82fe22eec31b12cc45e1c777753751cdcd10930940a9fb7718f02b733",
+    "chunks/semantic/thr0.80.jsonl": "9ca482ac951421a6f90af611ae347d7e2ec8105587fafc9250a6596096f90510",
+    "indexes/fixed/size128_ov0.faiss": "b466c4a7ce6e52188a782918028c9d25af3b233715349fbd7ccbc4b52afd12f3",
+    "indexes/fixed/size128_ov32.faiss": "25195f04bbef9202c2852803e775335b3ce54cc984e473c3885842d813563e6e",
+    "indexes/fixed/size128_ov64.faiss": "2c6cbe3a434ce716abb0740673ebf9a27f199d9b690b7aaaed81b44bedd6f984",
+    "indexes/fixed/size256_ov0.faiss": "eddfa11472edb92c6777c07c1af3c4f38bcad574cd8a5485d8ff883ac3c3d32e",
+    "indexes/fixed/size256_ov32.faiss": "01adac723079ca0ea6a183630146592fe3f263dd7fdc0ff42657c352c7bb5f6c",
+    "indexes/fixed/size256_ov64.faiss": "a251402c1f507dbf53b304000635e174eb1ffe502ee16270407954ffecfeae24",
+    "indexes/fixed/size384_ov0.faiss": "815e4560626906dfe12c49282e113bc804952a8f41fff99097bb3199fbc7b105",
+    "indexes/fixed/size384_ov32.faiss": "88209855253e9e4b01b3426a562979666553e5d1d82955531e68e11544e77322",
+    "indexes/fixed/size384_ov64.faiss": "8686dd600bc5bfe8e0b8e82605b21969e3075f6c5777b21a0bc752be441c6c2d",
+    "indexes/fixed/size512_ov0.faiss": "ac17a15e513a16f553ae9a516a5aade776419aea5f86f8aa855a56ce6e237975",
+    "indexes/fixed/size512_ov32.faiss": "b3ab0406919012b04ebcbe533be1ebccbc08afe05937459b90ac681f022d86f6",
+    "indexes/fixed/size512_ov64.faiss": "9fa9c35155ba3591ab8ea331445ddd51c28ba86b5f266f2d9cc51251ab167d5a",
+    "indexes/heading/heading.faiss": "082d31d277b3f185b42f0862c985fc295e8002dbf082eeeaf71419c092b2fc54",
+    "indexes/paragraph/paragraph.faiss": "4ee3648f10329892e2fe8adc7cf4570851faee7b706aab7656a21e6e81fd5856",
+    "indexes/semantic/thr0.70.faiss": "127f003e3e9488370d473ae38389f6ca1351cd187c81d8a66046421aced0ba1f",
+    "indexes/semantic/thr0.75.faiss": "d013266ab70160477ae107ee2799f8f477f4d88d387a798296f4d447049dc62f",
+    "indexes/semantic/thr0.80.faiss": "3ea80420327477753f30cbf773c1483ecd0edb3b919affcab43e247ef9958e6b",
+    "indexes/fixed/size128_ov0.meta.json": "ccb16755f7d87607f0a94de39f600196355d21138c417159c5da48807a560c74",
+    "indexes/fixed/size128_ov32.meta.json": "2f42b527e9d3b9318f2608c778de2227bb6873b9ad34877379fda29dd8441123",
+    "indexes/fixed/size128_ov64.meta.json": "7d324cefd66d80831952e8020f5f9fd63b6b8491731aab1fba56d3e801e4d3ce",
+    "indexes/fixed/size256_ov0.meta.json": "38be143667d631c17713e9d666f47f2f20a83663f856670aac7a71674855a641",
+    "indexes/fixed/size256_ov32.meta.json": "85108a69373579aa7d4e3bc17d2a9f9bb4f86afd0432958eb5a996523a3fa439",
+    "indexes/fixed/size256_ov64.meta.json": "b1f32dcaec3e944f6fc27d4df8334b88bfa5cd9a687dfe868f9ea7fcee57d43f",
+    "indexes/fixed/size384_ov0.meta.json": "152e8805e494bcb2ae2f6649d9eb4f43d5320a62a7d20be0fca25abcf44c3f99",
+    "indexes/fixed/size384_ov32.meta.json": "6d01a1eee4afa23d9a983cc9c3fa3b7baaac521731490e72ea2ab603a0bbf9e7",
+    "indexes/fixed/size384_ov64.meta.json": "a59b98d19b7590e144a8a7cfff3ed1df999dd21d4f9c0c915caf7235fd401139",
+    "indexes/fixed/size512_ov0.meta.json": "6ee99ffeb4f6782d14848115a2f1d5ff39ddccfaa7b3f26f31536de0e2b7a5d6",
+    "indexes/fixed/size512_ov32.meta.json": "d2f03a64dc361e55edc1d4d9066a37d215c955011aabe7a792b011abd2ee1a75",
+    "indexes/fixed/size512_ov64.meta.json": "743889d5d771b0cb51f8659c6ee36b084ebd0cbb7f83d57211179dde92ccf6da",
+    "indexes/heading/heading.meta.json": "1d65ceeab0bd49588427aa93e055ae36c886d9f8eecb872a1546ec2582555b6c",
+    "indexes/paragraph/paragraph.meta.json": "439d46b4e2030c466a97d1bfcac16df2cca006c126d8c436e2062d6dd567e863",
+    "indexes/semantic/thr0.70.meta.json": "bb3b7117498291e75a765dae7826e787ba7ff60f83c0c734dd441b281fc423d5",
+    "indexes/semantic/thr0.75.meta.json": "eda096ac8940fb4633a2225d6e036ed460d0da1847c90794aa19e95ac1387493",
+    "indexes/semantic/thr0.80.meta.json": "0c818b8774125eba617c2cc2f5f64d679893c89c623d47735fd5a17086e651d1",
+    "scripts/13_evaluate.py": "e660b103b23387b3703d42a34eb8d62f3f2fddc08d48fb9e500bdd3d006187f8",
+    "scripts/18_train_reranker.py": "ad14f2c16bb53814743dfaf7553258565e9d14ac716f171445ebac3d1fd4bccb",
+    "scripts/19_rerank_eval.py": "5aab382b04626230c2a3a44ffcbc4bcb47c16f642c5ee952d231194ffb935810",
+    "scripts/16_stats.py": "3234d311f7e742f6474835f868cb5b1ecbbc1acef7a198e3592e7e04057fad88",
+    "scripts/goldset.py": "ec4fca449da8bc6e5995cd3cc624a903506031d4277b9bdc3f6d76404081c162",
+    "scripts/common.py": "911da23768d579b67c7e89eba7f8331bd40dd6b13ede476c5d96fe52cc9aa046",
+    "scripts/11_chunking.py": "68b926d814d3e6925a3d6efc47445caece810959c249a239616f4c1395a8bd93",
+    "scripts/12_build_index.py": "c0fb05fda3d83eb9d24c3740db25257f7af3c8572627f34cd9ddb2e446024be4",
+    "models/reranker/FROZEN.json": "68e06ad79e7ab3c49ad4bcb0687c394a2eddad754872cdb9f0e34b7aeb21911d",
+    "results/test2/selected_bundles.json": "5041171565b9c75cc1a999931a708ee73c3620e1c2c62a47b81138c7071c6e38",
+    "results/test2/DESIGN_AMENDMENTS.json": "93b1f81d9c7a4fc3c69e44286725c570ccbe410ae73668082615a60b26d88bd6",
+    "results/test2/grouping.json": "ed291813a7194f125e03c81f233ca290131c8453b89fd4e65977fd4a52521c46",
+    "annotations/TEST2_REVIEW.csv": "318c3b51f24cdfbcbb19cc7f3ce16ad4d75290af840581b22ecaef80b4c32922",
+    "annotations/TEST2_SELF_AUDIT.md": "c6253bb55c497c6f82d5cf78e65304c5a91fbacdf73bd4161641017fec7c1e66",
+    "annotations/questions_test2.jsonl": "0e00fa5ca59977393bc7e14de9c25ba354fae5890a4d1ef2fa292c35144a00c2"
+  },
+  "reranker_checkpoint_sha256": "547060da6310cfd6cb31b75521f75c6af4161aa916196330ef1492ee91719ba2",
+  "design": {
+    "split_discipline": "whole evidence groups go to one split; test2 clauses must be unused by any existing question, so no gold evidence is shared with dev or test",
+    "questions_target": 45,
+    "groups_target": 40,
+    "sampling_priority": [
+      "clause length",
+      "domain",
+      "institution",
+      "document novelty"
+    ],
+    "clause_pool": {
+      "definition": "unused by any question, >= 150 characters, not boilerplate, and readable as prose (no OCR/citation fragments, no URL lines, no table rows, no bullet continuations)",
+      "clauses": 1239,
+      "readable_clauses": 768,
+      "documents": 36,
+      "institutions": 12,
+      "note": "the length/boilerplate definition alone gives 1,239 clauses; the readability screen is what makes them question-usable"
+    },
+    "recorded_amendments": {
+      "file": "results/test2/DESIGN_AMENDMENTS.json",
+      "items": [
+        "A1 domain composition",
+        "A2 institution cap",
+        "A3 evidence types"
+      ],
+      "note": "recorded before any evaluation; they describe what the clean pool could support, and are disclosed in the report"
+    },
+    "difficulty_target": {
+      "statistic": "max annotated clause span per test question, characters",
+      "test_quartiles": [
+        728.0,
+        1009.5,
+        1121.8
+      ],
+      "tolerance": "each quartile median within +/-10% and the overall median within +/-100 characters of the target",
+      "availability_by_quartile_bin": {
+        "bin2": 183,
+        "bin4": 145,
+        "bin1": 817,
+        "bin3": 94
+      },
+      "note": "matching is a composition safeguard, not a correction for an established effect: the short-vs-long gradient is not significant in any split x track combination"
+    },
+    "domain_labelling": "manual; the keyword classifier returns an empty label for about 42% of the pool, so the domain of each chosen clause must be assigned by hand and recorded"
+  },
+  "endpoints": {
+    "primary": {
+      "name": "structural-minus-semantic Complete@10 (C1)",
+      "definition": "mean over the 2 structural configurations (heading/heading, paragraph/paragraph) minus mean over the 3 semantic configurations (semantic/thr0.70, thr0.75, thr0.80), group-level paired bootstrap",
+      "judged_on": "C1 (dense top-50), replicated for direction on C3",
+      "confirm_if": "95% CI lower bound > 0.30 (strict: equal does not count)",
+      "sign_note": "16_stats reports semantic-minus-structural (negative); 28 negates it and asserts the two agree"
+    },
+    "secondary": {
+      "name": "C3 - C1 Complete@10",
+      "status": "underpowered, descriptive only",
+      "support_semantics": {
+        "positive_supported": "CI lower bound > 0 (this alone is the positive claim)",
+        "exceeds_delta": "CI lower bound > delta, e.g. 0.06 (an additional claim, never the replication criterion)",
+        "smaller_than_0.047": "CI upper bound < 0.047",
+        "indeterminate": "CI includes 0: report that effects below the MDE cannot be excluded; never report 'no effect'",
+        "boundary": "strict inequalities; equality never supports a claim"
+      }
+    },
+    "robustness": [
+      "partial@10 (union character coverage)",
+      "tok512 recall (equal token budget)"
+    ],
+    "statistics": {
+      "unit": "group_id",
+      "bootstrap": 2000,
+      "seed": 20261013,
+      "ci_method": "percentile bootstrap",
+      "collapse": "macro over the family's configurations",
+      "multiplicity": "fixed-sequence gatekeeping: the secondary is interpreted only if the primary confirms; no post-hoc correction",
+      "holm": "only within the secondary family, never for the endpoint"
+    }
+  },
+  "power": {
+    "n_questions": 45,
+    "n_groups": 45,
+    "structural_vs_semantic": {
+      "sd_per_group": 0.4403,
+      "mde_at_n": 0.184,
+      "observed_test_delta": 0.682,
+      "note": "the gap is an order of magnitude above the MDE, so the primary endpoint is well powered at this n"
+    },
+    "reranking_gain": {
+      "sd_per_group": 0.1894,
+      "mde_at_n": 0.0791,
+      "power_at_test_effect_0.047": 0.384,
+      "power_at_dev_effect_0.107": 0.966
+    },
+    "statement": "test2 can resolve a development-sized effect; it cannot reliably exclude a +0.047 effect. A CI that includes zero is not evidence of no effect and not a failed replication."
+  },
+  "decision_matrix": [
+    {
+      "primary": "CI lower > 0.30",
+      "secondary": "CI lower > 0.06",
+      "claim": "chunking confirmed at >=0.30 and reranking shows an effect above 0.06"
+    },
+    {
+      "primary": "CI lower > 0.30",
+      "secondary": "0 < CI lower <= 0.06",
+      "claim": "chunking confirmed; reranking positive, magnitude unresolved"
+    },
+    {
+      "primary": "CI lower > 0.30",
+      "secondary": "CI includes 0",
+      "claim": "chunking confirmed; reranking not confirmed, effects below the MDE not excluded"
+    },
+    {
+      "primary": "0 < CI lower <= 0.30",
+      "secondary": "any",
+      "claim": "direction positive but the 0.30 threshold is not confirmed; report the interval, make no 'significantly better' claim"
+    },
+    {
+      "primary": "CI upper < 0.30",
+      "secondary": "any",
+      "claim": "the gap is confirmed to be below 0.30; the ordering conclusion is weaker"
+    },
+    {
+      "primary": "CI includes 0",
+      "secondary": "any",
+      "claim": "no directional difference confirmed at this sample size; compatible with zero and with small positive effects; no re-run with different questions"
+    }
+  ],
+  "one_shot": "19_rerank_eval.py writes FINAL_RUN.json after a completed run and then refuses to run again; there is no --force",
+  "existing_artifacts_unchanged": {
+    "results/final/FINAL_RUN.json": "7b8cc82b797c7e72d34b67e3a75046089fedad5c9bd6a9a4c2e19ec3f60f68ab",
+    "models/reranker/FROZEN.json": "68e06ad79e7ab3c49ad4bcb0687c394a2eddad754872cdb9f0e34b7aeb21911d"
+  }
+}

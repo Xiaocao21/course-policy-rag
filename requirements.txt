@@ -1,0 +1,14 @@
+# Stage A: collection + preprocessing (lightweight, pure PyPI)
+# Install:  .venv\Scripts\python.exe -m pip install -r requirements.txt
+requests>=2.32
+selectolax>=0.3.21
+pdfplumber>=0.11.4
+pypdf>=5.1.0
+PyYAML>=6.0.2
+matplotlib>=3.9.0
+numpy>=2.0
+lxml>=5.3.0
+python-docx>=1.1.0   # report generation and its structure tests
+# NOTE: selectolax 1.0 removed selectolax.parser (the "modest" backend).
+# The scripts use selectolax.lexbor.LexborHTMLParser and fall back to the legacy
+# name, so both <1.0 and >=1.0 work. Pin if you need byte-identical parsing.

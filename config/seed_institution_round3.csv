@@ -1,0 +1,22 @@
+tier,institution,country,doc_type,url,crawl_depth
+institution,University of Manchester,UK,academic_regulations,https://www.regulations.manchester.ac.uk/academic/,2
+institution,University of Manchester,UK,assessment_regulations,https://www.regulations.manchester.ac.uk/,2
+institution,University of Glasgow,UK,senate_policies,https://www.gla.ac.uk/myglasgow/senateoffice/policies/,2
+institution,University of Nottingham,UK,quality_manual,https://www.nottingham.ac.uk/academicservices/qualitymanual/,2
+institution,University of British Columbia,CA,academic_regulations,https://vancouver.calendar.ubc.ca/campus-wide-policies-and-regulations,2
+institution,Carnegie Mellon University,US,theword_academic,https://www.cmu.edu/student-affairs/theword/academic/index.html,2
+institution,Imperial College London,UK,student_policies,https://www.imperial.ac.uk/computing/current-students/,2
+institution,University of Washington,US,engineering_policies,https://www.engr.washington.edu/current/policies,2
+institution,University of Washington,US,cse_policies,https://www.cs.washington.edu/academics/ugrad/policies,2
+institution,ICAI,INT,integrity_resources,https://academicintegrity.org/resources/fundamental-values,2
+institution,Stanford University,US,community_standards,https://communitystandards.stanford.edu/,2
+institution,University of Wisconsin-Madison,US,policy_library,https://policy.wisc.edu/,2
+institution,University of Wisconsin-Madison,US,registrar,https://registrar.wisc.edu/,2
+institution,Boston University,US,academic_conduct_code,https://www.bu.edu/academics/policies/academic-conduct-code/,0
+institution,Boston University,US,attendance,https://www.bu.edu/academics/policies/attendance/,0
+institution,Boston University,US,examinations,https://www.bu.edu/academics/policies/examinations/,0
+institution,Boston University,US,leave_of_absence,https://www.bu.edu/academics/policies/leave-of-absence/,0
+institution,Boston University,US,grade_grievances,https://www.bu.edu/academics/policies/grade-grievances/,0
+institution,Boston University,US,pass_fail,https://www.bu.edu/academics/policies/pass-fail-courses/,0
+institution,Boston University,US,religious_observance,https://www.bu.edu/academics/policies/religious-observance/,0
+institution,Boston University,US,incomplete_coursework,https://www.bu.edu/academics/policies/incomplete-coursework/,0

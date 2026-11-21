@@ -1,0 +1,33 @@
+{
+  "attempt": 1,
+  "split": "test2",
+  "completed_at": "2026-11-13T02:01:25+08:00",
+  "frozen_sha256": "68e06ad79e7ab3c49ad4bcb0687c394a2eddad754872cdb9f0e34b7aeb21911d",
+  "lock_sha256": "0e00fa5ca59977393bc7e14de9c25ba354fae5890a4d1ef2fa292c35144a00c2",
+  "code_sha256": "da6a039b984a310a2fa2035e66d8eb81b48cfeda040829e566a186e30ff746a1",
+  "inputs": {
+    "questions": "0e00fa5ca59977393bc7e14de9c25ba354fae5890a4d1ef2fa292c35144a00c2",
+    "bundles": "5041171565b9c75cc1a999931a708ee73c3620e1c2c62a47b81138c7071c6e38",
+    "amendments": null,
+    "lock": "0ade93b55152ec52a52d47917fe10fe193dc3367ec1d812bfa138ba4dcb45fac",
+    "preregistration": "152b131da4a0c626818907a11705eeaac8102047cc752d66e6de24e57433b234",
+    "frozen": "68e06ad79e7ab3c49ad4bcb0687c394a2eddad754872cdb9f0e34b7aeb21911d",
+    "code": "da6a039b984a310a2fa2035e66d8eb81b48cfeda040829e566a186e30ff746a1",
+    "evaluation_host": "DESKTOP-74FFGJH",
+    "gpu": "NVIDIA RTX A5000",
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "precision": "fp16",
+    "checkpoint_sha256": "547060da6310cfd6cb31b75521f75c6af4161aa916196330ef1492ee91719ba2"
+  },
+  "configs": 17,
+  "questions": 45,
+  "tracks": [
+    "main",
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "test_previously_used": false,
+  "note": "First and only evaluation of the second held-out split, against a design frozen in results/test2/PREREGISTRATION.json before the questions were drafted."
+}

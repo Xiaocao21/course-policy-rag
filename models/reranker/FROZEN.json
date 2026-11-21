@@ -1,0 +1,95 @@
+{
+  "kind": "reranker_freeze",
+  "created_at": "2026-10-25T03:46:14+08:00",
+  "env_role": "canonical",
+  "run_id": "8c0e9c786bb6",
+  "model": {
+    "id": "BAAI/bge-reranker-base",
+    "source": "E:\\CPS5801\\course-policy-rag\\models\\reranker\\base",
+    "checkpoint_sha256": "547060da6310cfd6cb31b75521f75c6af4161aa916196330ef1492ee91719ba2"
+  },
+  "tokenizer": {
+    "id": "BAAI/bge-reranker-base",
+    "source": "E:\\CPS5801\\course-policy-rag\\models\\reranker\\base",
+    "max_query_len": 128,
+    "max_pair_len": 512,
+    "truncation": "question<=128; chunk gets 512-len(q)-3 (tail cut)"
+  },
+  "data": {
+    "pairs_sha256": "4e797f8eaefea5638e4e9f991dc23ceaf97e78a8e7b25b1c9ab1cf1e327e87a7",
+    "split_groups_sha256": "2e82642a3f2c07daac8b67872670fc91e20da0411396e96c3ca039af92726bb5",
+    "train_questions": 89,
+    "val_questions": 22,
+    "train_groups": 85,
+    "val_groups": 21
+  },
+  "code": {
+    "scripts_sha256": "cefb847e50c273a882649dce75372d417177fcce545788862e484ec882c69f8a"
+  },
+  "corpus": {
+    "version": "v0.1.5"
+  },
+  "env": {
+    "gpu_model": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_memory_gb": 6.0,
+    "cuda": "12.4",
+    "torch": "2.6.0+cu124",
+    "precision": "fp16",
+    "batch_size": 8,
+    "grad_accum": 2,
+    "effective_batch": 16,
+    "device": "cuda"
+  },
+  "training": {
+    "objective": "bce_with_logits",
+    "optimizer": "adafactor",
+    "frozen_encoder_layers": 10,
+    "lr": 1e-05,
+    "negatives_per_positive": 4,
+    "epochs_max": 3,
+    "early_stop": {
+      "metric": "macro_rerank_complete@10_top50",
+      "patience": 1
+    },
+    "warmup_ratio": 0.1,
+    "max_grad_norm": 1.0
+  },
+  "selection": {
+    "metric": "macro_rerank_complete@10",
+    "macro_over": "17 configs",
+    "val_pool": 50,
+    "tie_break_ladder": [
+      "macro_complete@10",
+      "macro_mrr",
+      "macro_recall@10"
+    ]
+  },
+  "seed": 20261027,
+  "dense_val_metrics": {
+    "macro_complete@10": 0.358288770053476,
+    "macro_recall@10": 0.43716577540106955,
+    "macro_mrr": 0.3269123061747355
+  },
+  "val_metrics": {
+    "macro_complete@10": 0.3877005347593583,
+    "macro_recall@10": 0.46791443850267384,
+    "macro_mrr": 0.38668010631039923
+  },
+  "base_val_metrics": {
+    "macro_complete@10": 0.3582887700534759,
+    "macro_recall@10": 0.4451871657754011,
+    "macro_mrr": 0.32917151022625657
+  },
+  "truncation": {
+    "pairs": 22200,
+    "truncated": 5616,
+    "fraction": 0.253,
+    "max_pair_tokens": 705,
+    "query_max": 128,
+    "pair_max": 512,
+    "truncated_tokens_total": 477545,
+    "truncated_tokens_max": 193,
+    "tokenizer": "BAAI/bge-reranker-base",
+    "truncated_tokens_mean": 85.0
+  }
+}

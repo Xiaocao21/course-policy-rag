@@ -1,0 +1,212 @@
+{
+  "at": "2026-10-21T18:05:33+08:00",
+  "drop_type": "single-clause",
+  "target_share": 0.33,
+  "before": {
+    "total": 193,
+    "types": {
+      "rule-and-exception": 62,
+      "single-clause": 80,
+      "cross-clause": 51
+    },
+    "splits": {
+      "dev": 125,
+      "test": 68
+    }
+  },
+  "after": {
+    "total": 168,
+    "types": {
+      "rule-and-exception": 62,
+      "cross-clause": 51,
+      "single-clause": 55
+    },
+    "splits": {
+      "dev": 109,
+      "test": 59
+    },
+    "shares": {
+      "rule-and-exception": 0.369,
+      "cross-clause": 0.304,
+      "single-clause": 0.327
+    }
+  },
+  "dropped": [
+    {
+      "qid": "Q0002",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0003",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0007",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0009",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0010",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0011",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0029",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0030",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0031",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0032",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0033",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0034",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0035",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0036",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0037",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0038",
+      "domain": "grading",
+      "split": "dev",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0039",
+      "domain": "grading",
+      "split": "test",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0040",
+      "domain": "grading",
+      "split": "test",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0041",
+      "domain": "grading",
+      "split": "test",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0042",
+      "domain": "grading",
+      "split": "test",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0043",
+      "domain": "grading",
+      "split": "test",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0054",
+      "domain": "integrity",
+      "split": "test",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0055",
+      "domain": "integrity",
+      "split": "test",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0056",
+      "domain": "integrity",
+      "split": "test",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    },
+    {
+      "qid": "Q0057",
+      "domain": "integrity",
+      "split": "test",
+      "signal": 0,
+      "reason": "surplus single-clause item; lowest structural signal first"
+    }
+  ],
+  "note": "Dropping is a deliberate rebalance to the protocol's evidence-type quota; the dropped drafts remain reproducible from the batch files."
+}

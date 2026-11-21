@@ -1,0 +1,190 @@
+{
+  "at": "2026-10-24T21:27:50+08:00",
+  "patched": [
+    {
+      "qid": "Q0005",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0006",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0028",
+      "status": "ok",
+      "fields": [
+        "clause_ids"
+      ]
+    },
+    {
+      "qid": "Q0044",
+      "status": "MISSING"
+    },
+    {
+      "qid": "Q0052",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0099",
+      "status": "ok",
+      "fields": [
+        "clause_ids"
+      ]
+    },
+    {
+      "qid": "Q0100",
+      "status": "ok",
+      "fields": [
+        "clause_ids"
+      ]
+    },
+    {
+      "qid": "Q0104",
+      "status": "ok",
+      "fields": [
+        "clause_ids"
+      ]
+    },
+    {
+      "qid": "Q0105",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0123",
+      "status": "ok",
+      "fields": [
+        "clause_ids"
+      ]
+    },
+    {
+      "qid": "Q0065",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0082",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0087",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0117",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0155",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0175",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0186",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0192",
+      "status": "ok",
+      "fields": [
+        "clause_ids"
+      ]
+    },
+    {
+      "qid": "Q0024",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0094",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0177",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0182",
+      "status": "ok",
+      "fields": []
+    },
+    {
+      "qid": "Q0140",
+      "status": "ok",
+      "fields": [
+        "clause_ids"
+      ]
+    },
+    {
+      "qid": "Q0142",
+      "status": "MISSING"
+    },
+    {
+      "qid": "Q0085",
+      "status": "MISSING"
+    },
+    {
+      "qid": "Q0102",
+      "status": "MISSING"
+    },
+    {
+      "qid": "Q0078",
+      "status": "MISSING"
+    },
+    {
+      "qid": "Q0188",
+      "status": "MISSING"
+    }
+  ],
+  "qualifiers_added": [],
+  "regrouped": 136,
+  "splits_changed": 0,
+  "questions": 172,
+  "groups": 165,
+  "evidence_components": 125,
+  "split_counts": {
+    "test": 60,
+    "dev": 112
+  },
+  "group_counts": {
+    "dev": 106,
+    "test": 59
+  },
+  "clauses_shared_across_splits": 0,
+  "groups_spanning_splits": [],
+  "types": {
+    "rule-and-exception": 60,
+    "cross-clause": 44,
+    "single-clause": 68
+  },
+  "domains": {
+    "grading": 29,
+    "integrity": 32,
+    "resources": 19,
+    "exam": 35,
+    "attendance": 27,
+    "late": 30
+  },
+  "test_domains": {
+    "grading": 12,
+    "integrity": 12,
+    "resources": 7,
+    "exam": 13,
+    "attendance": 8,
+    "late": 8
+  }
+}

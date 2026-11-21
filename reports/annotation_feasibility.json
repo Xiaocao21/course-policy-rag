@@ -1,0 +1,441 @@
+{
+  "status": "GO",
+  "corpus": {
+    "documents": 36,
+    "clauses_total": 1988,
+    "clauses_usable": 1817,
+    "clauses_without_domain": 784,
+    "institutions": 12,
+    "coverage_note": "institution coverage is as frozen in MANIFEST.json (12 institutions collected, corpus subset per curation)"
+  },
+  "quota_model": {
+    "total": 150,
+    "domain_quota": {
+      "grading": 35,
+      "integrity": 30,
+      "late": 25,
+      "exam": 25,
+      "attendance": 20,
+      "resources": 15
+    },
+    "type_quota": {
+      "single-clause": 50,
+      "rule-and-exception": 55,
+      "cross-clause": 45
+    },
+    "joint": {
+      "grading|single-clause": 12,
+      "grading|rule-and-exception": 13,
+      "grading|cross-clause": 11,
+      "integrity|single-clause": 10,
+      "integrity|rule-and-exception": 11,
+      "integrity|cross-clause": 9,
+      "late|single-clause": 8,
+      "late|rule-and-exception": 9,
+      "late|cross-clause": 8,
+      "exam|single-clause": 8,
+      "exam|rule-and-exception": 9,
+      "exam|cross-clause": 8,
+      "attendance|single-clause": 7,
+      "attendance|rule-and-exception": 7,
+      "attendance|cross-clause": 6,
+      "resources|single-clause": 5,
+      "resources|rule-and-exception": 5,
+      "resources|cross-clause": 4
+    }
+  },
+  "cells": [
+    {
+      "domain": "grading",
+      "evidence_type": "single-clause",
+      "capacity": 271,
+      "quota": 12,
+      "ratio": 22.58,
+      "ok": true
+    },
+    {
+      "domain": "grading",
+      "evidence_type": "rule-and-exception",
+      "capacity": 41,
+      "quota": 13,
+      "ratio": 3.15,
+      "ok": true
+    },
+    {
+      "domain": "grading",
+      "evidence_type": "cross-clause",
+      "capacity": 80,
+      "quota": 11,
+      "ratio": 7.27,
+      "ok": true
+    },
+    {
+      "domain": "late",
+      "evidence_type": "single-clause",
+      "capacity": 134,
+      "quota": 8,
+      "ratio": 16.75,
+      "ok": true
+    },
+    {
+      "domain": "late",
+      "evidence_type": "rule-and-exception",
+      "capacity": 27,
+      "quota": 9,
+      "ratio": 3.0,
+      "ok": true
+    },
+    {
+      "domain": "late",
+      "evidence_type": "cross-clause",
+      "capacity": 28,
+      "quota": 8,
+      "ratio": 3.5,
+      "ok": true
+    },
+    {
+      "domain": "attendance",
+      "evidence_type": "single-clause",
+      "capacity": 141,
+      "quota": 7,
+      "ratio": 20.14,
+      "ok": true
+    },
+    {
+      "domain": "attendance",
+      "evidence_type": "rule-and-exception",
+      "capacity": 36,
+      "quota": 7,
+      "ratio": 5.14,
+      "ok": true
+    },
+    {
+      "domain": "attendance",
+      "evidence_type": "cross-clause",
+      "capacity": 9,
+      "quota": 6,
+      "ratio": 1.5,
+      "ok": true
+    },
+    {
+      "domain": "exam",
+      "evidence_type": "single-clause",
+      "capacity": 289,
+      "quota": 8,
+      "ratio": 36.12,
+      "ok": true
+    },
+    {
+      "domain": "exam",
+      "evidence_type": "rule-and-exception",
+      "capacity": 49,
+      "quota": 9,
+      "ratio": 5.44,
+      "ok": true
+    },
+    {
+      "domain": "exam",
+      "evidence_type": "cross-clause",
+      "capacity": 54,
+      "quota": 8,
+      "ratio": 6.75,
+      "ok": true
+    },
+    {
+      "domain": "integrity",
+      "evidence_type": "single-clause",
+      "capacity": 164,
+      "quota": 10,
+      "ratio": 16.4,
+      "ok": true
+    },
+    {
+      "domain": "integrity",
+      "evidence_type": "rule-and-exception",
+      "capacity": 18,
+      "quota": 11,
+      "ratio": 1.64,
+      "ok": true
+    },
+    {
+      "domain": "integrity",
+      "evidence_type": "cross-clause",
+      "capacity": 14,
+      "quota": 9,
+      "ratio": 1.56,
+      "ok": true
+    },
+    {
+      "domain": "resources",
+      "evidence_type": "single-clause",
+      "capacity": 34,
+      "quota": 5,
+      "ratio": 6.8,
+      "ok": true
+    },
+    {
+      "domain": "resources",
+      "evidence_type": "rule-and-exception",
+      "capacity": 5,
+      "quota": 5,
+      "ratio": 1.0,
+      "ok": true
+    },
+    {
+      "domain": "resources",
+      "evidence_type": "cross-clause",
+      "capacity": 5,
+      "quota": 4,
+      "ratio": 1.25,
+      "ok": true
+    }
+  ],
+  "tier_by_domain": [
+    {
+      "tier": "course",
+      "grading": 43,
+      "late": 19,
+      "attendance": 18,
+      "exam": 56,
+      "integrity": 7,
+      "resources": 3
+    },
+    {
+      "tier": "faculty",
+      "grading": 140,
+      "late": 52,
+      "attendance": 41,
+      "exam": 104,
+      "integrity": 24,
+      "resources": 20
+    },
+    {
+      "tier": "institution",
+      "grading": 88,
+      "late": 63,
+      "attendance": 82,
+      "exam": 129,
+      "integrity": 133,
+      "resources": 11
+    }
+  ],
+  "institutions": [
+    {
+      "institution": "University of Glasgow",
+      "usable_clauses": 956,
+      "share": 0.526,
+      "domains": [
+        "attendance",
+        "exam",
+        "grading",
+        "integrity",
+        "late",
+        "resources"
+      ],
+      "max_questions_estimate": 956
+    },
+    {
+      "institution": "Boston University",
+      "usable_clauses": 195,
+      "share": 0.107,
+      "domains": [
+        "attendance",
+        "exam",
+        "grading",
+        "integrity",
+        "late",
+        "resources"
+      ],
+      "max_questions_estimate": 195
+    },
+    {
+      "institution": "MIT OpenCourseWare",
+      "usable_clauses": 187,
+      "share": 0.103,
+      "domains": [
+        "attendance",
+        "exam",
+        "grading",
+        "integrity",
+        "late",
+        "resources"
+      ],
+      "max_questions_estimate": 187
+    },
+    {
+      "institution": "Stanford University",
+      "usable_clauses": 115,
+      "share": 0.063,
+      "domains": [
+        "attendance",
+        "exam",
+        "grading",
+        "integrity",
+        "late",
+        "resources"
+      ],
+      "max_questions_estimate": 115
+    },
+    {
+      "institution": "Carnegie Mellon University",
+      "usable_clauses": 97,
+      "share": 0.053,
+      "domains": [
+        "attendance",
+        "exam",
+        "grading",
+        "integrity",
+        "late",
+        "resources"
+      ],
+      "max_questions_estimate": 97
+    },
+    {
+      "institution": "University of Washington",
+      "usable_clauses": 87,
+      "share": 0.048,
+      "domains": [
+        "attendance",
+        "exam",
+        "grading",
+        "integrity",
+        "late",
+        "resources"
+      ],
+      "max_questions_estimate": 87
+    },
+    {
+      "institution": "University of Florida",
+      "usable_clauses": 78,
+      "share": 0.043,
+      "domains": [
+        "attendance",
+        "grading",
+        "integrity",
+        "late"
+      ],
+      "max_questions_estimate": 78
+    },
+    {
+      "institution": "Imperial College London",
+      "usable_clauses": 60,
+      "share": 0.033,
+      "domains": [
+        "attendance",
+        "exam",
+        "grading",
+        "integrity",
+        "late",
+        "resources"
+      ],
+      "max_questions_estimate": 60
+    },
+    {
+      "institution": "University of Maryland",
+      "usable_clauses": 21,
+      "share": 0.012,
+      "domains": [
+        "attendance",
+        "exam",
+        "grading"
+      ],
+      "max_questions_estimate": 21
+    },
+    {
+      "institution": "University of Wisconsin-Madison",
+      "usable_clauses": 15,
+      "share": 0.008,
+      "domains": [
+        "exam",
+        "grading",
+        "late"
+      ],
+      "max_questions_estimate": 15
+    },
+    {
+      "institution": "University of North Carolina",
+      "usable_clauses": 3,
+      "share": 0.002,
+      "domains": [
+        "attendance"
+      ],
+      "max_questions_estimate": 3
+    },
+    {
+      "institution": "University of Manchester",
+      "usable_clauses": 3,
+      "share": 0.002,
+      "domains": [
+        "attendance",
+        "exam",
+        "resources"
+      ],
+      "max_questions_estimate": 3
+    }
+  ],
+  "document_skew": {
+    "top3_share": 0.337,
+    "documents": [
+      {
+        "doc_id": "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE",
+        "chars": 144793,
+        "share": 0.158
+      },
+      {
+        "doc_id": "UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-STUDENT-CONDUCT",
+        "chars": 83346,
+        "share": 0.091
+      },
+      {
+        "doc_id": "UNIVERSITY-OF-GLAS-MYGLASGOW-STUDENTCONTRACT-TERMSANDCONDITIONS",
+        "chars": 81040,
+        "share": 0.088
+      },
+      {
+        "doc_id": "UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-ASSESSMENT-REG",
+        "chars": 70836,
+        "share": 0.077
+      },
+      {
+        "doc_id": "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL",
+        "chars": 66782,
+        "share": 0.073
+      },
+      {
+        "doc_id": "BOSTON-UNIVERSITY-DOS-STUDENT-RESPONSIBILITIES",
+        "chars": 49673,
+        "share": 0.054
+      },
+      {
+        "doc_id": "UNIVERSITY-OF-GLAS-MYGLASGOW-REGULATIONS-CURRENT-GLOSSARY-OF-TERMS",
+        "chars": 42863,
+        "share": 0.047
+      },
+      {
+        "doc_id": "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE",
+        "chars": 37071,
+        "share": 0.04
+      },
+      {
+        "doc_id": "CARNEGIE-MELLON-UN-FORMS-AND-DOCUMENTS-INTELLECTUAL-PROPERTY-REPORT",
+        "chars": 28448,
+        "share": 0.031
+      },
+      {
+        "doc_id": "UNIVERSITY-OF-WASH-WWW",
+        "chars": 28109,
+        "share": 0.031
+      }
+    ]
+  },
+  "test_group_check": {
+    "planned_test_questions": 50,
+    "min_groups": 40,
+    "estimated_capacity": 1399,
+    "feasible": true
+  },
+  "gaps": [],
+  "recommendation": [
+    "top-3 documents hold 34% of corpus characters; report per-document macro averages alongside pooled scores"
+  ]
+}

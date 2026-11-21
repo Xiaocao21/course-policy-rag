@@ -1,0 +1,51 @@
+{
+  "recall@1": 0.0536,
+  "hit@1": 0.1071,
+  "complete@1": 0.0,
+  "partial@1": 0.1399,
+  "recall@3": 0.067,
+  "hit@3": 0.1071,
+  "complete@3": 0.0268,
+  "partial@3": 0.2321,
+  "recall@5": 0.0759,
+  "hit@5": 0.1161,
+  "complete@5": 0.0357,
+  "partial@5": 0.2671,
+  "recall@10": 0.0759,
+  "hit@10": 0.1161,
+  "complete@10": 0.0357,
+  "partial@10": 0.3047,
+  "mrr": 0.1094,
+  "questions": 112,
+  "by_token_budget": {
+    "512": {
+      "recall": 0.067,
+      "hit": 0.1071,
+      "complete": 0.0268,
+      "tokens_unused_mean": 82.3,
+      "zero_chunk_queries": 0
+    },
+    "1024": {
+      "recall": 0.0759,
+      "hit": 0.1161,
+      "complete": 0.0357,
+      "tokens_unused_mean": 67.1,
+      "zero_chunk_queries": 0
+    },
+    "2048": {
+      "recall": 0.0759,
+      "hit": 0.1161,
+      "complete": 0.0357,
+      "tokens_unused_mean": 114.2,
+      "zero_chunk_queries": 0
+    }
+  },
+  "strategy": "semantic",
+  "config": "thr0.80",
+  "track": "C3",
+  "pool": 50,
+  "rerank": true,
+  "split": "dev",
+  "latency_ms": 0.42,
+  "eval_time_s": 26.9
+}

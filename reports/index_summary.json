@@ -1,0 +1,177 @@
+{
+  "model": "BAAI/bge-small-en-v1.5",
+  "device": "cpu",
+  "configs": {
+    "fixed/size128_ov0": {
+      "n_chunks": 1559,
+      "dim": 384,
+      "index_size_bytes": 2394669,
+      "build_time_s": 0.0,
+      "embedding_time_s": 43.3,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "fixed/size128_ov32": {
+      "n_chunks": 2061,
+      "dim": 384,
+      "index_size_bytes": 3165741,
+      "build_time_s": 0.0,
+      "embedding_time_s": 56.6,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "fixed/size128_ov64": {
+      "n_chunks": 3064,
+      "dim": 384,
+      "index_size_bytes": 4706349,
+      "build_time_s": 0.0,
+      "embedding_time_s": 83.5,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "fixed/size256_ov0": {
+      "n_chunks": 787,
+      "dim": 384,
+      "index_size_bytes": 1208877,
+      "build_time_s": 0.0,
+      "embedding_time_s": 45.0,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "fixed/size256_ov32": {
+      "n_chunks": 895,
+      "dim": 384,
+      "index_size_bytes": 1374765,
+      "build_time_s": 0.0,
+      "embedding_time_s": 53.5,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "fixed/size256_ov64": {
+      "n_chunks": 1037,
+      "dim": 384,
+      "index_size_bytes": 1592877,
+      "build_time_s": 0.0,
+      "embedding_time_s": 64.5,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "fixed/size384_ov0": {
+      "n_chunks": 530,
+      "dim": 384,
+      "index_size_bytes": 814125,
+      "build_time_s": 0.0,
+      "embedding_time_s": 52.2,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "fixed/size384_ov32": {
+      "n_chunks": 576,
+      "dim": 384,
+      "index_size_bytes": 884781,
+      "build_time_s": 0.0,
+      "embedding_time_s": 54.3,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "fixed/size384_ov64": {
+      "n_chunks": 628,
+      "dim": 384,
+      "index_size_bytes": 964653,
+      "build_time_s": 0.0,
+      "embedding_time_s": 68.5,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "fixed/size512_ov0": {
+      "n_chunks": 403,
+      "dim": 384,
+      "index_size_bytes": 619053,
+      "build_time_s": 0.0,
+      "embedding_time_s": 62.0,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "fixed/size512_ov32": {
+      "n_chunks": 425,
+      "dim": 384,
+      "index_size_bytes": 652845,
+      "build_time_s": 0.0,
+      "embedding_time_s": 65.9,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "fixed/size512_ov64": {
+      "n_chunks": 454,
+      "dim": 384,
+      "index_size_bytes": 697389,
+      "build_time_s": 0.0,
+      "embedding_time_s": 72.8,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "heading/heading": {
+      "n_chunks": 635,
+      "dim": 384,
+      "index_size_bytes": 975405,
+      "build_time_s": 0.0,
+      "embedding_time_s": 88.9,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "paragraph/paragraph": {
+      "n_chunks": 1203,
+      "dim": 384,
+      "index_size_bytes": 1847853,
+      "build_time_s": 0.0,
+      "embedding_time_s": 538.5,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "semantic/thr0.70": {
+      "n_chunks": 5506,
+      "dim": 384,
+      "index_size_bytes": 8457261,
+      "build_time_s": 0.0,
+      "embedding_time_s": 122.6,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "semantic/thr0.75": {
+      "n_chunks": 6463,
+      "dim": 384,
+      "index_size_bytes": 9927213,
+      "build_time_s": 0.0,
+      "embedding_time_s": 120.5,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    },
+    "semantic/thr0.80": {
+      "n_chunks": 7035,
+      "dim": 384,
+      "index_size_bytes": 10805805,
+      "build_time_s": 0.0,
+      "embedding_time_s": 132.6,
+      "peak_rss_mb": 0.0,
+      "model_load_s": 6.2,
+      "device": "cpu"
+    }
+  },
+  "total_configs": 17
+}

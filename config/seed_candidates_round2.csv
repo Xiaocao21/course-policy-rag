@@ -1,0 +1,74 @@
+tier,institution,country,doc_type,url
+faculty,Boston University,US,college_policy_index,https://www.bu.edu/academics/policies/
+faculty,Boston University,US,grading_policy,https://www.bu.edu/academics/policies/grading/
+faculty,Boston University,US,exams_policy,https://www.bu.edu/academics/policies/examinations/
+faculty,Boston University,US,religious_absence,https://www.bu.edu/academics/policies/religious-observance/
+faculty,Boston University,US,leave_of_absence,https://www.bu.edu/academics/policies/leave-of-absence/
+faculty,Boston University,US,academic_grievance,https://www.bu.edu/academics/policies/grievance/
+faculty,Boston University,US,honors_policy,https://www.bu.edu/academics/policies/honors/
+faculty,University of Edinburgh,UK,policy_index,https://www.ed.ac.uk/academic-services/policies-regulations
+faculty,University of Edinburgh,UK,assessment_guidance,https://www.ed.ac.uk/academic-services/students/assessment
+faculty,University of Edinburgh,UK,degree_regs,https://www.ed.ac.uk/academic-services/policies-regulations/regulations
+faculty,University of Edinburgh,UK,taught_assessment,https://www.ed.ac.uk/academic-services/policies-regulations/regulations/taught
+faculty,University of Edinburgh,UK,research_degrees,https://www.ed.ac.uk/academic-services/policies-regulations/regulations/research
+faculty,University of Edinburgh,UK,plagiarism,https://www.ed.ac.uk/academic-services/students/conduct/plagiarism
+faculty,University of Edinburgh,UK,academic_misconduct,https://www.ed.ac.uk/academic-services/students/conduct
+faculty,ICAI,INT,integrity_fundamental_values,https://academicintegrity.org/resources/fundamental-values
+faculty,ICAI,INT,integrity_center_resources,https://academicintegrity.org/resources/center-resources
+faculty,ICAI,INT,integrity_articles,https://academicintegrity.org/resources/articles
+faculty,Purdue University,US,university_regulations,https://www.purdue.edu/univregs/
+faculty,Purdue University,US,student_regulations,https://www.purdue.edu/odos/osrr/regulations.php
+faculty,Purdue University,US,academic_regulations_index,https://www.purdue.edu/registrar/current/
+faculty,University of Wisconsin-Madison,US,academic_policies,https://policy.wisc.edu/
+faculty,University of Wisconsin-Madison,US,registrar_policies,https://registrar.wisc.edu/
+faculty,University of Wisconsin-Madison,US,grading_policy,https://registrar.wisc.edu/grading/
+faculty,University of Wisconsin-Madison,US,credit_hours,https://registrar.wisc.edu/credit-hour-policy/
+faculty,University of Washington,US,academic_policies,https://www.washington.edu/admin/rules/policies/
+faculty,University of Washington,US,student_conduct,https://www.washington.edu/studentconduct/
+faculty,University of Washington,US,registrar_policies,https://registrar.washington.edu/
+faculty,University of Manchester,UK,academic_regulations,https://www.regulations.manchester.ac.uk/
+faculty,University of Manchester,UK,taught_programmes,https://www.regulations.manchester.ac.uk/academic/
+faculty,Queen Mary University of London,UK,academic_regulations,https://www.qmul.ac.uk/media/qmul/docs/academic-regulations.pdf
+faculty,Queen Mary University of London,UK,assessment,https://www.qmul.ac.uk/academic-regulations/
+faculty,University College London,UK,academic_manual,https://www.ucl.ac.uk/academic-manual/
+faculty,University College London,UK,exams_regs,https://www.ucl.ac.uk/students/exams-and-assessments/
+faculty,King's College London,UK,academic_regulations,https://www.kcl.ac.uk/study/undergraduate/academic-regulations
+faculty,University of Bristol,UK,academic_regulations,https://www.bristol.ac.uk/academic-quality/regulations/
+faculty,University of Leeds,UK,taught_regulations,https://www.leeds.ac.uk/taught-student-regulations
+faculty,University of Glasgow,UK,academic_regulations,https://www.gla.ac.uk/myglasgow/senateoffice/policies/
+faculty,University of Nottingham,UK,academic_regulations,https://www.nottingham.ac.uk/academicservices/qualitymanual/
+faculty,University of Toronto,CA,academic_regulations,https://governingcouncil.utoronto.ca/policies
+faculty,University of Toronto,CA,grading_practices,https://governingcouncil.utoronto.ca/secretariat/policies/grading-practices-policy
+faculty,University of British Columbia,CA,academic_regulations,https://vancouver.calendar.ubc.ca/campus-wide-policies-and-regulations
+faculty,McGill University,CA,academic_regulations,https://www.mcgill.ca/students/courses/regulations
+faculty,McGill University,CA,academic_integrity,https://www.mcgill.ca/students/srr/academicrights/integrity
+faculty,University of Melbourne,AU,academic_policy,https://policy.unimelb.edu.au/
+faculty,Monash University,AU,academic_policy,https://www.monash.edu/students/policies
+faculty,University of Sydney,AU,academic_policy,https://www.sydney.edu.au/policies/
+faculty,National University of Singapore,SG,academic_regulations,https://www.nus.edu.sg/registrar/academic-information-policies
+faculty,University of Auckland,NZ,academic_policies,https://www.auckland.ac.nz/en/students/academic-information/regulations.html
+faculty,Trinity College Dublin,IE,academic_regulations,https://www.tcd.ie/registry/undergraduate/
+faculty,University of Amsterdam,NL,academic_regulations,https://www.uva.nl/en/about-the-uva/policy-and-regulations/policy-and-regulations.html
+faculty,Utrecht University,NL,academic_regulations,https://www.uu.nl/en/education/studying-at-utrecht/regulations
+faculty,ETH Zurich,CH,academic_regulations,https://ethz.ch/en/studies/registration-extension/academic-regulations.html
+faculty,Delft University of Technology,NL,academic_regulations,https://www.tudelft.nl/en/student/administrative-affairs/academic-regulations
+faculty,University of Hong Kong,HK,academic_regulations,https://www.hku.hk/students/
+faculty,Hong Kong University of Science and Technology,HK,academic_regulations,https://registry.hkust.edu.hk/policies-guidelines
+institution,Boston University,US,academic_conduct_code,https://www.bu.edu/academics/policies/academic-conduct-code/
+institution,Boston University,US,attendance,https://www.bu.edu/academics/policies/attendance/
+institution,Boston University,US,policy_index,https://www.bu.edu/academics/policies/
+institution,University of Edinburgh,UK,assessment,https://www.ed.ac.uk/academic-services/students/assessment
+institution,ICAI,INT,integrity_fundamentals,https://academicintegrity.org/resources/fundamental-values
+institution,ICAI,INT,integrity_index,https://academicintegrity.org/resources/
+institution,Stanford University,US,community_standards,https://communitystandards.stanford.edu/
+institution,Imperial College London,UK,student_policies,https://www.imperial.ac.uk/students/
+institution,University of Wisconsin-Madison,US,registrar,https://registrar.wisc.edu/
+institution,Purdue University,US,registrar,https://www.purdue.edu/registrar/
+institution,Carnegie Mellon University,US,word_academic,https://www.cmu.edu/student-affairs/theword/academic/index.html
+institution,Ohio State University,US,academic_policies,https://registrar.osu.edu/
+institution,Penn State University,US,academic_policies,https://undergrad.psu.edu/academics/
+institution,University of Michigan,US,academic_policies,https://cse.engin.umich.edu/academics/undergraduate/
+institution,University of Illinois Urbana-Champaign,US,academic_policies,https://provost.illinois.edu/policies/
+institution,University of Texas at Austin,US,academic_policies,https://catalog.utexas.edu/general-information/
+institution,University of Sydney,AU,academic_policy,https://www.sydney.edu.au/policies/
+institution,University of Melbourne,AU,academic_policy,https://policy.unimelb.edu.au/

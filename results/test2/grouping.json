@@ -1,0 +1,663 @@
+{
+  "groups": 45,
+  "group_members": {
+    "T2Q001": "T2G01",
+    "T2Q002": "T2G02",
+    "T2Q003": "T2G03",
+    "T2Q004": "T2G04",
+    "T2Q005": "T2G05",
+    "T2Q006": "T2G06",
+    "T2Q007": "T2G07",
+    "T2Q008": "T2G08",
+    "T2Q009": "T2G09",
+    "T2Q010": "T2G10",
+    "T2Q011": "T2G11",
+    "T2Q012": "T2G12",
+    "T2Q013": "T2G13",
+    "T2Q014": "T2G14",
+    "T2Q015": "T2G15",
+    "T2Q016": "T2G16",
+    "T2Q017": "T2G17",
+    "T2Q018": "T2G18",
+    "T2Q019": "T2G19",
+    "T2Q020": "T2G20",
+    "T2Q021": "T2G21",
+    "T2Q022": "T2G22",
+    "T2Q023": "T2G23",
+    "T2Q024": "T2G24",
+    "T2Q025": "T2G25",
+    "T2Q026": "T2G26",
+    "T2Q027": "T2G27",
+    "T2Q028": "T2G28",
+    "T2Q029": "T2G29",
+    "T2Q030": "T2G30",
+    "T2Q031": "T2G31",
+    "T2Q032": "T2G32",
+    "T2Q033": "T2G33",
+    "T2Q034": "T2G34",
+    "T2Q035": "T2G35",
+    "T2Q036": "T2G36",
+    "T2Q037": "T2G37",
+    "T2Q038": "T2G38",
+    "T2Q039": "T2G39",
+    "T2Q040": "T2G40",
+    "T2Q041": "T2G41",
+    "T2Q042": "T2G42",
+    "T2Q043": "T2G43",
+    "T2Q044": "T2G44",
+    "T2Q045": "T2G45"
+  },
+  "merge_candidates": [],
+  "similar_candidates": [
+    {
+      "a": "T2Q001",
+      "b": "T2Q004",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q001",
+      "b": "T2Q006",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q001",
+      "b": "T2Q015",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q003",
+      "b": "T2Q016",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q003",
+      "b": "T2Q018",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q003",
+      "b": "T2Q020",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q003",
+      "b": "T2Q022",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q003",
+      "b": "T2Q024",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q003",
+      "b": "T2Q032",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q003",
+      "b": "T2Q034",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q003",
+      "b": "T2Q036",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q003",
+      "b": "T2Q040",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q003",
+      "b": "T2Q041",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q003",
+      "b": "T2Q044",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q003",
+      "b": "T2Q045",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q004",
+      "b": "T2Q006",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q004",
+      "b": "T2Q015",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q006",
+      "b": "T2Q015",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q009",
+      "b": "T2Q012",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q009",
+      "b": "T2Q025",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q009",
+      "b": "T2Q028",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q009",
+      "b": "T2Q037",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q009",
+      "b": "T2Q039",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q009",
+      "b": "T2Q043",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q010",
+      "b": "T2Q019",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q010",
+      "b": "T2Q023",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q010",
+      "b": "T2Q030",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q011",
+      "b": "T2Q013",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q011",
+      "b": "T2Q035",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q011",
+      "b": "T2Q042",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q012",
+      "b": "T2Q025",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q012",
+      "b": "T2Q028",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q012",
+      "b": "T2Q037",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q012",
+      "b": "T2Q039",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q012",
+      "b": "T2Q043",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q013",
+      "b": "T2Q035",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q013",
+      "b": "T2Q042",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q014",
+      "b": "T2Q038",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q016",
+      "b": "T2Q018",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q016",
+      "b": "T2Q020",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q016",
+      "b": "T2Q022",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q016",
+      "b": "T2Q024",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q016",
+      "b": "T2Q032",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q016",
+      "b": "T2Q034",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q016",
+      "b": "T2Q036",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q016",
+      "b": "T2Q040",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q016",
+      "b": "T2Q041",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q016",
+      "b": "T2Q044",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q016",
+      "b": "T2Q045",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q017",
+      "b": "T2Q026",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q017",
+      "b": "T2Q029",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q018",
+      "b": "T2Q020",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q018",
+      "b": "T2Q022",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q018",
+      "b": "T2Q024",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q018",
+      "b": "T2Q032",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q018",
+      "b": "T2Q034",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q018",
+      "b": "T2Q036",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q018",
+      "b": "T2Q040",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q018",
+      "b": "T2Q041",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q018",
+      "b": "T2Q044",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q018",
+      "b": "T2Q045",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q019",
+      "b": "T2Q023",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q019",
+      "b": "T2Q030",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q020",
+      "b": "T2Q022",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q020",
+      "b": "T2Q024",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q020",
+      "b": "T2Q032",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q020",
+      "b": "T2Q034",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q020",
+      "b": "T2Q036",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q020",
+      "b": "T2Q040",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q020",
+      "b": "T2Q041",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q020",
+      "b": "T2Q044",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q020",
+      "b": "T2Q045",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q021",
+      "b": "T2Q031",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q022",
+      "b": "T2Q024",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q022",
+      "b": "T2Q032",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q022",
+      "b": "T2Q034",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q022",
+      "b": "T2Q036",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q022",
+      "b": "T2Q040",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q022",
+      "b": "T2Q041",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q022",
+      "b": "T2Q044",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q022",
+      "b": "T2Q045",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q023",
+      "b": "T2Q030",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q024",
+      "b": "T2Q032",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q024",
+      "b": "T2Q034",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q024",
+      "b": "T2Q036",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q024",
+      "b": "T2Q040",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q024",
+      "b": "T2Q041",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q024",
+      "b": "T2Q044",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q024",
+      "b": "T2Q045",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q025",
+      "b": "T2Q028",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q025",
+      "b": "T2Q037",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q025",
+      "b": "T2Q039",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q025",
+      "b": "T2Q043",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q026",
+      "b": "T2Q029",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q028",
+      "b": "T2Q037",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q028",
+      "b": "T2Q039",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q028",
+      "b": "T2Q043",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q032",
+      "b": "T2Q034",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q032",
+      "b": "T2Q036",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q032",
+      "b": "T2Q040",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q032",
+      "b": "T2Q041",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q032",
+      "b": "T2Q044",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q032",
+      "b": "T2Q045",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q034",
+      "b": "T2Q036",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q034",
+      "b": "T2Q040",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q034",
+      "b": "T2Q041",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q034",
+      "b": "T2Q044",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q034",
+      "b": "T2Q045",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q035",
+      "b": "T2Q042",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q036",
+      "b": "T2Q040",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q036",
+      "b": "T2Q041",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q036",
+      "b": "T2Q044",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q036",
+      "b": "T2Q045",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q037",
+      "b": "T2Q039",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q037",
+      "b": "T2Q043",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q039",
+      "b": "T2Q043",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q040",
+      "b": "T2Q041",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q040",
+      "b": "T2Q044",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q040",
+      "b": "T2Q045",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q041",
+      "b": "T2Q044",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q041",
+      "b": "T2Q045",
+      "reason": "same template family and inference shape"
+    },
+    {
+      "a": "T2Q044",
+      "b": "T2Q045",
+      "reason": "same template family and inference shape"
+    }
+  ]
+}

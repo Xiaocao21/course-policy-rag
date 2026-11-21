@@ -1,0 +1,6 @@
+# Stage B: modelling + retrieval (heavy; install later, does not block collection)
+# Install:  .venv\Scripts\python.exe -m pip install -r requirements-ml.txt
+sentence-transformers>=3.2.0
+transformers>=4.45.0
+torch>=2.4.0
+faiss-cpu>=1.8.0

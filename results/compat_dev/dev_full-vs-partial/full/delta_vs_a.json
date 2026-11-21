@@ -1,0 +1,178 @@
+{
+  "kind": "compat_dev_paired_delta",
+  "env_role": "compatibility",
+  "a": {
+    "label": "partial",
+    "dir": "<repo>\\results\\compat_dev\\dev_full-vs-partial\\partial"
+  },
+  "b": {
+    "label": "full",
+    "dir": "<repo>\\results\\compat_dev\\dev_full-vs-partial\\full"
+  },
+  "boot": 2000,
+  "seed": 20261013,
+  "note": "paired group-level bootstrap; both result sets come from the same machine and the same code path, so the only difference is the reranker checkpoint. Not comparable with results/final*.",
+  "contrasts": {
+    "C3:complete@10": {
+      "metric": "complete@10",
+      "track": "C3",
+      "a_mean": 0.4065,
+      "b_mean": 0.4104,
+      "delta_b_minus_a": 0.0039,
+      "ci_low": -0.0039,
+      "ci_high": 0.0122,
+      "p_boot": 0.289,
+      "n_groups": 106,
+      "n_groups_changed": 22,
+      "p_holm": 1.0
+    },
+    "C3:recall@10": {
+      "metric": "recall@10",
+      "track": "C3",
+      "a_mean": 0.5109,
+      "b_mean": 0.5149,
+      "delta_b_minus_a": 0.004,
+      "ci_low": -0.0037,
+      "ci_high": 0.013,
+      "p_boot": 0.318,
+      "n_groups": 106,
+      "n_groups_changed": 36,
+      "p_holm": 1.0
+    },
+    "C3:mrr": {
+      "metric": "mrr",
+      "track": "C3",
+      "a_mean": 0.4637,
+      "b_mean": 0.4588,
+      "delta_b_minus_a": -0.0049,
+      "ci_low": -0.0148,
+      "ci_high": 0.0055,
+      "p_boot": 0.334,
+      "n_groups": 106,
+      "n_groups_changed": 66,
+      "p_holm": 1.0
+    },
+    "C3:tok2048_recall": {
+      "metric": "tok2048_recall",
+      "track": "C3",
+      "a_mean": 0.4883,
+      "b_mean": 0.4947,
+      "delta_b_minus_a": 0.0064,
+      "ci_low": -0.0009,
+      "ci_high": 0.0152,
+      "p_boot": 0.091,
+      "n_groups": 106,
+      "n_groups_changed": 47,
+      "p_holm": 0.819
+    },
+    "C2:complete@10": {
+      "metric": "complete@10",
+      "track": "C2",
+      "a_mean": 0.2963,
+      "b_mean": 0.2963,
+      "delta_b_minus_a": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p_boot": 1.0,
+      "n_groups": 106,
+      "n_groups_changed": 0,
+      "p_holm": 1.0
+    },
+    "C2:recall@10": {
+      "metric": "recall@10",
+      "track": "C2",
+      "a_mean": 0.4041,
+      "b_mean": 0.4041,
+      "delta_b_minus_a": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p_boot": 1.0,
+      "n_groups": 106,
+      "n_groups_changed": 0,
+      "p_holm": 1.0
+    },
+    "C2:mrr": {
+      "metric": "mrr",
+      "track": "C2",
+      "a_mean": 0.4047,
+      "b_mean": 0.4031,
+      "delta_b_minus_a": -0.0017,
+      "ci_low": -0.0087,
+      "ci_high": 0.0055,
+      "p_boot": 0.662,
+      "n_groups": 106,
+      "n_groups_changed": 45,
+      "p_holm": 1.0
+    },
+    "C2:tok2048_recall": {
+      "metric": "tok2048_recall",
+      "track": "C2",
+      "a_mean": 0.3918,
+      "b_mean": 0.3929,
+      "delta_b_minus_a": 0.0011,
+      "ci_low": -0.0031,
+      "ci_high": 0.0053,
+      "p_boot": 0.573,
+      "n_groups": 106,
+      "n_groups_changed": 17,
+      "p_holm": 1.0
+    },
+    "C1:complete@10": {
+      "metric": "complete@10",
+      "track": "C1",
+      "a_mean": 0.2963,
+      "b_mean": 0.2963,
+      "delta_b_minus_a": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "p_boot": 1.0,
+      "n_groups": 106,
+      "n_groups_changed": 0,
+      "p_holm": 1.0
+    }
+  },
+  "per_config_delta_complete@10": {
+    "C3": {
+      "heading": 0.0089,
+      "paragraph": 0.0089,
+      "size128_ov0": 0.0,
+      "size128_ov32": -0.0089,
+      "size128_ov64": -0.0268,
+      "size256_ov0": 0.0,
+      "size256_ov32": 0.0089,
+      "size256_ov64": 0.0,
+      "size384_ov0": 0.0,
+      "size384_ov32": 0.0179,
+      "size384_ov64": 0.0089,
+      "size512_ov0": 0.0089,
+      "size512_ov32": 0.0089,
+      "size512_ov64": 0.0268,
+      "thr0.70": 0.0,
+      "thr0.75": 0.0,
+      "thr0.80": 0.0
+    },
+    "C2": {
+      "heading": 0.0,
+      "paragraph": 0.0,
+      "size128_ov0": 0.0,
+      "size128_ov32": 0.0,
+      "size128_ov64": 0.0,
+      "size256_ov0": 0.0,
+      "size256_ov32": 0.0,
+      "size256_ov64": 0.0,
+      "size384_ov0": 0.0,
+      "size384_ov32": 0.0,
+      "size384_ov64": 0.0,
+      "size512_ov0": 0.0,
+      "size512_ov32": 0.0,
+      "size512_ov64": 0.0,
+      "thr0.70": 0.0,
+      "thr0.75": 0.0,
+      "thr0.80": 0.0
+    }
+  },
+  "spearman_between_checkpoints": {
+    "C3": 0.9975,
+    "C2": 1.0
+  }
+}

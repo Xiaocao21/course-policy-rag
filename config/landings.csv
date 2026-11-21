@@ -1,0 +1,54 @@
+tier,institution,country,url
+institution,University of Manchester,UK,https://www.regulations.manchester.ac.uk/
+institution,Boston University,US,https://www.bu.edu/academics/policies/
+faculty,University of Washington,US,https://www.engr.washington.edu/current/policies
+faculty,University of Washington,US,https://www.cs.washington.edu/academics/ugrad/policies
+institution,University of Edinburgh,UK,https://www.ed.ac.uk/academic-services/policies-regulations
+institution,Imperial College London,UK,https://www.imperial.ac.uk/computing/current-students/
+institution,ICAI,INT,https://academicintegrity.org/resources/
+institution,Stanford University,US,https://communitystandards.stanford.edu/
+institution,Carnegie Mellon University,US,https://www.cmu.edu/student-affairs/theword/academic/index.html
+faculty,University of Glasgow,UK,https://www.gla.ac.uk/myglasgow/senateoffice/policies/
+faculty,University of Nottingham,UK,https://www.nottingham.ac.uk/academicservices/qualitymanual/
+faculty,University of Bristol,UK,https://www.bristol.ac.uk/academic-quality/regulations/
+faculty,University College London,UK,https://www.ucl.ac.uk/academic-manual/
+faculty,University of Leeds,UK,https://www.leeds.ac.uk/taught-student-regulations
+faculty,University of Toronto,CA,https://governingcouncil.utoronto.ca/policies
+faculty,University of British Columbia,CA,https://vancouver.calendar.ubc.ca/campus-wide-policies-and-regulations
+faculty,McGill University,CA,https://www.mcgill.ca/students/courses/regulations
+faculty,University of Melbourne,AU,https://policy.unimelb.edu.au/
+faculty,Monash University,AU,https://www.monash.edu/students/policies
+faculty,University of Sydney,AU,https://www.sydney.edu.au/policies/
+faculty,National University of Singapore,SG,https://www.nus.edu.sg/registrar/academic-information-policies
+faculty,Utrecht University,NL,https://www.uu.nl/en/education/studying-at-utrecht/regulations
+faculty,ETH Zurich,CH,https://ethz.ch/en/studies/registration-extension/academic-regulations.html
+faculty,Purdue University,US,https://www.purdue.edu/univregs/
+faculty,University of Washington,US,https://www.washington.edu/admin/rules/policies/
+faculty,University of Illinois Urbana-Champaign,US,https://provost.illinois.edu/policies/
+faculty,University of Texas at Austin,US,https://catalog.utexas.edu/general-information/
+faculty,University of California Berkeley,US,https://guide.berkeley.edu/academic-policies/
+faculty,Indiana University,US,https://policies.iu.edu/
+faculty,University of Minnesota,US,https://policy.umn.edu/education
+faculty,University of Wisconsin-Madison,US,https://policy.wisc.edu/
+faculty,University of Michigan,US,https://cse.engin.umich.edu/academics/undergraduate/
+faculty,Ohio State University,US,https://registrar.osu.edu/
+faculty,University of Florida,US,https://catalog.ufl.edu/UGRD/academic-regulations/
+faculty,University of Maryland,US,https://www.registrar.umd.edu/
+faculty,Georgia Institute of Technology,US,https://catalog.gatech.edu/academics/
+faculty,University of North Carolina at Chapel Hill,US,https://catalog.unc.edu/policies-procedures/
+faculty,University of Pittsburgh,US,https://www.provost.pitt.edu/policies
+faculty,University of Virginia,US,https://records.ureg.virginia.edu/
+faculty,University of Rochester,US,https://www.rochester.edu/college/ccas/handbook/
+faculty,University of Delaware,US,https://www.udel.edu/academics/registrar/policies/
+faculty,University of Connecticut,US,https://registrar.uconn.edu/academic-regulations/
+faculty,Florida State University,US,https://registrar.fsu.edu/bulletin/undergraduate/
+faculty,University of Oregon,US,https://registrar.uoregon.edu/faculty-staff/policies
+faculty,University of Utah,US,https://registrar.utah.edu/academic-policies/
+faculty,Texas A&M University,US,https://registrar.tamu.edu/Catalog/Policies
+faculty,University of Notre Dame,US,https://registrar.nd.edu/academic-policies/
+faculty,Vanderbilt University,US,https://registrar.vanderbilt.edu/academic-policies/
+faculty,Washington State University,US,https://registrar.wsu.edu/academic-regulations/
+faculty,Oregon State University,US,https://registrar.oregonstate.edu/academic-regulations
+faculty,University of California San Diego,US,https://registrar.ucsd.edu/academic-policies/
+faculty,University of California Davis,US,https://registrar.ucdavis.edu/academic-policies/
+faculty,University of California Irvine,US,https://www.reg.uci.edu/academic-policies/

@@ -1,0 +1,20 @@
+{
+  "split": "test",
+  "questions": 60,
+  "unreviewed_questions": 0,
+  "lock": {
+    "locked_at": "2026-10-24T21:32:31+08:00",
+    "questions": 60,
+    "groups": 59,
+    "test_jsonl_sha256": "cffe8e10b289f7fe93ee74febd07d64724957b4840e543d3f90773f78828d76f",
+    "questions_jsonl_sha256": "54703b6c25771ab901980bee5c9675c0dca651be85b6e22022b0cf1c23c9d05a",
+    "manual_reviewed": 60
+  },
+  "configs": 17,
+  "corpus_version": "v0.1.5",
+  "model": "BAAI/bge-small-en-v1.5",
+  "status": "pilot",
+  "status_reason": "first test-split evaluation, top-10 dense, no reranker; retained for provenance, superseded by the four-track final run",
+  "superseded_by": "four-track final run (dense top-10 / dense top-50 / reranked top-10 / reranked top-50)",
+  "pilot_archive": "results/pilot/"
+}

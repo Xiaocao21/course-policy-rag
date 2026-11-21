@@ -1,0 +1,59 @@
+# Python / tooling
+.venv/
+.venv-gpu/
+__pycache__/
+*.pyc
+.pytest_cache/
+.dsh-office-*/
+
+# Large or non-redistributable data (obtained via tools/fetch_data.py)
+raw/
+extracted/
+cleaned/
+chunks/
+indexes/
+corpus_safe_512/
+candidates/
+dist/
+snapshots/
+logs/
+data/STATUS.json
+data/INCOMPLETE.json
+data/SNAPSHOT_STATUS.json
+results/repro/
+results/test2/scratch/
+
+# Model weights stay out of git (published as a release asset); metadata stays in
+models/**/*.safetensors
+models/reranker/base/
+models/reranker/tmp/
+models/reranker/pairs_dev.jsonl
+models/reranker/val_pools.json
+models/reranker/runs/*-lrgrid/
+models/reranker/runs/*/tokenizer.json
+models/reranker/runs/rk-1e-05-n4-s20261027/
+
+# Review packets duplicate clause text already in questions.jsonl
+annotations/REVIEW.md
+annotations/REVIEW.csv
+annotations/TEST2_REVIEW.md
+annotations/TEST2_REVIEW.csv
+annotations/gold_worksheet.csv
+annotations/questions_backup_pre_repair.jsonl
+annotations/question_skeletons.jsonl
+annotations/agreement_sample.csv
+annotations/batches/
+annotations/worklists/
+
+# Generated checks and previews
+reports/preview_progress/
+reports/*.pdf
+reports/_*
+docs/*.pdf
+*.tmp
+
+# OS noise
+Thumbs.db
+.DS_Store
+docs/PUSH_GUIDE.md
+docs/RELEASE_UPLOAD.md

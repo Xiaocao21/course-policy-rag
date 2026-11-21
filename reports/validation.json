@@ -1,0 +1,102 @@
+{
+  "status": "pass",
+  "checks": {
+    "documents_total": 265,
+    "documents_included": 36,
+    "tier_counts": {
+      "course": 14,
+      "faculty": 9,
+      "institution": 13
+    },
+    "tier_shares": {
+      "course": 0.389,
+      "faculty": 0.25,
+      "institution": 0.361
+    },
+    "institutions": 12,
+    "institutions_all_collected": 13,
+    "capability_source": "clause_stats.csv",
+    "capability_rows": 37,
+    "docs_with_exceptions": 20,
+    "docs_with_crossrefs": 12,
+    "docs_with_alt_evidence": 26,
+    "cleaned_documents": 265,
+    "clauses_total": 4611,
+    "clauses_boilerplate": 81,
+    "domains_covered": [
+      "attendance",
+      "exam",
+      "grading",
+      "integrity",
+      "late",
+      "resources"
+    ],
+    "corpus_file": "corpus_safe_512.jsonl",
+    "chunks": 2007,
+    "chunks_over_max_input": 0,
+    "token_mean": 98.4,
+    "token_max": 509,
+    "corpus_documents": 36,
+    "included_documents": 36,
+    "faculty_docs": 9
+  },
+  "blockers": [],
+  "warnings": [
+    {
+      "kind": "cross_document_boilerplate_clauses",
+      "count": 265,
+      "detail": [
+        {
+          "a": "BOSTON-UNIVERSITY-ABSENCE-FOR-RELIGIOUS-REASONS#c2",
+          "b": "BOSTON-UNIVERSITY-AWARD-OF-POSTHUMOUS-DEGREES-BY-BOSTON-UNIVERSITY#c6",
+          "similarity": 1.0
+        },
+        {
+          "a": "BOSTON-UNIVERSITY-ABSENCE-FOR-RELIGIOUS-REASONS#c2",
+          "b": "BOSTON-UNIVERSITY-CFA-LEAVE-OF-ABSENCE-AND-WITHDRAWAL#c12",
+          "similarity": 1.0
+        },
+        {
+          "a": "BOSTON-UNIVERSITY-ABSENCE-FOR-RELIGIOUS-REASONS#c2",
+          "b": "BOSTON-UNIVERSITY-CFA-SCHOOL-OF-THEATRE-POLICY-FOR-NUDITY-IN-REHEARSAL#c6",
+          "similarity": 1.0
+        },
+        {
+          "a": "BOSTON-UNIVERSITY-ABSENCE-FOR-RELIGIOUS-REASONS#c2",
+          "b": "BOSTON-UNIVERSITY-CROSS-LISTING-BOSTON-UNIVERSITY-COURSES#c4",
+          "similarity": 1.0
+        },
+        {
+          "a": "BOSTON-UNIVERSITY-ABSENCE-FOR-RELIGIOUS-REASONS#c2",
+          "b": "BOSTON-UNIVERSITY-DUAL-DEGREE-PROGRAM#c17",
+          "similarity": 1.0
+        },
+        {
+          "a": "BOSTON-UNIVERSITY-ABSENCE-FOR-RELIGIOUS-REASONS#c2",
+          "b": "BOSTON-UNIVERSITY-GRADUATE-STUDENT-DUAL-DEGREE-POLICY#c2",
+          "similarity": 1.0
+        },
+        {
+          "a": "BOSTON-UNIVERSITY-ABSENCE-FOR-RELIGIOUS-REASONS#c2",
+          "b": "BOSTON-UNIVERSITY-LEAVE-OF-ABSENCE#c12",
+          "similarity": 1.0
+        },
+        {
+          "a": "BOSTON-UNIVERSITY-ABSENCE-FOR-RELIGIOUS-REASONS#c2",
+          "b": "BOSTON-UNIVERSITY-REGISTRATION#c2",
+          "similarity": 1.0
+        },
+        {
+          "a": "BOSTON-UNIVERSITY-ABSENCE-FOR-RELIGIOUS-REASONS#c2",
+          "b": "BOSTON-UNIVERSITY-STUDENT-GRIEVANCE-PROCEDURE-IN-CASES-OF-ALLEGED-DISA#c6",
+          "similarity": 1.0
+        },
+        {
+          "a": "BOSTON-UNIVERSITY-ABSENCE-FOR-RELIGIOUS-REASONS#c2",
+          "b": "BOSTON-UNIVERSITY-VETERANS-INFORMATION#c1",
+          "similarity": 1.0
+        }
+      ]
+    }
+  ]
+}

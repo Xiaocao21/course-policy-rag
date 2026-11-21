@@ -1,0 +1,9 @@
+{
+  "split": "dev",
+  "questions": 112,
+  "unreviewed_questions": 112,
+  "lock": null,
+  "configs": 17,
+  "corpus_version": "v0.1.5",
+  "model": "BAAI/bge-small-en-v1.5"
+}

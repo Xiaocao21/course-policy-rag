@@ -1,0 +1,11 @@
+{
+  "source": "results/final/stats.json",
+  "split": "test",
+  "groups": 59,
+  "figures": [
+    "final_tracks.png",
+    "final_rank.png",
+    "final_strategy.png"
+  ],
+  "note": "regenerated from stats.json so the report cannot drift from the statistics it quotes"
+}

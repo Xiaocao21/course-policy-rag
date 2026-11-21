@@ -1,0 +1,240 @@
+{
+  "strategy": "fixed",
+  "config": "size512_ov64",
+  "split": "test",
+  "questions": 60,
+  "gold_unresolved": 0,
+  "n_chunks": 454,
+  "model": "BAAI/bge-small-en-v1.5",
+  "device": "cpu",
+  "latency_ms_per_query": 0.117,
+  "mrr": 0.4829,
+  "by_k": {
+    "1": {
+      "recall": 0.3,
+      "hit": 0.3667,
+      "complete": 0.2333,
+      "partial": 0.3594
+    },
+    "3": {
+      "recall": 0.475,
+      "hit": 0.55,
+      "complete": 0.4,
+      "partial": 0.5637
+    },
+    "5": {
+      "recall": 0.5167,
+      "hit": 0.6,
+      "complete": 0.4333,
+      "partial": 0.6124
+    },
+    "10": {
+      "recall": 0.6917,
+      "hit": 0.7667,
+      "complete": 0.6167,
+      "partial": 0.7769
+    }
+  },
+  "by_token_budget": {
+    "512": {
+      "recall": 0.3,
+      "hit": 0.3667,
+      "complete": 0.2333,
+      "partial": 0.3594,
+      "tokens_unused_mean": 17.8,
+      "zero_chunk_queries": 0
+    },
+    "1024": {
+      "recall": 0.425,
+      "hit": 0.5167,
+      "complete": 0.3333,
+      "partial": 0.5154,
+      "tokens_unused_mean": 30.7,
+      "zero_chunk_queries": 0
+    },
+    "2048": {
+      "recall": 0.5083,
+      "hit": 0.5833,
+      "complete": 0.4333,
+      "partial": 0.5976,
+      "tokens_unused_mean": 40.1,
+      "zero_chunk_queries": 0
+    }
+  },
+  "recall_at_5_by_type": {
+    "cross-clause": 0.4091,
+    "rule-and-exception": 0.6071,
+    "single-clause": 0.5143
+  },
+  "recall_at_5_by_domain": {
+    "attendance": 0.125,
+    "exam": 0.6154,
+    "grading": 0.5,
+    "integrity": 0.4167,
+    "late": 0.625,
+    "resources": 0.8571
+  },
+  "error_examples": [
+    {
+      "qid": "Q0005",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "rule-and-exception",
+      "domain": "grading"
+    },
+    {
+      "qid": "Q0006",
+      "recall_at_10": 0.5,
+      "first_hit_rank": 2,
+      "evidence_type": "rule-and-exception",
+      "domain": "grading"
+    },
+    {
+      "qid": "Q0017",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "integrity"
+    },
+    {
+      "qid": "Q0018",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "integrity"
+    },
+    {
+      "qid": "Q0020",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "cross-clause",
+      "domain": "integrity"
+    },
+    {
+      "qid": "Q0024",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "integrity"
+    },
+    {
+      "qid": "Q0026",
+      "recall_at_10": 0.5,
+      "first_hit_rank": 9,
+      "evidence_type": "cross-clause",
+      "domain": "grading"
+    },
+    {
+      "qid": "Q0027",
+      "recall_at_10": 0.5,
+      "first_hit_rank": 5,
+      "evidence_type": "cross-clause",
+      "domain": "grading"
+    },
+    {
+      "qid": "Q0052",
+      "recall_at_10": 0.5,
+      "first_hit_rank": 7,
+      "evidence_type": "cross-clause",
+      "domain": "integrity"
+    },
+    {
+      "qid": "Q0063",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "resources"
+    },
+    {
+      "qid": "Q0076",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "exam"
+    },
+    {
+      "qid": "Q0077",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "exam"
+    },
+    {
+      "qid": "Q0087",
+      "recall_at_10": 0.5,
+      "first_hit_rank": 1,
+      "evidence_type": "rule-and-exception",
+      "domain": "exam"
+    },
+    {
+      "qid": "Q0090",
+      "recall_at_10": 0.5,
+      "first_hit_rank": 1,
+      "evidence_type": "rule-and-exception",
+      "domain": "exam"
+    },
+    {
+      "qid": "Q0091",
+      "recall_at_10": 0.5,
+      "first_hit_rank": 2,
+      "evidence_type": "rule-and-exception",
+      "domain": "exam"
+    },
+    {
+      "qid": "Q0101",
+      "recall_at_10": 0.5,
+      "first_hit_rank": 1,
+      "evidence_type": "cross-clause",
+      "domain": "exam"
+    },
+    {
+      "qid": "Q0107",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "attendance"
+    },
+    {
+      "qid": "Q0108",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "attendance"
+    },
+    {
+      "qid": "Q0109",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "attendance"
+    },
+    {
+      "qid": "Q0127",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "late"
+    },
+    {
+      "qid": "Q0164",
+      "recall_at_10": 0.5,
+      "first_hit_rank": 1,
+      "evidence_type": "cross-clause",
+      "domain": "late"
+    },
+    {
+      "qid": "Q0002",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "grading"
+    },
+    {
+      "qid": "Q0003",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "grading"
+    }
+  ]
+}

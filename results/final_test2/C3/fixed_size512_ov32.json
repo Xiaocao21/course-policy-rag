@@ -1,0 +1,60 @@
+{
+  "recall@1": 0.5556,
+  "hit@1": 0.5556,
+  "complete@1": 0.5556,
+  "partial@1": 0.6682,
+  "recall@3": 0.7111,
+  "hit@3": 0.7111,
+  "complete@3": 0.7111,
+  "partial@3": 0.8431,
+  "recall@5": 0.7333,
+  "hit@5": 0.7333,
+  "complete@5": 0.7333,
+  "partial@5": 0.8899,
+  "recall@10": 0.8,
+  "hit@10": 0.8,
+  "complete@10": 0.8,
+  "partial@10": 0.9146,
+  "mrr": 0.6352,
+  "questions": 45,
+  "by_token_budget": {
+    "512": {
+      "recall": 0.5556,
+      "hit": 0.5556,
+      "complete": 0.5556,
+      "tokens_unused_mean": 8.0,
+      "zero_chunk_queries": 0
+    },
+    "1024": {
+      "recall": 0.6889,
+      "hit": 0.6889,
+      "complete": 0.6889,
+      "tokens_unused_mean": 18.8,
+      "zero_chunk_queries": 0
+    },
+    "2048": {
+      "recall": 0.7333,
+      "hit": 0.7333,
+      "complete": 0.7333,
+      "tokens_unused_mean": 31.4,
+      "zero_chunk_queries": 0
+    }
+  },
+  "tok512_recall": 0.5556,
+  "tok512_complete": 0.5556,
+  "tok512_hit": 0.5556,
+  "tok1024_recall": 0.6889,
+  "tok1024_complete": 0.6889,
+  "tok1024_hit": 0.6889,
+  "tok2048_recall": 0.7333,
+  "tok2048_complete": 0.7333,
+  "tok2048_hit": 0.7333,
+  "strategy": "fixed",
+  "config": "size512_ov32",
+  "track": "C3",
+  "pool": 50,
+  "rerank": true,
+  "split": "test2",
+  "latency_ms": 0.0,
+  "eval_time_s": 8.6
+}

@@ -1,0 +1,266 @@
+doc_id,tier,seed_tier,tier_note,institution,clauses,usable_clauses,exception_clauses,crossref_clauses,alt_evidence_clauses,richness,in_corpus,reason
+MIT-OPENCOURSEWARE-COURSES-1-00-INTRODUCTION-TO-COMPUTERS-AND-ENGINEERI,course,course,,MIT OpenCourseWare,8,8,4,0,2,24,True,selected (richness 24)
+MIT-OPENCOURSEWARE-COURSES-10-37-CHEMICAL-AND-BIOLOGICAL-REACTION-ENGIN,course,course,,MIT OpenCourseWare,8,8,1,0,0,11,True,selected (richness 11)
+MIT-OPENCOURSEWARE-COURSES-11-437-FINANCING-ECONOMIC-DEVELOPMENT-FALL-2,course,course,,MIT OpenCourseWare,41,21,0,0,1,23,True,selected (richness 23)
+MIT-OPENCOURSEWARE-COURSES-14-01-PRINCIPLES-OF-MICROECONOMICS-FALL-2023,course,course,,MIT OpenCourseWare,4,4,1,0,0,7,True,selected (richness 7)
+MIT-OPENCOURSEWARE-COURSES-14-13-PSYCHOLOGY-AND-ECONOMICS-SPRING-2020-S,course,course,,MIT OpenCourseWare,10,10,3,1,0,22,True,selected (richness 22)
+MIT-OPENCOURSEWARE-COURSES-14-30-INTRODUCTION-TO-STATISTICAL-METHOD-IN,course,course,,MIT OpenCourseWare,9,9,2,0,0,15,True,selected (richness 15)
+MIT-OPENCOURSEWARE-COURSES-14-30-INTRODUCTION-TO-STATISTICAL-METHODS-IN,course,course,,MIT OpenCourseWare,6,6,3,0,1,17,True,selected (richness 17)
+MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC,course,course,,MIT OpenCourseWare,8,8,2,0,0,14,True,selected (richness 14)
+MIT-OPENCOURSEWARE-COURSES-15-063-COMMUNICATING-WITH-DATA-SUMMER-2003-S,course,course,,MIT OpenCourseWare,14,14,1,0,2,21,True,selected (richness 21)
+MIT-OPENCOURSEWARE-COURSES-15-301-MANAGERIAL-PSYCHOLOGY-FALL-2006-SYLLA,course,course,,MIT OpenCourseWare,9,9,3,0,2,22,True,selected (richness 22)
+MIT-OPENCOURSEWARE-COURSES-15-515-FINANCIAL-ACCOUNTING-FALL-2003-SYLLAB,course,course,,MIT OpenCourseWare,17,17,1,0,1,22,True,selected (richness 22)
+MIT-OPENCOURSEWARE-COURSES-15-840-SPECIAL-SEMINAR-IN-MARKETING-MARKETIN,course,course,,MIT OpenCourseWare,16,16,1,0,0,19,True,selected (richness 19)
+MIT-OPENCOURSEWARE-COURSES-16-050-THERMAL-ENERGY-FALL-2002-SYLLABUS,course,course,,MIT OpenCourseWare,35,31,2,3,2,50,True,selected (richness 50)
+MIT-OPENCOURSEWARE-COURSES-16-100-AERODYNAMICS-FALL-2005-SYLLABUS,course,course,,MIT OpenCourseWare,26,26,2,0,0,32,True,selected (richness 32)
+MIT-OPENCOURSEWARE-COURSES-15-010-ECONOMIC-ANALYSIS-FOR-BUSINESS-DECISI,course,course,,MIT OpenCourseWare,4,4,0,0,0,4,False,"no exception, crossref or alternative-evidence clause"
+MIT-OPENCOURSEWARE-COURSES-16-01-UNIFIED-ENGINEERING-I-II-III-IV-FALL-2-2004-2006,course,course,,MIT OpenCourseWare,4,2,2,0,0,8,False,usable_clauses 2 < 3
+CARNEGIE-MELLON-UN-FORMS-AND-DOCUMENTS-INTELLECTUAL-PROPERTY-REPORT,faculty,faculty,,Carnegie Mellon University,163,97,71,8,15,364,True,selected (richness 364)
+IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL,faculty,faculty,,Imperial College London,60,60,7,0,4,89,True,selected (richness 89)
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-ADVISING-ACADEMIC-TERMINOLOGY,faculty,faculty,,University of Florida,80,78,2,0,1,86,True,selected (richness 86)
+UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE,faculty,faculty,,University of Glasgow,185,168,35,40,17,427,True,selected (richness 427)
+UNIVERSITY-OF-GLAS-MYGLASGOW-STUDENTCONTRACT-TERMSANDCONDITIONS,faculty,faculty,,University of Glasgow,231,211,35,48,9,478,True,selected (richness 478)
+UNIVERSITY-OF-MARY-GRADES-RECORDS-TRANSCRIPTS,faculty,faculty,,University of Maryland,21,21,2,0,0,27,True,selected (richness 27)
+UNIVERSITY-OF-NORT-POLICIES-PROCEDURES,faculty,faculty,,University of North Carolina,3,3,2,0,0,9,True,selected (richness 9)
+UNIVERSITY-OF-WASH-WWW,faculty,faculty,,University of Washington,87,87,3,1,3,105,True,selected (richness 105)
+UNIVERSITY-OF-WISC-VALID-GRADES,faculty,faculty,,University of Wisconsin-Madison,15,15,2,0,2,25,True,selected (richness 25)
+BOSTON-UNIVERSITY-03-27-UNIVERSITY-GRADING-POLICIES-FOR-SPRING-SEMESTE,faculty,faculty,,Boston University,8,8,1,0,0,11,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-2016-10-BUMC-PATENT-POLICY-FORM-MSE,faculty,faculty,,Boston University,12,12,1,0,0,15,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-ABSENCE-FOR-RELIGIOUS-REASONS,faculty,faculty,,Boston University,2,2,1,0,0,5,False,usable_clauses 2 < 3
+BOSTON-UNIVERSITY-ACADEMIC-CREDITS,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-ACADEMIC-PROGRESS-AND-GRADUATION,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-ACADEMIC-RESIDENCY-REQUIREMENT,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-ACADEMIC-STANDING-FOR-UNDERGRADUATE-STUDENTS-IN-FULL,faculty,faculty,,Boston University,4,4,0,0,0,4,False,"no exception, crossref or alternative-evidence clause"
+BOSTON-UNIVERSITY-ACCESS-TO-ELECTRONIC-INFORMATION,faculty,faculty,,Boston University,12,12,4,0,0,24,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-ADDING-OR-DROPPING-A-COURSE,faculty,faculty,,Boston University,1,1,1,0,0,4,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-ADDRESS-CHANGES,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-ADVANCED-CREDIT-GUIDE,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-ATTENDANCE,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-AUDITING-COURSES,faculty,faculty,,Boston University,2,2,2,0,0,8,False,usable_clauses 2 < 3
+BOSTON-UNIVERSITY-AWARD-OF-POSTHUMOUS-DEGREES-BY-BOSTON-UNIVERSITY,faculty,faculty,,Boston University,6,6,1,2,0,15,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-BACHELORS-TO-MASTERS-PROGRAM-POLICY,faculty,faculty,,Boston University,6,6,1,0,0,9,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-CFA,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CFA-ACADEMIC-STANDING,faculty,faculty,,Boston University,11,11,4,0,0,23,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-CFA-ADDING-OR-DROPPING-A-COURSE,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CFA-ATTENDANCE,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CFA-CLASS-STANDING,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CFA-DEANS-LIST,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CFA-DIRECTED-STUDY,faculty,faculty,,Boston University,1,1,1,0,0,4,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CFA-GRADES-AND-COURSE-CREDITS,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CFA-GRADUATION,faculty,faculty,,Boston University,2,2,0,0,0,2,False,usable_clauses 2 < 3
+BOSTON-UNIVERSITY-CFA-INTRA-UNIVERSITY-TRANSFER,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CFA-LEAVE-OF-ABSENCE-AND-WITHDRAWAL,faculty,faculty,,Boston University,12,12,3,0,1,23,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-CFA-PASS-FAIL,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CFA-POLICY-ON-D-GRADES-FOR-UNDERGRADUATE-STUDENTS,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CFA-REGISTRATION,faculty,faculty,,Boston University,3,3,2,0,0,9,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-CFA-SCHOOL-OF-THEATRE-POLICY-FOR-NUDITY-IN-REHEARSAL,faculty,faculty,,Boston University,6,6,1,0,0,9,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-CFA-THESIS-EXHIBITION,faculty,faculty,,Boston University,32,32,0,0,1,34,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-CFA-TIME-TO-DEGREE-COMPLETION,faculty,faculty,,Boston University,2,2,0,0,0,2,False,usable_clauses 2 < 3
+BOSTON-UNIVERSITY-CFA-TRANSFER-CREDITS,faculty,faculty,,Boston University,8,8,1,0,0,11,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-CFA-TRANSFER-UNITS,faculty,faculty,,Boston University,2,2,0,0,0,2,False,usable_clauses 2 < 3
+BOSTON-UNIVERSITY-CGS-ACADEMIC-PROGRESS-AND-GRADUATION,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CHAPEL-RELIGIOUS-HOLIDAYS-POLICIES-2026-2027,faculty,faculty,,Boston University,4,4,0,0,0,4,False,"no exception, crossref or alternative-evidence clause"
+BOSTON-UNIVERSITY-CHILDBIRTH-AND-ADOPTION-ACCOMMODATION,faculty,faculty,,Boston University,7,7,0,0,0,7,False,"no exception, crossref or alternative-evidence clause"
+BOSTON-UNIVERSITY-COMPLAINT-PROCEDURE-DISCRIMINATION-HARASSMENT,faculty,faculty,,Boston University,27,27,5,1,3,51,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-COMPLAINT-PROCEDURES-IN-CASES-OF-ALLEGED-UNLAWFUL-DI,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CONCURRENT-REGISTRATION-FOR-UNDERGRADUATE-STUDENTS,faculty,faculty,,Boston University,1,1,1,0,0,4,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CONFLICTS-OF-INTEREST,faculty,faculty,,Boston University,45,43,3,0,3,58,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-COURSE-SCHEDULING-FOR-THE-CHARLES-RIVER-CAMPUS,faculty,faculty,,Boston University,5,5,0,0,0,5,False,"no exception, crossref or alternative-evidence clause"
+BOSTON-UNIVERSITY-CROSS-LISTING-BOSTON-UNIVERSITY-COURSES,faculty,faculty,,Boston University,4,4,0,0,0,4,False,"no exception, crossref or alternative-evidence clause"
+BOSTON-UNIVERSITY-CROSS-REGISTRATION,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-CURRENT-STUDENTS-FORMS-AND-PROCEDURES-LEAVE-OF-ABSEN,faculty,faculty,,Boston University,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+BOSTON-UNIVERSITY-DECLARING-OR-CHANGING-MAJOR,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-DEFINITIONS,faculty,faculty,,Boston University,2,2,0,0,1,4,False,usable_clauses 2 < 3
+BOSTON-UNIVERSITY-DISABILITY-ACCOMMODATION,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-DISABILITY-ACCOMMODATIONS-SERVICE-AND-EMOTIONAL-SUPP,faculty,faculty,,Boston University,16,16,4,0,0,28,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-DISSERTATION-WORK-OUTSIDE-OF-BOSTON-UNIVERSITY,faculty,faculty,,Boston University,3,3,1,0,0,6,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-DOS-LIFEBOOK,faculty,faculty,,Boston University,18,18,0,0,0,18,False,"no exception, crossref or alternative-evidence clause"
+BOSTON-UNIVERSITY-DUAL-DEGREE-PROGRAM,faculty,faculty,,Boston University,17,17,0,0,0,17,False,"no exception, crossref or alternative-evidence clause"
+BOSTON-UNIVERSITY-EMERITUS-FACULTY,faculty,faculty,,Boston University,2,2,1,0,0,5,False,usable_clauses 2 < 3
+BOSTON-UNIVERSITY-EQUAL-OPPORTUNITY-POLICY,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-EXAMINATIONS,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-FERPA,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-GRADES-AND-COURSE-CREDITS,faculty,faculty,,Boston University,6,5,0,0,0,5,False,"no exception, crossref or alternative-evidence clause"
+BOSTON-UNIVERSITY-GRADUATE-STUDENT-DUAL-DEGREE-POLICY,faculty,faculty,,Boston University,2,2,1,0,0,5,False,usable_clauses 2 < 3
+BOSTON-UNIVERSITY-HANDBOOK-ETHICS-CONFLICT-OF-COMMITMENT-POLICY,faculty,faculty,,Boston University,14,14,6,0,0,32,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-HANDBOOK-ETHICS-PATENT-POLICYCHARLES-RIVER-CAMPUS,faculty,faculty,,Boston University,11,11,1,0,0,14,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-INCOMPLETE-COURSEWORK,faculty,faculty,,Boston University,2,2,0,0,1,4,False,usable_clauses 2 < 3
+BOSTON-UNIVERSITY-INFORMATION-MANAGEMENT-NETWORK-SECURITY-MONITORING,faculty,faculty,,Boston University,13,13,4,0,0,25,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-INFORMATION-SECURITY-HOME-DATA-PROTECTION-STANDARDS,faculty,faculty,,Boston University,8,8,1,0,0,11,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-INFORMATION-SECURITY-HOME-ELECTRONIC-INFORMATION-ACC,faculty,faculty,,Boston University,12,12,4,0,0,24,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-INTELLECTUAL-PROPERTY-POLICY,faculty,faculty,,Boston University,28,27,11,2,1,68,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-INTRA-UNIVERSITY-TRANSFER,faculty,faculty,,Boston University,13,12,3,0,0,21,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-LEAVE-OF-ABSENCE,faculty,faculty,,Boston University,12,12,3,0,1,23,False,duplicate content of BOSTON-UNIVERSITY-CFA-LEAVE-OF-ABSENCE-AND-WITHDRAWAL (same sha256_raw)
+BOSTON-UNIVERSITY-NAME-CHANGES-OR-CORRECTIONS,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-NETWORK-SECURITY-MONITORING,faculty,faculty,,Boston University,13,13,4,0,0,25,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-NON-HANDBOOK-VERSION-EQUAL-OPP-AFFIRM-ACTION,faculty,faculty,,Boston University,9,9,0,0,0,9,False,"no exception, crossref or alternative-evidence clause"
+BOSTON-UNIVERSITY-PART-TIME-PHD-STUDENTS,faculty,faculty,,Boston University,2,2,2,0,0,8,False,usable_clauses 2 < 3
+BOSTON-UNIVERSITY-POLICY-ON-D-GRADES-FOR-UNDERGRADUATE-STUDENTS-2015-2016,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-POLICY-ON-MISSING-GRADES,faculty,faculty,,Boston University,2,2,1,0,0,5,False,usable_clauses 2 < 3
+BOSTON-UNIVERSITY-POLICY-ON-PASSFAIL-COURSES-FOR-UNDERGRADUATE-STUDENT,faculty,faculty,,Boston University,15,14,3,2,0,29,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-PROTECTION-OF-MINORS,faculty,faculty,,Boston University,42,40,3,1,5,62,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-REGISTRATION,faculty,faculty,,Boston University,2,2,1,0,0,5,False,usable_clauses 2 < 3
+BOSTON-UNIVERSITY-REPEATED-COURSES-FOR-UNDERGRADUATE-STUDENTS,faculty,faculty,,Boston University,5,5,0,0,0,5,False,"no exception, crossref or alternative-evidence clause"
+BOSTON-UNIVERSITY-RESPONSIBLE-OFFICE-OFFICE-VP-INFORMATION-SERVICES-TE,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-SEXUAL-MISCONDUCT,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-SEXUAL-MISCONDUCT-TITLE-IX-HR,faculty,faculty,,Boston University,143,141,15,3,5,205,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-STATE-AUTHORIZATION-RECIPROCITY-AGREEMENT-SARA-COMPL,faculty,faculty,,Boston University,7,7,0,0,0,7,False,"no exception, crossref or alternative-evidence clause"
+BOSTON-UNIVERSITY-STUDENT-BEREAVEMENT,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-STUDENT-GRIEVANCE-PROCEDURE-IN-CASES-OF-ALLEGED-DISA,faculty,faculty,,Boston University,6,6,2,0,0,12,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-STUDENT-LOCATION,faculty,faculty,,Boston University,2,2,0,0,0,2,False,usable_clauses 2 < 3
+BOSTON-UNIVERSITY-STUDENT-RETENTION-INFORMATION,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-STUDENT-WORK-HOURS-FOR-EMPLOYMENT,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-SUSPENSION-OR-DISMISSAL,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-TRANSCRIPTS,faculty,faculty,,Boston University,1,1,1,0,0,4,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-TRANSFER-OF-UNDERGRADUATE-CREDIT-FROM-US-INSTITUTION,faculty,faculty,,Boston University,15,15,4,0,0,27,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-TRANSFER-OF-UNDERGRADUATE-CREDITS,faculty,faculty,,Boston University,15,15,4,0,0,27,False,duplicate content of BOSTON-UNIVERSITY-TRANSFER-OF-UNDERGRADUATE-CREDIT-FROM-US-INSTITUTION (same sha256_raw)
+BOSTON-UNIVERSITY-UNDERGRADUATE-ACADEMIC-TERM-PROGRESSION,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-UNDERGRADUATE-STUDENT-REGISTRATION-AND-OVERLAPPING-C,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-VETERANS-INFORMATION,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+BOSTON-UNIVERSITY-VISITING-STUDENTS,faculty,faculty,,Boston University,18,18,2,1,0,27,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-WITHDRAWAL-LEAVE-OF-ABSENCE-AND-REINSTATEMENT,faculty,faculty,,Boston University,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+BOSTON-UNIVERSITY-WWW,faculty,faculty,,Boston University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+CARNEGIE-MELLON-UN-ADMINISTRATIVE-AND-GOVERNANCE-CONFLICT-OF-INTEREST-C,faculty,faculty,,Carnegie Mellon University,17,17,2,0,1,25,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-ADMINISTRATIVE-AND-GOVERNANCE-FAIR-USE,faculty,faculty,,Carnegie Mellon University,35,35,0,0,0,35,False,"no exception, crossref or alternative-evidence clause"
+CARNEGIE-MELLON-UN-ADMINISTRATIVE-AND-GOVERNANCE-FREEDOM-OF-EXPRESSION,faculty,faculty,,Carnegie Mellon University,7,7,4,0,0,19,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-ADMINISTRATIVE-AND-GOVERNANCE-INTELLECTUAL-PROPERTY,faculty,faculty,,Carnegie Mellon University,45,45,14,5,1,104,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-ADMINISTRATIVE-AND-GOVERNANCE-SEPARATION-OF-INDIVIDU,faculty,faculty,,Carnegie Mellon University,10,10,2,0,0,16,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-ADMINISTRATIVE-AND-GOVERNANCE-SEXUAL-MISCONDUCT,faculty,faculty,,Carnegie Mellon University,5,5,0,0,0,5,False,"no exception, crossref or alternative-evidence clause"
+CARNEGIE-MELLON-UN-BYLAWS,faculty,faculty,,Carnegie Mellon University,55,54,26,12,2,172,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-FACULTY-APPOINTMENT-AND-TENURE-POLICY,faculty,faculty,,Carnegie Mellon University,125,125,44,9,8,300,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-FACULTY-CONSULTING-BY-FACULTY,faculty,faculty,,Carnegie Mellon University,6,6,0,1,0,9,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-GRADUATE,faculty,faculty,,Carnegie Mellon University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+CARNEGIE-MELLON-UN-GRADUATE-APPEAL-GRIEVANCE-PROCEDURES,faculty,faculty,,Carnegie Mellon University,21,19,4,2,0,37,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-INFORMATION-TECHNOLOGY-COMPUTING,faculty,faculty,,Carnegie Mellon University,52,48,20,1,3,117,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-STUDENT-AFFAIRS-CM-STUDENT-HANDBOOK-2026-2027,faculty,faculty,,Carnegie Mellon University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+CARNEGIE-MELLON-UN-STUDENT-AFFAIRS-CM-STUDENT-HANDBOOK-ACADEMIC,faculty,faculty,,Carnegie Mellon University,2,2,0,0,0,2,False,usable_clauses 2 < 3
+CARNEGIE-MELLON-UN-STUDENT-AFFAIRS-THEWORD-ACADEMIC,faculty,faculty,,Carnegie Mellon University,2,2,0,0,0,2,False,duplicate content of CARNEGIE-MELLON-UN-STUDENT-AFFAIRS-CM-STUDENT-HANDBOOK-ACADEMIC (same sha256_raw)
+CARNEGIE-MELLON-UN-STUDENT-AND-STUDENT-LIFE-CROSS-COLLEGE-UNIVERSITY-RE,faculty,faculty,,Carnegie Mellon University,13,13,3,0,1,24,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-STUDENT-AND-STUDENT-LIFE-DOCTORAL-STUDENT-STATUS,faculty,faculty,,Carnegie Mellon University,22,22,6,1,0,43,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-STUDENT-AND-STUDENT-LIFE-EXAMINATION-POLICIES,faculty,faculty,,Carnegie Mellon University,20,20,7,0,1,43,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-STUDENT-AND-STUDENT-LIFE-GRADING,faculty,faculty,,Carnegie Mellon University,14,14,5,2,0,35,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-STUDENT-AND-STUDENT-LIFE-PRIVACY-RIGHTS-STUDENTS,faculty,faculty,,Carnegie Mellon University,29,28,5,2,1,51,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-STUDENT-AND-STUDENT-LIFE-RETURN-STUDENT,faculty,faculty,,Carnegie Mellon University,3,3,2,0,0,9,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-STUDENT-AND-STUDENT-LIFE-STUDENT-LEAVE,faculty,faculty,,Carnegie Mellon University,7,7,0,0,1,9,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-STUDENT-AND-STUDENT-LIFE-SUSPENSION-REQUIRED-WITHDRA,faculty,faculty,,Carnegie Mellon University,4,4,1,0,1,9,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-STUDENT-AND-STUDENT-LIFE-TUITION-FEES-ADJUSTMENT,faculty,faculty,,Carnegie Mellon University,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+CARNEGIE-MELLON-UN-STUDENT-AND-STUDENT-LIFE-UG-COURSE-MEETING,faculty,faculty,,Carnegie Mellon University,3,3,0,0,2,7,False,not selected: tier 'faculty' at cap 9 or below selection rank
+CARNEGIE-MELLON-UN-THEWORD-ACADEMIC-APPEAL-OF-GRADES-AND-ACADEMIC-ACTIO,faculty,faculty,,Carnegie Mellon University,5,5,0,0,0,5,False,"no exception, crossref or alternative-evidence clause"
+IMPERIAL-COLLEGE-L-ACADEMIC-GOVERNANCE-ACADEMIC-POLICY-COMPLAINTS-APPEA,faculty,faculty,,Imperial College London,16,16,1,0,0,19,False,not selected: tier 'faculty' at cap 9 or below selection rank
+IMPERIAL-COLLEGE-L-ACADEMIC-GOVERNANCE-ACADEMIC-POLICY-EXAMS-AND-ASSESS-2019-2020,faculty,faculty,,Imperial College London,34,33,1,2,3,48,False,not selected: tier 'faculty' at cap 9 or below selection rank
+IMPERIAL-COLLEGE-L-CHARTERS-STATUTES-ORDINANCES-REGULATIONS-POLICIES-RE,faculty,faculty,,Imperial College London,6,6,2,0,2,16,False,not selected: tier 'faculty' at cap 9 or below selection rank
+IMPERIAL-COLLEGE-L-COMPUTING-CURRENT-STUDENTS-HANDBOOKS,faculty,faculty,,Imperial College London,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+IMPERIAL-COLLEGE-L-COURSE-ADMIN-REGULATIONS-JMC,faculty,faculty,,Imperial College London,21,20,11,0,3,59,False,not selected: tier 'faculty' at cap 9 or below selection rank
+IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-PG-HANDBOOK-2627-FINAL,faculty,faculty,,Imperial College London,58,58,7,0,3,85,False,not selected: tier 'faculty' at cap 9 or below selection rank
+IMPERIAL-COLLEGE-L-UNDERGRADUATE-AND-TAUGHT-POSTGRADUATE-EXAMS-ASSESSME,faculty,faculty,,Imperial College London,12,12,3,0,0,21,False,not selected: tier 'faculty' at cap 9 or below selection rank
+IMPERIAL-COLLEGE-L-VISAS-AND-IMMIGRATION-WORKING-IN-THE-UK-WORK-RULES-D,faculty,faculty,,Imperial College London,9,9,3,0,2,22,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-ADVISING,faculty,faculty,,University of Florida,36,36,0,0,0,36,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-ADVISING-ACADEMIC-HONORS,faculty,faculty,,University of Florida,36,35,0,0,1,37,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-ADVISING-ACCELERATED-DEGREES,faculty,faculty,,University of Florida,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-ADVISING-COMBINED-DEGREES,faculty,faculty,,University of Florida,50,44,1,0,5,57,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-ADVISING-EXAM-CREDIT,faculty,faculty,,University of Florida,22,21,1,0,0,24,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-ADVISING-FLEXIBLE-LEARNING,faculty,faculty,,University of Florida,7,6,0,0,0,6,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-ADVISING-PLACEMENT,faculty,faculty,,University of Florida,26,25,4,0,1,39,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-ADVISING-PREPROFESSIONAL-ADVISING,faculty,faculty,,University of Florida,7,7,0,0,0,7,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-REGULATIONS,faculty,faculty,,University of Florida,1,1,0,0,0,1,False,usable_clauses 1 < 3
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-REGULATIONS-ACADEMIC-PROGRESS-POLICIES,faculty,faculty,,University of Florida,9,9,1,0,0,12,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-REGULATIONS-ATTENDANCE-POLICIES,faculty,faculty,,University of Florida,9,9,3,1,0,21,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-REGULATIONS-CIVICS-REQUIREMENT,faculty,faculty,,University of Florida,6,6,1,0,1,11,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-REGULATIONS-DEGREE-GRADUATION-POLICIES,faculty,faculty,,University of Florida,9,9,4,0,0,21,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-REGULATIONS-DROPPING-COURSES-WITHDRAWA,faculty,faculty,,University of Florida,15,15,1,0,0,18,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-REGULATIONS-EXAMINATION-POLICIES-READI,faculty,faculty,,University of Florida,8,8,3,0,0,17,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-REGULATIONS-FEES-FISCAL-INFORMATION,faculty,faculty,,University of Florida,37,35,9,2,1,70,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-REGULATIONS-GRADES-GRADING-POLICIES,faculty,faculty,,University of Florida,9,9,4,0,0,21,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-FLOR-UGRD-ACADEMIC-REGULATIONS-REGISTRATION-POLICIES,faculty,faculty,,University of Florida,11,10,2,0,0,16,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-GLAS-ASSESSMENTANDACADEMICAPPEALS-REG26-GUIDE-PREVIOUS,faculty,faculty,,University of Glasgow,6,6,1,0,1,11,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-GLAS-FEESANDGENERAL-ASSESSMENTANDACADEMICAPPEALS-REG26,faculty,faculty,,University of Glasgow,21,21,2,1,1,32,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-GLAS-GENERAL-APPEALS-PROCESS-GUIDE,faculty,faculty,,University of Glasgow,22,21,2,0,4,35,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-EXAMBOARDINSTRUCTIONS,faculty,faculty,,University of Glasgow,37,37,4,1,3,58,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-GLAS-MYGLASGOW,faculty,faculty,,University of Glasgow,6,6,0,0,0,6,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-GLAS-MYGLASGOW-A-Z-POLICY-INDEX,faculty,faculty,,University of Glasgow,6,6,0,0,0,6,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-GLAS-MYGLASGOW-ACCOMMODATION-POLICIESANDPROCEDURES,faculty,faculty,,University of Glasgow,109,109,15,1,6,169,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-GLAS-MYGLASGOW-KEYCHANGES,faculty,faculty,,University of Glasgow,24,24,0,0,0,24,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-GLAS-MYGLASGOW-PAYINGYOURFEES-REFUND,faculty,faculty,,University of Glasgow,26,26,2,0,0,32,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-GLAS-MYGLASGOW-REASONABLE-ADJUSTMENTS-SUPPORTIVE-ARRANGEM,faculty,faculty,,University of Glasgow,59,55,4,2,2,77,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-GLAS-MYGLASGOW-STUDENT-SUPPORT-INCLUSION,faculty,faculty,,University of Glasgow,19,19,0,0,0,19,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-GLAS-MYGLASGOW-STUDENTCONDUCT-ACADEMICMISCONDUCT,faculty,faculty,,University of Glasgow,3,3,1,0,0,6,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-GLAS-MYGLASGOW-STUDENTCONTRACT,faculty,faculty,,University of Glasgow,6,6,2,5,0,27,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-MANC-ACADEMIC-A-BASIC-GUIDE-TO-STUDENT-COMPLAINTS,faculty,faculty,,University of Manchester,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-MANC-ACADEMIC-ACADEMIC-MALPRACTICE,faculty,faculty,,University of Manchester,4,4,0,0,0,4,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-MANC-ACADEMIC-ASSESSMENT-FRAMEWORK,faculty,faculty,,University of Manchester,1,1,0,0,0,1,False,usable_clauses 1 < 3
+UNIVERSITY-OF-MANC-ACADEMIC-EXAMINATIONS-GUIDANCE-FOR-STUDENTS,faculty,faculty,,University of Manchester,2,2,0,1,0,5,False,usable_clauses 2 < 3
+UNIVERSITY-OF-MANC-ACADEMIC-GLOSSARY-APPEALS-COMPLAINTS,faculty,faculty,,University of Manchester,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-MANC-ACADEMIC-GUIDANCE-ON-THE-USE-OF-CALCULATORS-IN-EXAMI,faculty,faculty,,University of Manchester,2,2,0,0,0,2,False,usable_clauses 2 < 3
+UNIVERSITY-OF-MANC-ACADEMIC-GUIDANCE-ON-THE-USE-OF-DICTIONARIES-IN-EXAM,faculty,faculty,,University of Manchester,2,2,0,0,0,2,False,usable_clauses 2 < 3
+UNIVERSITY-OF-MANC-ACADEMIC-LATE-SUBMISSION,faculty,faculty,,University of Manchester,1,1,1,0,0,4,False,usable_clauses 1 < 3
+UNIVERSITY-OF-MANC-ACADEMIC-POLICY-ON-EXAMINATIONS,faculty,faculty,,University of Manchester,1,1,0,1,0,4,False,usable_clauses 1 < 3
+UNIVERSITY-OF-MANC-ACADEMIC-POLICY-ON-RELIGIOUS-OBSERVANCE,faculty,faculty,,University of Manchester,1,1,1,0,0,4,False,usable_clauses 1 < 3
+UNIVERSITY-OF-MANC-ACADEMIC-POSTGRADUATE-DEGREE-REGULATIONS,faculty,faculty,,University of Manchester,1,1,1,0,0,4,False,usable_clauses 1 < 3
+UNIVERSITY-OF-MANC-ACADEMIC-REGULATION-XVIII-STUDENT-COMPLAINTS-PROCEDU,faculty,faculty,,University of Manchester,4,4,0,0,0,4,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-MANC-ACADEMIC-REGULATION-XX,faculty,faculty,,University of Manchester,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-MANC-ACADEMIC-SELF-CERTIFICATION-FORM,faculty,faculty,,University of Manchester,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-MANC-ACADEMIC-SELF-CERTIFICATION-PROCEDURE,faculty,faculty,,University of Manchester,3,3,1,0,0,6,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-MANC-ACADEMIC-SUBMISSION-OF-WORK,faculty,faculty,,University of Manchester,2,2,1,0,1,7,False,usable_clauses 2 < 3
+UNIVERSITY-OF-MANC-ACADEMIC-UNDERGRADUATE-DEGREE-REGULATIONS,faculty,faculty,,University of Manchester,1,1,0,0,0,1,False,usable_clauses 1 < 3
+UNIVERSITY-OF-MANC-POLICY-ON-MITIGATING-CIRCUMSTANCES,faculty,faculty,,University of Manchester,3,3,1,0,0,6,False,duplicate content of UNIVERSITY-OF-MANC-ACADEMIC-POLICY-ON-MITIGATING-CIRCUMSTANCES (same sha256_raw)
+UNIVERSITY-OF-MANC-POSTGRADUATE-DEGREE-REGULATIONS,faculty,faculty,,University of Manchester,1,1,1,0,0,4,False,duplicate content of UNIVERSITY-OF-MANC-ACADEMIC-POSTGRADUATE-DEGREE-REGULATIONS (same sha256_raw)
+UNIVERSITY-OF-MANC-UNDERGRADUATE-DEGREE-REGULATIONS,faculty,faculty,,University of Manchester,1,1,0,0,0,1,False,duplicate content of UNIVERSITY-OF-MANC-ACADEMIC-UNDERGRADUATE-DEGREE-REGULATIONS (same sha256_raw)
+UNIVERSITY-OF-WASH-DROP-WITHDRAW,faculty,faculty,,University of Washington,26,25,6,0,1,45,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-WASH-GRADES-DEANS-LISTS,faculty,faculty,,University of Washington,2,2,0,0,0,2,False,usable_clauses 2 < 3
+UNIVERSITY-OF-WASH-GRADES-ECQ-LGOC-2021-2022,faculty,faculty,,University of Washington,14,14,0,0,1,16,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-WASH-GRADES-INCOMPLETE-GRADE-POLICY,faculty,faculty,,University of Washington,29,27,3,0,1,38,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-WASH-IEB,faculty,faculty,,University of Washington,22,22,0,0,0,22,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-WASH-PMP-HANDBOOK-POLICIES-PLANNING,faculty,faculty,,University of Washington,26,26,4,1,1,43,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-WASH-REGISTER-POLICIES-PROCEDURES,faculty,faculty,,University of Washington,56,55,11,1,4,99,False,not selected: tier 'faculty' at cap 9 or below selection rank
+UNIVERSITY-OF-WASH-REGISTRAR,faculty,faculty,,University of Washington,1,1,0,0,0,1,False,usable_clauses 1 < 3
+UNIVERSITY-OF-WASH-UGRAD,faculty,faculty,,University of Washington,26,26,4,1,1,43,False,duplicate content of UNIVERSITY-OF-WASH-PMP-HANDBOOK-POLICIES-PLANNING (same sha256_raw)
+UNIVERSITY-OF-WISC-GRADING-DATES,faculty,faculty,,University of Wisconsin-Madison,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-WISC-STUDENT-GRADES,faculty,faculty,,University of Wisconsin-Madison,15,15,1,0,2,22,False,not selected: tier 'faculty' at cap 9 or below selection rank
+BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE,institution,institution,,Boston University,66,66,9,3,1,104,True,selected (richness 104)
+BOSTON-UNIVERSITY-DOS-STUDENT-RESPONSIBILITIES,institution,institution,,Boston University,130,129,11,4,4,182,True,selected (richness 182)
+STANFORD-UNIVERSIT-POLICIES-GUIDANCE-23POLICIES-GUIDANCE-LINKS-BCA-GUID-2027-2028,institution,institution,,Stanford University,21,21,5,0,0,36,True,selected (richness 36)
+STANFORD-UNIVERSIT-POLICIES-GUIDANCE-23POLICIES-GUIDANCE-LINKS-BYLAWS-C-2017-2018,institution,institution,,Stanford University,40,40,5,0,1,57,True,selected (richness 57)
+STANFORD-UNIVERSIT-POLICIES-GUIDANCE-BJA-GUIDANCE-DEFINITIONS-AND-CLARI,institution,institution,,Stanford University,54,54,5,0,0,69,True,selected (richness 69)
+UNIVERSITY-OF-GLAS-MYGLASGOW-REGULATIONS-CURRENT-GLOSSARY-OF-TERMS,institution,institution,,University of Glasgow,48,42,1,7,2,70,True,selected (richness 70)
+UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-APPEALS-COLLEGE,institution,institution,,University of Glasgow,57,55,8,4,2,95,True,selected (richness 95)
+UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-APPEALS-SENATE,institution,institution,,University of Glasgow,65,63,8,2,1,95,True,selected (richness 95)
+UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-ASSESSMENT-REG,institution,institution,,University of Glasgow,126,119,28,22,6,281,True,selected (richness 281)
+UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-PLAGIARISM,institution,institution,,University of Glasgow,35,34,5,1,2,56,True,selected (richness 56)
+UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-STUDENT-CONDUCT,institution,institution,,University of Glasgow,223,203,24,7,6,308,True,selected (richness 308)
+UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-SUPPORT-TO-STUDY,institution,institution,,University of Glasgow,64,61,6,3,2,92,True,selected (richness 92)
+UNIVERSITY-OF-MANC-ACADEMIC-POLICY-ON-ADVISING,institution,institution,,University of Manchester,3,3,0,0,2,7,True,selected (richness 7)
+BOSTON-UNIVERSITY-BOSTON-UNIVERSITY-LIBRARIES-CODE-OF-CONDUCT,institution,institution,,Boston University,12,12,3,0,3,27,False,not selected: tier 'institution' at cap 13 or below selection rank
+BOSTON-UNIVERSITY-GRADE-GRIEVANCES,institution,institution,,Boston University,14,13,5,0,1,30,False,not selected: tier 'institution' at cap 13 or below selection rank
+BOSTON-UNIVERSITY-POLICY-ON-GRADE-GRIEVANCES-FOR-UNDERGRADUATE-STUDENT,institution,institution,,Boston University,14,13,5,0,1,30,False,not selected: tier 'institution' at cap 13 or below selection rank
+BOSTON-UNIVERSITY-UNIVERSITY-POLICIES-ACADEMIC-CONDUCT-CODE,institution,institution,,Boston University,66,66,9,3,1,104,False,duplicate content of BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE (same sha256_raw)
+CARNEGIE-MELLON-UN-STUDENT-AND-STUDENT-LIFE-ACADEMIC-INTEGRITY,institution,institution,,Carnegie Mellon University,13,11,2,0,3,23,False,not selected: tier 'institution' at cap 13 or below selection rank
+CARNEGIE-MELLON-UN-THEWORD-ACADEMIC-CONDUCT-OF-CLASSES,institution,institution,,Carnegie Mellon University,5,5,0,0,0,5,False,"no exception, crossref or alternative-evidence clause"
+CARNEGIE-MELLON-UN-THEWORD-ACADEMIC-STATEMENT-ON-ACADEMIC-INTEGRITY,institution,institution,,Carnegie Mellon University,13,13,0,0,0,13,False,"no exception, crossref or alternative-evidence clause"
+IMPERIAL-COLLEGE-L-ADMINISTRATION-AND-SUPPORT-SERVICES-REGISTRY-STUDENT,institution,institution,,Imperial College London,7,7,3,0,1,18,False,not selected: tier 'institution' at cap 13 or below selection rank
+IMPERIAL-COLLEGE-L-COMPUTING-CURRENT-STUDENTS,institution,institution,,Imperial College London,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+IMPERIAL-COLLEGE-L-FEES-AND-FUNDING-FINANCIAL-ASSISTANCE-STUDENT-SUPPOR,institution,institution,,Imperial College London,19,19,2,0,1,27,False,not selected: tier 'institution' at cap 13 or below selection rank
+IMPERIAL-COLLEGE-L-PUBLIC-CURRENT-STUDENTS-SENIOR-TUTOR-WELCOME-FOR-FIR,institution,institution,,Imperial College London,1,0,0,0,1,2,False,usable_clauses 0 < 3
+IMPERIAL-COLLEGE-L-STUDENT-SUPPORT-ZONE,institution,institution,,Imperial College London,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+IMPERIAL-COLLEGE-L-STUDENT-SUPPORT-ZONE-STUDENT-SERVICES-UNDERREPRESENT,institution,institution,,Imperial College London,10,10,0,0,0,10,False,"no exception, crossref or alternative-evidence clause"
+PURDUE-UNIVERSITY-REGISTRAR,institution,institution,,Purdue University,1,1,0,0,0,1,False,usable_clauses 1 < 3
+STANFORD-UNIVERSIT-BOARD-CONDUCT-AFFAIRS-2026-2027,institution,institution,,Stanford University,2,2,0,0,0,2,False,usable_clauses 2 < 3
+STANFORD-UNIVERSIT-COMMUNITYSTANDARDS,institution,institution,,Stanford University,2,2,0,0,0,2,False,usable_clauses 2 < 3
+STANFORD-UNIVERSIT-POLICIES-GUIDANCE,institution,institution,,Stanford University,4,4,0,0,0,4,False,"no exception, crossref or alternative-evidence clause"
+STANFORD-UNIVERSIT-POLICIES-GUIDANCE-2523POLICIES-GUIDANCE-LINKS-BCA-GU,institution,institution,,Stanford University,7,7,0,0,0,7,False,"no exception, crossref or alternative-evidence clause"
+STANFORD-UNIVERSIT-POLICIES-GUIDANCE-HONOR-CODE,institution,institution,,Stanford University,14,14,3,0,1,25,False,not selected: tier 'institution' at cap 13 or below selection rank
+STANFORD-UNIVERSIT-POLICIES-GUIDANCE-HONOR-CODE-PREVIOUS-HONOR-CODE,institution,institution,,Stanford University,10,10,1,0,0,13,False,not selected: tier 'institution' at cap 13 or below selection rank
+UNIVERSITY-OF-GLAS-MYGLASGOW-REGULATIONS-CURRENT-GENERAL,institution,institution,,University of Glasgow,2,2,1,0,0,5,False,usable_clauses 2 < 3
+UNIVERSITY-OF-GLAS-MYGLASGOW-SENATEOFFICE,institution,institution,,University of Glasgow,2,2,0,0,0,2,False,usable_clauses 2 < 3
+UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-APPEALS-PROCESS,institution,institution,,University of Glasgow,16,16,3,1,0,28,False,not selected: tier 'institution' at cap 13 or below selection rank
+UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-ASSESSMENT-DISABLED-STUD,institution,institution,,University of Glasgow,30,28,2,0,0,34,False,not selected: tier 'institution' at cap 13 or below selection rank
+UNIVERSITY-OF-MANC-ACADEMIC,institution,institution,,University of Manchester,2,2,0,0,0,2,False,usable_clauses 2 < 3
+UNIVERSITY-OF-MANC-ACADEMIC-APPEALS-COMPLAINTS-SUPPORT,institution,institution,,University of Manchester,2,2,0,0,0,2,False,usable_clauses 2 < 3
+UNIVERSITY-OF-MANC-ACADEMIC-AVOIDING-PLAGIARISM,institution,institution,,University of Manchester,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-MANC-ACADEMIC-BASIC-GUIDE-ACADEMIC-APPEALS,institution,institution,,University of Manchester,2,2,0,0,0,2,False,usable_clauses 2 < 3
+UNIVERSITY-OF-MANC-ACADEMIC-CONDUCT-DISCIPLINE,institution,institution,,University of Manchester,4,4,0,0,0,4,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-MANC-ACADEMIC-GUIDANCE-TO-STUDENTS-ON-PLAGIARISM-AND-OTHE,institution,institution,,University of Manchester,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-MANC-ACADEMIC-POLICY-ON-MITIGATING-CIRCUMSTANCES,institution,institution,,University of Manchester,3,3,1,0,0,6,False,not selected: tier 'institution' at cap 13 or below selection rank
+UNIVERSITY-OF-MANC-ACADEMIC-POLICY-ON-RECORDING-AND-MONITORING-ATTENDAN,institution,institution,,University of Manchester,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-MANC-ACADEMIC-REGULATION-XIX-ACADEMIC-APPEALS-PROCEDURE,institution,institution,,University of Manchester,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-MARY-WWW,institution,institution,,University of Maryland,3,3,0,0,0,3,False,"no exception, crossref or alternative-evidence clause"
+UNIVERSITY-OF-WISC-REGISTRAR,institution,institution,,University of Wisconsin-Madison,2,2,0,0,0,2,False,usable_clauses 2 < 3

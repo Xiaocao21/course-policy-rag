@@ -1,0 +1,182 @@
+{
+  "kind": "union_coverage_audit",
+  "created_at": "2026-11-12T01:36:24+08:00",
+  "split": "test",
+  "device": "NVIDIA RTX A5000",
+  "torch": "2.6.0+cu124",
+  "cuda": "12.4",
+  "precision": "fp16",
+  "questions": 60,
+  "configs": 17,
+  "coverage_rule": "a clause is covered when the union of retrieved intervals from the same document version contains its whole span",
+  "tracks": {
+    "main": {
+      "track": "main",
+      "n_cells": 1020,
+      "complete@10": 0.3569,
+      "complete@20": 0.3569,
+      "complete@50": 0.5275,
+      "complete_cells": 364,
+      "complete_cells_needing_union": 71,
+      "share_of_complete_needing_union": 0.1951,
+      "median_chunks_for_covered_clause": 1.0,
+      "chunks_needed_p75": 1.0,
+      "by_family": {
+        "fixed/size128": {
+          "n_cells": 180,
+          "complete@10": 0.1167,
+          "complete@20": 0.1167,
+          "complete@50": 0.2556,
+          "share_of_complete_needing_union": 0.7619,
+          "median_chunks_for_covered_clause": 2.0
+        },
+        "fixed/size256": {
+          "n_cells": 180,
+          "complete@10": 0.4222,
+          "complete@20": 0.4222,
+          "complete@50": 0.6056,
+          "share_of_complete_needing_union": 0.3553,
+          "median_chunks_for_covered_clause": 1.0
+        },
+        "fixed/size384": {
+          "n_cells": 180,
+          "complete@10": 0.4722,
+          "complete@20": 0.4722,
+          "complete@50": 0.7,
+          "share_of_complete_needing_union": 0.1529,
+          "median_chunks_for_covered_clause": 1.0
+        },
+        "fixed/size512": {
+          "n_cells": 180,
+          "complete@10": 0.5278,
+          "complete@20": 0.5278,
+          "complete@50": 0.7833,
+          "share_of_complete_needing_union": 0.1579,
+          "median_chunks_for_covered_clause": 1.0
+        },
+        "heading": {
+          "n_cells": 60,
+          "complete@10": 0.7333,
+          "complete@20": 0.7333,
+          "complete@50": 0.95,
+          "share_of_complete_needing_union": 0.0,
+          "median_chunks_for_covered_clause": 1.0
+        },
+        "paragraph": {
+          "n_cells": 60,
+          "complete@10": 0.6667,
+          "complete@20": 0.6667,
+          "complete@50": 0.8833,
+          "share_of_complete_needing_union": 0.0,
+          "median_chunks_for_covered_clause": 1.0
+        },
+        "semantic": {
+          "n_cells": 180,
+          "complete@10": 0.0167,
+          "complete@20": 0.0167,
+          "complete@50": 0.0333,
+          "share_of_complete_needing_union": 0.0,
+          "median_chunks_for_covered_clause": 1.0
+        }
+      },
+      "note": "complete@k is union-based; 'needing union' means at least one required clause was covered only by >= 2 retrieved chunks",
+      "reference": "results/final/perq_main.jsonl",
+      "agreement": {
+        "reference": "results/final/perq_main.jsonl",
+        "cells_compared": 1020,
+        "cells_differing": 0,
+        "max_abs_cell_difference": 0.0,
+        "macro_reference": 0.3569,
+        "macro_audit": 0.3569,
+        "macro_abs_difference": 0.0,
+        "strict": false,
+        "passed": true,
+        "tolerance": 0.005
+      }
+    },
+    "C1": {
+      "track": "C1",
+      "n_cells": 1020,
+      "complete@10": 0.3569,
+      "complete@20": 0.4382,
+      "complete@50": 0.5275,
+      "complete_cells": 364,
+      "complete_cells_needing_union": 71,
+      "share_of_complete_needing_union": 0.1951,
+      "median_chunks_for_covered_clause": 1.0,
+      "chunks_needed_p75": 1.0,
+      "by_family": {
+        "fixed/size128": {
+          "n_cells": 180,
+          "complete@10": 0.1167,
+          "complete@20": 0.1778,
+          "complete@50": 0.2556,
+          "share_of_complete_needing_union": 0.7619,
+          "median_chunks_for_covered_clause": 2.0
+        },
+        "fixed/size256": {
+          "n_cells": 180,
+          "complete@10": 0.4222,
+          "complete@20": 0.4944,
+          "complete@50": 0.6056,
+          "share_of_complete_needing_union": 0.3553,
+          "median_chunks_for_covered_clause": 1.0
+        },
+        "fixed/size384": {
+          "n_cells": 180,
+          "complete@10": 0.4722,
+          "complete@20": 0.5722,
+          "complete@50": 0.7,
+          "share_of_complete_needing_union": 0.1529,
+          "median_chunks_for_covered_clause": 1.0
+        },
+        "fixed/size512": {
+          "n_cells": 180,
+          "complete@10": 0.5278,
+          "complete@20": 0.6611,
+          "complete@50": 0.7833,
+          "share_of_complete_needing_union": 0.1579,
+          "median_chunks_for_covered_clause": 1.0
+        },
+        "heading": {
+          "n_cells": 60,
+          "complete@10": 0.7333,
+          "complete@20": 0.85,
+          "complete@50": 0.95,
+          "share_of_complete_needing_union": 0.0,
+          "median_chunks_for_covered_clause": 1.0
+        },
+        "paragraph": {
+          "n_cells": 60,
+          "complete@10": 0.6667,
+          "complete@20": 0.8,
+          "complete@50": 0.8833,
+          "share_of_complete_needing_union": 0.0,
+          "median_chunks_for_covered_clause": 1.0
+        },
+        "semantic": {
+          "n_cells": 180,
+          "complete@10": 0.0167,
+          "complete@20": 0.0278,
+          "complete@50": 0.0333,
+          "share_of_complete_needing_union": 0.0,
+          "median_chunks_for_covered_clause": 1.0
+        }
+      },
+      "note": "complete@k is union-based; 'needing union' means at least one required clause was covered only by >= 2 retrieved chunks",
+      "reference": "results/final/perq_C1.jsonl",
+      "agreement": {
+        "reference": "results/final/perq_C1.jsonl",
+        "cells_compared": 1020,
+        "cells_differing": 0,
+        "max_abs_cell_difference": 0.0,
+        "macro_reference": 0.3569,
+        "macro_audit": 0.3569,
+        "macro_abs_difference": 0.0,
+        "strict": false,
+        "passed": true,
+        "tolerance": 0.005
+      }
+    }
+  }
+}

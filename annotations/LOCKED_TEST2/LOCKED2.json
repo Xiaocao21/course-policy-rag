@@ -1,0 +1,14 @@
+{
+  "locked_at": "2026-11-13T01:56:45+08:00",
+  "split": "test2",
+  "questions": 45,
+  "groups": 45,
+  "test_jsonl_sha256": "0e00fa5ca59977393bc7e14de9c25ba354fae5890a4d1ef2fa292c35144a00c2",
+  "questions_jsonl_sha256": "0e00fa5ca59977393bc7e14de9c25ba354fae5890a4d1ef2fa292c35144a00c2",
+  "questions_source": "D:\\qjc\\course-policy-rag\\annotations\\questions_test2.jsonl",
+  "manual_reviewed": 45,
+  "bundles_sha256": "5041171565b9c75cc1a999931a708ee73c3620e1c2c62a47b81138c7071c6e38",
+  "reviewers": [
+    "agent_self_audit"
+  ]
+}

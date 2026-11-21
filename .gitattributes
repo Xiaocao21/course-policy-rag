@@ -1,0 +1,16 @@
+# Keep bytes stable: the locked question files and result JSON are checked by SHA-256, so
+# they must not undergo end-of-line conversion on checkout.
+*.jsonl -text
+*.json   -text
+*.csv    -text
+*.log    -text
+*.safetensors binary
+*.docx   binary
+*.png    binary
+*.pdf    binary
+
+# Source and documentation can use normal text handling.
+*.py     text eol=lf
+*.md     text eol=lf
+*.yaml   text eol=lf
+*.yml    text eol=lf

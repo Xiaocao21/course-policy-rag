@@ -1,0 +1,151 @@
+# course-policy-rag collection + preprocessing settings
+# Frozen into MANIFEST.json at freeze time; changing values invalidates the corpus version.
+
+project:
+  name: course-policy-rag
+  # NOTE: the corpus version is deliberately NOT stored here. It is passed to
+  # `04_freeze_manifest.py --corpus-version` so the manifest is the single source of
+  # truth. Keeping a second copy here previously drifted (settings said v0.1.0 while
+  # the frozen manifest said v0.1.2).
+  version_scheme: "vMAJOR.MINOR.PATCH; bump MINOR on any corpus membership change"
+  # Global seed recorded in MANIFEST.json for reproducibility
+  random_seed: 20261013
+
+# ---------------------------------------------------------------- crawler
+crawler:
+  user_agent: "CPS5801-research-bot/0.1 (+academic research; contact: student@wku.edu.cn)"
+  # Per-host minimum seconds between requests
+  delay_seconds: 1.5
+  respect_crawl_delay: true
+  timeout_seconds: 30
+  max_retries: 4
+  backoff_base_seconds: 2.0
+  backoff_max_seconds: 60.0
+  # Global safety cap on fetched pages per run
+  max_pages: 400
+  # Only follow links on the same registrable domain as the seed
+  same_domain_only: true
+  # Wayback snapshot capture (one Save Page Now per new URL, rate limited)
+  wayback:
+    enabled: true
+    save_page_now: true
+    cdx_enabled: true
+    cdx_max_retries: 3
+
+# ---------------------------------------------------------------- url filters
+url_filters:
+  allow_regex: "(?i)polic|regulation|integrity|conduct|grading|attendance|assessment|syllab|handbook|registrar|academic|procedure|code"
+  deny_regex: "(?i)login|signin|sign-in|search|user/|\\?s=|wp-admin|feed|print|calendar|event|news|donate|give|shop|apply|admission|job|career|alumni"
+  # Never fetch these regardless of allow_regex
+  hard_deny_ext: [".zip", ".docx", ".xlsx", ".pptx", ".mp4", ".mp3", ".png", ".jpg", ".jpeg", ".gif", ".svg", ".ico"]
+
+# ---------------------------------------------------------------- content gate
+content_gate:
+  # Main-text length floor; pages below this go to pending_review
+  min_chars: 1500
+  # Minimum distinct policy domains a page must hit to be ingested
+  min_domains_hit: 3
+  # STRONG threshold used by reports/corpus_capability.csv
+  strong_exception_min: 3
+  strong_clause_or_crossref:
+    clause_min: 5
+    crossref_min: 2
+
+# ---------------------------------------------------------------- text layers
+# evidence layer  : byte/char faithful, ALL gold spans anchored here
+# retrieval layer : normalised, used for embedding + retrieval
+text_layers:
+  evidence:
+    # line-level joining only; never change characters
+    preserve_original_chars: true
+  retrieval:
+    nfkc: true
+    unify_quotes: true
+    unify_dashes: true
+    unify_bullets: true
+    fullwidth_to_halfwidth: true
+    expand_ligatures: true
+    strip_zero_width: true
+    collapse_whitespace: true
+    # Any transform that changes character count MUST be registered in charmap
+    require_charmap: true
+
+# ---------------------------------------------------------------- header/footer
+header_footer:
+  # candidate if text repeats on >= this share of pages at first/last N lines
+  repeat_page_ratio: 0.60
+  edge_lines: 3
+  # lines containing these are NEVER auto-deleted (teacher feedback: exception clauses)
+  protect_regex: "(?i)\\b(except|unless|however|provided that|notwithstanding|subject to|shall|may be|waive|extension|penalt|deadline)\\b"
+  log_removals: true
+
+# ---------------------------------------------------------------- quality filters
+quality:
+  # Blocks shorter than this are dropped as navigation crumbs unless they carry a
+  # clause label or exception / cross-reference / alternative-evidence language.
+  min_clause_chars: 80
+  # A document needs at least this many usable clauses to enter the shared corpus.
+  # Thin bulletin stubs otherwise dilute the corpus and inflate chunk counts.
+  min_clauses_per_doc: 3
+  # Upper bound on one clause's text. Gold spans are matched by FULL containment and
+  # the model maximum is 512 tokens (~1200-2000 chars), so a clause larger than this
+  # could never be contained by a retrieved chunk and would make its question
+  # unanswerable. Continuation stops at this bound, keeping clause edges on block
+  # boundaries. A single block longer than this cannot be split without inventing a
+  # boundary, so it is kept whole and flagged `oversized` for manual review.
+  max_clause_chars: 1200
+
+# ---------------------------------------------------------------- dedup
+dedup:
+  document_exact: true
+  document_minhash:
+    enabled: true
+    shingle_size: 5
+    num_hashes: 128
+    jaccard_threshold: 0.90
+  clause_boilerplate:
+    enabled: true
+    jaccard_threshold: 0.70
+    mark_field: boilerplate
+
+# ---------------------------------------------------------------- safe corpus
+safe_corpus:
+  embedding_model: BAAI/bge-small-en-v1.5
+  tokenizer_source: huggingface          # fallback: regex (produces *_approx files)
+  max_input_tokens: 512
+  # recursive split order; never silently truncate
+  split_order: [sentence, token]
+  record_split_reason: true
+  # a clause span must never be cut by chunking; it may span multiple chunks
+  preserve_clause_spans: true
+
+# ---------------------------------------------------------------- annotation
+annotation:
+  target_questions_total: 150
+  target_dev_questions: 100
+  target_test_questions: 50
+  target_test_groups_min: 40
+  # dev is NOT sub-split; group-disjoint cross-validation only
+  dev_subsplits: 0
+  evidence_types: [single-clause, rule-and-exception, cross-clause]
+  conditions: [baseline, exception, conflicting-version, alternative-evidence]
+  source_levels: [course, faculty, institution]
+  # cross-split near-duplicate blocker threshold (token Jaccard)
+  near_duplicate_threshold: 0.85
+  kappa_target: 0.70
+  kappa_sample_ratio: 0.20
+
+# ---------------------------------------------------------------- acceptance gate (plan section B)
+acceptance:
+  min_included_docs: 25
+  min_institutions: 6
+  min_domains_covered: 4
+  required_domains: [grading, integrity]
+  tier_share_max: 0.40
+  min_docs_with_exceptions: 10
+  min_docs_with_crossrefs: 8
+  min_docs_with_alt_evidence: 6
+  min_version_group_pairs: 0        # decision: collect only if encountered
+  offset_verification_sample: 40
+  offset_verification_min_pass: 38
+  min_faculty_docs: 4               # below this -> fall back to two tiers (documented)

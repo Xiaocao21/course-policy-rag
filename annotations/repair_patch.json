@@ -1,0 +1,151 @@
+{
+  "_comment": "Content repairs from the reviewer's findings (2026-10-22). Applied by scripts/10d_repair_questions.py. Keys are qids; omitted fields are left unchanged. clause_ids replaces the evidence set wholesale and the type is re-derived unless given.",
+  "Q0005": {
+    "reference_answer": "The scheme of assessment must assess candidates' performance against the course's intended learning outcomes, deploy forms of assessment appropriate to those outcomes, taking due account of the credit rating, and make provision for re-assessment where the degree regulations provide for it. It may be varied exceptionally in a given session in response to specific circumstances, subject to the approval of the Clerk of Senate, and it must be fully described in the School Instructions issued to all enrolled students, covering dates, deadlines, formats, the weights of the components and the method of marking.",
+    "_note": "Removed 'changed only through procedures approved by Senate': item v) of Regulation 16.2 is absent from the extracted clause span, so the evidence does not support it."
+  },
+  "Q0006": {
+    "reference_answer": "No, not for every assessment. Moderation and second or double marking exist to make sure appropriate standards are applied consistently across the cohort, but some assessments already meet those aims: multiple-choice examinations, assessments with highly prescriptive marking schemes, or components so small that the resource required would be disproportionate; the stated exceptions govern those cases. Otherwise, where one marker marked all the work, another marker reviews a sample of 10% of the marked assessments, subject to a minimum of 10 and a maximum of 25, plus all assessments graded E1 or below, and the sample should cover the whole range of grades awarded. Summative assessment on non-Honours undergraduate courses does not require second or double marking but must be moderated, and there must be processes to check that grades are accurately recorded and calculations are correct.",
+    "_note": "The clause contains a table fragment reading 'D1 or below' and narrative reading 'E1 or below'; the operative narrative standard is E1, and the answer now states that."
+  },
+  "Q0028": {
+    "clause_ids": [
+      "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE#c97"
+    ],
+    "reference_answer": "A rejected claim leaves the missing assessments as non-submissions, contributing zero grade points to the course grade, and the student may request reconsideration of the Stage 1 decision under Student & Academic Services' published policies. The same logic covers late submission: a supported claim waives the penalty and the work is marked as normal, whereas a rejected claim leaves the penalty in force. The default outcome of a supported claim is completion rather than exemption: the student takes the missed assessment later as a deferred assessment.",
+    "_note": "Dropped the CNY/CNA clause, which is about compensatory credit and does not bear on this question."
+  },
+  "Q0044": {
+    "delete": true,
+    "_note": "Duplicate of Q0001: both cite c6+c8 (Incomplete criteria). Q0001 frames the rule-and-exception case, so it is kept and this pair is dropped rather than leaving two questions with identical evidence."
+  },
+  "Q0052": {
+    "question": "A Stanford-style finding of serious misconduct at Boston University is discovered only after the student has graduated. May the University require the student to complete academic integrity workshops?",
+    "reference_answer": "Yes. Serious misconduct includes misconduct that occurred while the student was enrolled at the University but was discovered after graduation, fraudulent use of University transcripts or degree certificates after graduation, and similar serious misconduct. One of the sanctions available is successful completion of academic integrity workshops approved by the University Provost.",
+    "_note": "Question narrowed to what c54+c51 actually support; the previous wording asked for the full sanction menu, which the evidence does not provide."
+  },
+  "Q0099": {
+    "clause_ids": [
+      "UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-ASSESSMENT-REG#16.14"
+    ],
+    "question": "At Glasgow, how long may an end-of-course examination be, and is reading time included in that limit?",
+    "reference_answer": "An end-of-course examination is normally held within the academic session in which the course was taught. The available durations for individual examinations are 60, 90, 120, or, only in the spring examination period, 180 minutes, and all of these durations are inclusive of reading time.",
+    "evidence_type": "single-clause",
+    "_note": "Was an unnatural pairing of exam duration with the EC reporting deadline; narrowed to the duration rule."
+  },
+  "Q0100": {
+    "clause_ids": [
+      "UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-ASSESSMENT-REG#16.65"
+    ],
+    "question": "At Glasgow, what must examiners do to keep my identity hidden during assessment, and how long are my scripts kept?",
+    "reference_answer": "All examiners must maintain the security of examination scripts and other materials to be assessed. Throughout the assessment process they must ensure that the identity of any candidate is not disclosed through any form of communication, including e-mail. Examination scripts and other assessed materials must be retained by Schools for the periods prescribed by Senate.",
+    "evidence_type": "single-clause",
+    "_note": "Was an unnatural pairing of identity confidentiality with Board quorum; narrowed to the confidentiality rule, and the answer no longer equates non-disclosure with anonymous marking."
+  },
+  "Q0104": {
+    "clause_ids": [
+      "UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-ASSESSMENT-REG#c89"
+    ],
+    "question": "For a joint Honours degree at Glasgow, where are the classification decisions taken, and how is the other subject represented there?",
+    "reference_answer": "For joint or combined Honours degrees, the classification decisions are normally taken at whichever of the subject Board of Examiners meetings takes place later. The later meeting may be composed as for that subject or may involve a smaller number of members selected by the Board to represent it with power to agree a final classification on its behalf, and the other subject is represented by members of its Board of Examiners who have authority to agree the final classification and who convey the views of the earlier Board, including those of External Examiners present.",
+    "evidence_type": "single-clause",
+    "_note": "Was an unnatural pairing of joint-degree classification with the External Examiner reporting deadline."
+  },
+  "Q0105": {
+    "reference_answer": "Students make information about Extenuating Circumstances available to the University by submitting a claim using the system or systems identified on the student MyGlasgow page. A claim can only be retracted up to five working days after the affected examination or after the date at which submission of work for assessment was due, and it cannot be retracted after publication of the results, including provisional results, if that date is earlier.",
+    "_note": "Removed the online-examination late-penalty waiver, which the question does not ask about."
+  },
+  "Q0123": {
+    "clause_ids": [
+      "UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-ASSESSMENT-REG#16.42"
+    ],
+    "question": "May a Glasgow School add extra requirements for the award of credit, and how much absence can approved Extenuating Circumstances cover when attendance is one of those requirements?",
+    "reference_answer": "Schools may exceptionally specify additional requirements for the award of credit in course specifications, but only where those requirements are essential to demonstrate particular intended learning outcomes or are required by professional, statutory or regulatory bodies; where they exist, a student must meet them before credit is awarded. Where such an additional requirement relates to attendance, a student may be absent from up to 25% of that requirement if the absence is due to approved Extenuating Circumstances, and any situation in which this exception cannot apply must be clearly stated in the course specification.",
+    "evidence_type": "single-clause",
+    "_note": "Was an unnatural pairing of a rejected EC claim with the attendance concession."
+  },
+  "Q0065": {
+    "reference_answer": "The University of Glasgow Counselling and Wellbeing Service supports students to manage their mental health and to build strategies that will help them complete their course, and you register online to meet with a member of the team to discuss your needs. The Disability Service also coordinates support for a wide range of needs, including mental health difficulties, and you register online to speak with a specialist adviser.",
+    "_note": "Dropped Financial Aid and International Student Support, which do not answer a mental-health question."
+  },
+  "Q0082": {
+    "reference_answer": "If you miss an examination due to illness or another unforeseeable and unavoidable circumstance you must follow the Mitigating Circumstances Policy and Procedure, and all claims for mitigation must be submitted within 10 working days.",
+    "_note": "Dropped the general absence-reporting and medical-certificate rules, which the question does not ask about."
+  },
+  "Q0087": {
+    "reference_answer": "Taking all three exams is a requirement of the course, and missing an exam without a valid excuse results in a failing grade for the entire course. An excuse must be proffered prior to the exam that is to be missed if at all possible, must be in writing and must be verifiable, but those criteria are necessary and not sufficient because the instructors reserve the right to deem an excuse invalid; a medical excuse needs a dated note from the MIT Medical Center, and regardless of the reason advanced, clearance from the Dean of Student Support Services is required.",
+    "_note": "Dropped the fraudulent-excuse/academic-dishonesty consequence, which is a separate question."
+  },
+  "Q0117": {
+    "reference_answer": "The student is responsible for arranging the attendance of the persons they call to provide evidence at the hearing, with the exception of members of University staff, who are notified of the date, time and location of the hearing by the Clerk of the Committee.",
+    "_note": "Dropped the 10-working-day naming deadline and the ill-health deferral, which the question does not ask about."
+  },
+  "Q0155": {
+    "reference_answer": "The lowest score in quizzes 2 to 5 is dropped, and the scores of the remaining quizzes are scaled so that the grade is out of 10 points. Quizzes 6 and 7 are worth 5 points each, and they are worth more than the other quizzes because the material is not tested again.",
+    "_note": "Dropped the midterm description, which the question does not ask about."
+  },
+  "Q0175": {
+    "reference_answer": "The Extended Incomplete grade must be accompanied by a new deadline date, which should typically be no later than the last day of instruction for that term. If the Extended Incomplete grade is not changed to a final grade by the deadline specified, the grade will lapse to a grade of F or N, for Credit/No Credit courses.",
+    "_note": "Dropped the five-year permanent-grade rule, which applies to Incompletes in a final semester rather than to the Extended Incomplete deadline."
+  },
+  "Q0186": {
+    "question": "At Glasgow, I want a witness to attend my misconduct appeal hearing, and I need to know how quickly I will be told the outcome of the referral to the Head of Student Conduct. How much notice must I give, and what is that timeline?",
+    "reference_answer": "The Responding Student may request the attendance of relevant individuals at the Appeal Committee hearing and must notify the Student Conduct Team at student-conduct@glasgow.ac.uk of those individuals at least five working days before the hearing is due to take place, accompanied by an explanation of why they are relevant to the ground(s) of appeal; it is at the discretion of the Convener of the Appeal Committee to approve their attendance. The Responding Student will be sent written notification of the outcome, comprising the report of the Investigating Officer together with any additional deliberations, reasoning and conclusions of the Head of Student Conduct, within 10 working days of the referral to the Head of Student Conduct.",
+    "_note": "The 10-working-day period runs from the referral to the Head of Student Conduct, not from the appeal hearing; the question and answer now say so."
+  },
+  "Q0192": {
+    "clause_ids": [
+      "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE#c38"
+    ],
+    "question": "At a Boston University academic misconduct hearing, how is responsibility decided once the committee has heard the case?",
+    "reference_answer": "After all the evidence and statements have been heard, the committee deliberates, and determination of responsibility and recommendation of any appropriate sanction is by a majority vote of the members present.",
+    "evidence_type": "single-clause",
+    "_note": "Was an incomplete 'what sanctions can be imposed' question answered with only the first three listed options; narrowed to the responsibility vote."
+  },
+  "Q0024": {
+    "question": "Under Stanford's 2017-2018 student misconduct procedures, what are the parties expected to do during an investigation, and must they attend hearings?",
+    "_note": "The source is the 2017-2018 guidance; the question no longer presents it as current policy."
+  },
+  "Q0094": {
+    "question": "Under Stanford's 2017-2018 exam procedures, what are proctors allowed to do while I am sitting an exam, and does proctoring have to be applied consistently?",
+    "_note": "The source is the 2017-2018 guidance; the question no longer presents it as current policy."
+  },
+  "Q0177": {
+    "question": "Under Stanford's 2027-2028 Basic Conduct Agreement guidance, if I have not finished my sanctions by the deadline, what happens to my enrolment and can I get more time?",
+    "reference_answer": "Where the Office of Community Standards determines that a student has failed to fulfil their sanctions obligation once the established deadline has passed, it places a hold on the student's enrolment for courses, and that hold is lifted immediately once the obligation is fulfilled. A student may request an extension of the sanctions deadline, which the Office may grant where there is good cause.",
+    "_note": "The source is the 2027-2028 guidance, a future academic year as of October 2026; the question now dates it explicitly."
+  },
+  "Q0182": {
+    "question": "Under Stanford's 2027-2028 Basic Conduct Agreement guidance, can I use generative AI to help with an assignment or exam, and will my instructor tell me if they are running AI detection software?",
+    "_note": "The source is the 2027-2028 guidance, a future academic year as of October 2026; the question now dates it explicitly."
+  },
+  "Q0140": {
+    "clause_ids": [
+      "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE#c59"
+    ],
+    "evidence_type": "single-clause",
+    "question": "At Glasgow, I was too unwell to attend an in-person OSCE. Does a late penalty apply to a live assessment like that?",
+    "reference_answer": "No, not normally. The penalty system applies to work that is submitted, and where assessment graded under Glasgow Grading Scheme 2 is an observed performance of competence, such as an OSCE or an in-person presentation, rather than a written submission, late penalties do not normally arise: a missed live assessment is a non-submission, and approved Extenuating Circumstances lead to deferred assessment.",
+    "_note": "Was paired with the Delayed Assessment Permit route, which applies to work that can be submitted; that pairing implied a DAP was available for a live OSCE."
+  },
+  "Q0142": {
+    "delete": true,
+    "_note": "Same single clause (c59) and same rule as Q0140 (live assessment: OSCE vs in-person presentation). Q0140 is kept; this variant is redundant."
+  },
+  "Q0085": {
+    "delete": true,
+    "_note": "Thin course-description question ('what are the two exams made up of'); the clause is syllabus narrative with little policy content."
+  },
+  "Q0102": {
+    "delete": true,
+    "_note": "Unnatural pairing: examiner training together with the Board's action on a suspected disciplinary offence; the second half is not examination policy."
+  },
+  "Q0078": {
+    "delete": true,
+    "_note": "Low-information question whose answer is only '1 hour / 3 hours'; weakest of the examination-timing items and adds little discriminative value."
+  },
+  "Q0188": {
+    "delete": true,
+    "_note": "Template variant of Q0125 (test): both ask who may accompany the student at a misconduct appeal and whether the hearing is public, one for Senate appeals and one for College appeals. Kept the test instance so the held-out set keeps its size; the dev variant is redundant."
+  }
+}

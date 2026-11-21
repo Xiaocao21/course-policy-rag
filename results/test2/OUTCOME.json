@@ -1,0 +1,37 @@
+{
+  "kind": "test2_outcome",
+  "created_at": "2026-11-13T02:01:39+08:00",
+  "split": "test2",
+  "questions": null,
+  "groups": 45,
+  "questions_source": "annotations/questions_test2.jsonl",
+  "ci_method": "percentile bootstrap",
+  "primary": {
+    "name": "structural-minus-semantic Complete@10 (C1)",
+    "delta": 0.8,
+    "ci_low": 0.6664,
+    "ci_high": 0.9111,
+    "n_groups": 45,
+    "threshold": 0.3,
+    "verdict": "confirmed_at_least_0.30",
+    "claim": "The structural family leads the semantic family by at least 0.30 on the unseen set (95% CI [0.666, 0.911])."
+  },
+  "secondary": {
+    "name": "C3 - C1 Complete@10",
+    "delta": 0.0523,
+    "ci_low": 0.0196,
+    "ci_high": 0.0889,
+    "verdict": "positive_magnitude_unresolved",
+    "claim": "Reranking direction is positive (95% CI [0.020, 0.089]); the magnitude is not resolved at this n.",
+    "gatekeeping": "interpreted only because the primary confirmed"
+  },
+  "power": {
+    "n_groups": 45,
+    "primary_mde": 0.184,
+    "secondary_mde": 0.0791,
+    "secondary_power_at_0.047": 0.384
+  },
+  "limits": "test2 can resolve a development-sized effect and cannot reliably exclude a +0.047 effect; a CI that includes zero is neither evidence of no effect nor a failed replication.",
+  "disclosure": "test2 was drafted and reviewed by the agent (agent_self_audit), with no human sign-off; the composition amendments in results/test2/DESIGN_AMENDMENTS.json apply.",
+  "note": "Rules were fixed in results/test2/PREREGISTRATION.json before evaluation; this file only applies them."
+}

@@ -1,0 +1,26 @@
+path,sha256,kind,definition,source
+models/reranker/FROZEN.json,68e06ad79e7ab3c49ad4bcb0687c394a2eddad754872cdb9f0e34b7aeb21911d,file,FROZEN.json file sha256,commit
+models/reranker/runs/rk-1e-05-n4-s20261027-partial-3060-FROZEN/model.safetensors,547060da6310cfd6cb31b75521f75c6af4161aa916196330ef1492ee91719ba2,file,official checkpoint weights,commit/release
+models/reranker/runs/rk-1e-05-n4-s20261027/model.safetensors,d69da8db47755ab7db349c58eea9f8781490cd16d216731b65b5c69d5faf539e,file,NON-OFFICIAL overwritten run weights (2026-11-11),reference only
+models/reranker/runs/rk-1e-05-n4-s20261027-partial-3060-FROZEN/config.json,f8921fc136966127e56b76518da385bade346820a18178a3637b6bb891341739,file,checkpoint directory config.json,commit/release
+models/reranker/runs/rk-1e-05-n4-s20261027-partial-3060-FROZEN/tokenizer.json,7132ed20a040fba715eb868be52c6a7278ce29f0985dae642cd91e573b8d4f3f,file,checkpoint directory tokenizer.json,commit/release
+models/reranker/runs/rk-1e-05-n4-s20261027-partial-3060-FROZEN/tokenizer_config.json,7f8e591fccaa155b910473a53702be26990095e8904323a4241f7750ecc0273e,file,checkpoint directory tokenizer_config.json,commit/release
+models/reranker/FROZEN.json#model.checkpoint_sha256,547060da6310cfd6cb31b75521f75c6af4161aa916196330ef1492ee91719ba2,field,checkpoint weights sha256 recorded in FROZEN,FROZEN.json
+models/reranker/FROZEN.json#code.scripts_sha256,cefb847e50c273a882649dce75372d417177fcce545788862e484ec882c69f8a,field,sha256 over scripts/*.py at training time,FROZEN.json
+models/reranker/FROZEN.json#run_id,8c0e9c786bb6,field,training run id,FROZEN.json
+results/final/FINAL_RUN.json,7b8cc82b797c7e72d34b67e3a75046089fedad5c9bd6a9a4c2e19ec3f60f68ab,file,official test run record,commit
+results/final/FINAL_RUN.json#code_sha256,6f0bcff6a4d8ce57f237f091110eacb2609f37b7ea0d9b5079108c89fd1f95c1,field,code sha at test run,FINAL_RUN
+results/final/FINAL_RUN.json#frozen_sha256,68e06ad79e7ab3c49ad4bcb0687c394a2eddad754872cdb9f0e34b7aeb21911d,field,FROZEN.json file sha at test run,FINAL_RUN
+results/final_test2/FINAL_RUN.json#code_sha256,da6a039b984a310a2fa2035e66d8eb81b48cfeda040829e566a186e30ff746a1,field,code sha at test2 run,FINAL_RUN test2
+annotations/questions.jsonl,54703b6c25771ab901980bee5c9675c0dca651be85b6e22022b0cf1c23c9d05a,file,first question set (172),commit
+annotations/questions_test2.jsonl,0e00fa5ca59977393bc7e14de9c25ba354fae5890a4d1ef2fa292c35144a00c2,file,test2 question set (45),commit
+annotations/LOCKED/LOCKED.json,231b8d56c8b5d7b7ae95836691b0995f72100de9fca3315447b827621aa4b860,file,test lock metadata,commit
+annotations/LOCKED_TEST2/LOCKED2.json,0ade93b55152ec52a52d47917fe10fe193dc3367ec1d812bfa138ba4dcb45fac,file,test2 lock metadata,commit
+annotations/questions.jsonl#locked,54703b6c25771ab901980bee5c9675c0dca651be85b6e22022b0cf1c23c9d05a,field,questions sha256 recorded in LOCKED,LOCKED
+annotations/questions_test2.jsonl#locked,0e00fa5ca59977393bc7e14de9c25ba354fae5890a4d1ef2fa292c35144a00c2,field,questions sha256 recorded in LOCKED2,LOCKED2
+results/final/stats.json,523619470405c1efc233bd84fb24d33e001d0cea7c49f77916a233d3b1369781,file,official test statistics,commit
+results/final_test2/stats.json,f4babf9bf6cf71eaf20f4d956a9e0b42cd8cb72281b12086aa0beb1bd33ea425,file,official test2 statistics,commit
+results/test2/OUTCOME.json,71b2430fa52768b6ec0c3e1ebd51aab805da95352d7b6534eface6e1d2222582,file,official test2 outcome,commit
+results/test2/PREREGISTRATION.json,152b131da4a0c626818907a11705eeaac8102047cc752d66e6de24e57433b234,file,test2 pre-registration,commit
+MANIFEST.json,2aa0c24eb994b1dc5b0b75c33fee19b1feb95e65fb6885588988d0b7e5000816,file,frozen corpus manifest,commit
+data/REQUIRED_SOURCES.csv,c52b2b5bdd401d9c26e43a7ba969730ecd13e1b72786e48d07aadac82fd3c7cc,file,frozen 36 required sources,commit

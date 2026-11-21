@@ -1,0 +1,191 @@
+{
+  "strategy": "heading",
+  "config": "heading",
+  "split": "test",
+  "questions": 60,
+  "gold_unresolved": 0,
+  "n_chunks": 635,
+  "model": "BAAI/bge-small-en-v1.5",
+  "device": "cpu",
+  "latency_ms_per_query": 0.183,
+  "mrr": 0.6131,
+  "by_k": {
+    "1": {
+      "recall": 0.4833,
+      "hit": 0.55,
+      "complete": 0.4167,
+      "partial": 0.4833
+    },
+    "3": {
+      "recall": 0.5833,
+      "hit": 0.6333,
+      "complete": 0.5333,
+      "partial": 0.5833
+    },
+    "5": {
+      "recall": 0.6417,
+      "hit": 0.6667,
+      "complete": 0.6167,
+      "partial": 0.6417
+    },
+    "10": {
+      "recall": 0.7667,
+      "hit": 0.8,
+      "complete": 0.7333,
+      "partial": 0.7667
+    }
+  },
+  "by_token_budget": {
+    "512": {
+      "recall": 0.4833,
+      "hit": 0.55,
+      "complete": 0.4167,
+      "partial": 0.4833,
+      "tokens_unused_mean": 106.0,
+      "zero_chunk_queries": 0
+    },
+    "1024": {
+      "recall": 0.5417,
+      "hit": 0.6,
+      "complete": 0.4833,
+      "partial": 0.5417,
+      "tokens_unused_mean": 171.1,
+      "zero_chunk_queries": 0
+    },
+    "2048": {
+      "recall": 0.6417,
+      "hit": 0.6667,
+      "complete": 0.6167,
+      "partial": 0.6417,
+      "tokens_unused_mean": 219.8,
+      "zero_chunk_queries": 0
+    }
+  },
+  "recall_at_5_by_type": {
+    "cross-clause": 0.6818,
+    "rule-and-exception": 0.7143,
+    "single-clause": 0.6
+  },
+  "recall_at_5_by_domain": {
+    "attendance": 0.125,
+    "exam": 0.7692,
+    "grading": 0.625,
+    "integrity": 0.5833,
+    "late": 0.875,
+    "resources": 0.8571
+  },
+  "error_examples": [
+    {
+      "qid": "Q0008",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "rule-and-exception",
+      "domain": "grading"
+    },
+    {
+      "qid": "Q0017",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "integrity"
+    },
+    {
+      "qid": "Q0026",
+      "recall_at_10": 0.5,
+      "first_hit_rank": 6,
+      "evidence_type": "cross-clause",
+      "domain": "grading"
+    },
+    {
+      "qid": "Q0027",
+      "recall_at_10": 0.5,
+      "first_hit_rank": 1,
+      "evidence_type": "cross-clause",
+      "domain": "grading"
+    },
+    {
+      "qid": "Q0052",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "cross-clause",
+      "domain": "integrity"
+    },
+    {
+      "qid": "Q0058",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "integrity"
+    },
+    {
+      "qid": "Q0063",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "resources"
+    },
+    {
+      "qid": "Q0076",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "exam"
+    },
+    {
+      "qid": "Q0077",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "exam"
+    },
+    {
+      "qid": "Q0090",
+      "recall_at_10": 0.5,
+      "first_hit_rank": 1,
+      "evidence_type": "rule-and-exception",
+      "domain": "exam"
+    },
+    {
+      "qid": "Q0091",
+      "recall_at_10": 0.5,
+      "first_hit_rank": 1,
+      "evidence_type": "rule-and-exception",
+      "domain": "exam"
+    },
+    {
+      "qid": "Q0108",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "attendance"
+    },
+    {
+      "qid": "Q0109",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "attendance"
+    },
+    {
+      "qid": "Q0113",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "attendance"
+    },
+    {
+      "qid": "Q0116",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "rule-and-exception",
+      "domain": "attendance"
+    },
+    {
+      "qid": "Q0127",
+      "recall_at_10": 0.0,
+      "first_hit_rank": null,
+      "evidence_type": "single-clause",
+      "domain": "late"
+    }
+  ]
+}

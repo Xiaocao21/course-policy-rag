@@ -1,0 +1,113 @@
+{
+  "status": "pass",
+  "questions_file": "<repo>\\annotations\\questions.jsonl",
+  "corpus_version": "v0.1.5",
+  "counts": {
+    "total": 172,
+    "dev": 112,
+    "test": 60,
+    "dev_groups": 106,
+    "test_groups": 59,
+    "prefilled": 172,
+    "manual_reviewed": 172,
+    "targets": {
+      "total": 150,
+      "dev": 100,
+      "test": 50,
+      "test_groups_min": 40
+    },
+    "alternative_evidence_questions": 0
+  },
+  "distributions": {
+    "evidence_type": {
+      "dev": {
+        "single-clause": 33,
+        "rule-and-exception": 46,
+        "cross-clause": 33
+      },
+      "test": {
+        "rule-and-exception": 14,
+        "cross-clause": 11,
+        "single-clause": 35
+      }
+    },
+    "domain": {
+      "dev": {
+        "integrity": 20,
+        "grading": 17,
+        "resources": 12,
+        "exam": 22,
+        "attendance": 19,
+        "late": 22
+      },
+      "test": {
+        "grading": 12,
+        "integrity": 12,
+        "resources": 7,
+        "exam": 13,
+        "attendance": 8,
+        "late": 8
+      }
+    },
+    "source_level": {
+      "dev": {
+        "institution": 59,
+        "faculty": 46,
+        "course": 7
+      },
+      "test": {
+        "faculty": 20,
+        "institution": 22,
+        "course": 18
+      }
+    },
+    "condition": {
+      "dev": {
+        "exception": 57,
+        "baseline": 55
+      },
+      "test": {
+        "exception": 24,
+        "baseline": 36
+      }
+    }
+  },
+  "evidence_leakage": {
+    "clauses_crossing_splits": 0,
+    "crossing_question_count": 0,
+    "crossing_questions": [],
+    "duplicate_evidence_sets": []
+  },
+  "near_duplicate_pairs": [],
+  "containment_selftest": {
+    "off_by_one_is_not_full_hit": true,
+    "exact_span_is_full_hit": true,
+    "partial_fraction": 0.8
+  },
+  "lock_state": {
+    "locked_at": "2026-10-24T21:32:31+08:00",
+    "questions": 60,
+    "groups": 59,
+    "test_jsonl_sha256": "cffe8e10b289f7fe93ee74febd07d64724957b4840e543d3f90773f78828d76f",
+    "questions_jsonl_sha256": "54703b6c25771ab901980bee5c9675c0dca651be85b6e22022b0cf1c23c9d05a",
+    "manual_reviewed": 60
+  },
+  "actions": {
+    "lock": {
+      "locked": true,
+      "locked_at": "2026-10-24T21:32:31+08:00",
+      "questions": 60,
+      "groups": 59,
+      "test_jsonl_sha256": "cffe8e10b289f7fe93ee74febd07d64724957b4840e543d3f90773f78828d76f",
+      "questions_jsonl_sha256": "54703b6c25771ab901980bee5c9675c0dca651be85b6e22022b0cf1c23c9d05a",
+      "manual_reviewed": 60
+    }
+  },
+  "blockers": [],
+  "warnings": [
+    {
+      "kind": "no_alternative_sufficient_sets",
+      "detail": "the revision allows several alternative minimal sufficient sets; if the corpus cannot support them, state this in Limitations"
+    }
+  ]
+}

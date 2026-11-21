@@ -1,0 +1,13 @@
+{
+  "file": "<repo>\\annotations\\agreement_sample.csv",
+  "mode": "clause-level(legacy)",
+  "rows": 397,
+  "labelled": 0,
+  "unlabelled": 397,
+  "target_kappa": 0.7,
+  "meets_target": false,
+  "decisions": 0,
+  "observed_agreement": null,
+  "cohen_kappa": null,
+  "disagreements": []
+}

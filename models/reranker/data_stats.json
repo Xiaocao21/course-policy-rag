@@ -1,0 +1,50 @@
+{
+  "split": {
+    "val_groups": 21,
+    "train_groups": 85,
+    "val_questions": 22,
+    "train_questions": 89
+  },
+  "corpus_version": "v0.1.5",
+  "seed": 20261013,
+  "top_k": 50,
+  "cap": 200,
+  "configs": 17,
+  "questions": 112,
+  "groups": 106,
+  "candidates_before_dedup": 95200,
+  "candidates_after_dedup": 73576,
+  "merged_across_configs": 17169,
+  "kept_pairs": 22200,
+  "label_counts": {
+    "negative": 67704,
+    "partial": 4291,
+    "positive_clause": 1581
+  },
+  "kept_label_counts": {
+    "positive_clause": 1581,
+    "negative": 18807,
+    "partial": 1812
+  },
+  "questions_with_positive": 111,
+  "train_rows_dropped_no_positive": 200,
+  "kept_pairs_final": 22200,
+  "mean_positives_per_question": 14.243,
+  "truncation": {
+    "pairs": 22200,
+    "truncated": 5616,
+    "fraction": 0.253,
+    "max_pair_tokens": 705,
+    "query_max": 128,
+    "pair_max": 512,
+    "truncated_tokens_total": 477545,
+    "truncated_tokens_max": 193,
+    "tokenizer": "BAAI/bge-reranker-base",
+    "truncated_tokens_mean": 85.0
+  },
+  "pairs_sha256": "4e797f8eaefea5638e4e9f991dc23ceaf97e78a8e7b25b1c9ab1cf1e327e87a7",
+  "questions_without_positive_qids": [
+    "Q0141"
+  ],
+  "questions_without_positive": 1
+}
