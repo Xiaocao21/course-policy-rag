@@ -10,7 +10,7 @@
 *.pdf    binary
 
 # Source and documentation can use normal text handling.
-*.py     text eol=lf
-*.md     text eol=lf
+*.py     -text
+*.md     -text
 *.yaml   text eol=lf
 *.yml    text eol=lf

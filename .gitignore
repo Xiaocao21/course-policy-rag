@@ -38,7 +38,6 @@ models/reranker/runs/rk-1e-05-n4-s20261027/
 annotations/REVIEW.md
 annotations/REVIEW.csv
 annotations/TEST2_REVIEW.md
-annotations/TEST2_REVIEW.csv
 annotations/gold_worksheet.csv
 annotations/questions_backup_pre_repair.jsonl
 annotations/question_skeletons.jsonl
