@@ -1,11 +1,11 @@
 # A5000 full fine-tune recipe (T06)
-
-This is the recipe behind the compatibility result in the report. It is **not** the canonical
-model: full fine-tuning produced no measurable gain, so the frozen partial fine-tune remains the
-model used for every reported test/test2 number.
-
-```yaml
+#
+# Compatibility-only: full fine-tuning produced no measurable gain, so the frozen partial
+# fine-tune remains the model behind every reported test/test2 number. `env_role` makes the
+# trainer write COMPAT.json instead of replacing FROZEN.json.
 name: a5000_full_finetune
+split: dev
+out: results/repro/train/a5000
 device: cuda
 precision: fp16
 base_model: BAAI/bge-reranker-base
@@ -19,15 +19,3 @@ epochs_max: 3
 early_stop_patience: 1
 seed: 20261027
 env_role: compatibility         # writes COMPAT.json, never FROZEN.json
-train_split: dev
-```
-
-Command (run in a scratch copy; `18` writes under `models/reranker/`):
-
-```powershell
-python scripts/18_train_reranker.py --env-role compatibility --freeze-encoder-layers 0 ^
-    --optimizer adamw --batch 32 --grad-accum 1 --epochs-max 3 --seed 20261027
-```
-
-Recorded result: val Complete@10 0.3930 (partial model re-measured in the same process: 0.3904;
-dev Δ +0.004, 95% CI [−0.004, +0.012]). Log: `models/reranker/train_compat_full_a5000.log`.

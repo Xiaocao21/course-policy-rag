@@ -1,0 +1,42 @@
+{
+ "scripts/11_chunking.py": {
+  "original": "68b926d814d3e6925a3d6efc47445caece810959c249a239616f4c1395a8bd93",
+  "public": "68b926d814d3e6925a3d6efc47445caece810959c249a239616f4c1395a8bd93",
+  "identical": true
+ },
+ "scripts/12_build_index.py": {
+  "original": "c0fb05fda3d83eb9d24c3740db25257f7af3c8572627f34cd9ddb2e446024be4",
+  "public": "c0fb05fda3d83eb9d24c3740db25257f7af3c8572627f34cd9ddb2e446024be4",
+  "identical": true
+ },
+ "scripts/13_evaluate.py": {
+  "original": "e660b103b23387b3703d42a34eb8d62f3f2fddc08d48fb9e500bdd3d006187f8",
+  "public": "e660b103b23387b3703d42a34eb8d62f3f2fddc08d48fb9e500bdd3d006187f8",
+  "identical": true
+ },
+ "scripts/16_stats.py": {
+  "original": "3234d311f7e742f6474835f868cb5b1ecbbc1acef7a198e3592e7e04057fad88",
+  "public": "3234d311f7e742f6474835f868cb5b1ecbbc1acef7a198e3592e7e04057fad88",
+  "identical": true
+ },
+ "scripts/18_train_reranker.py": {
+  "original": "ad14f2c16bb53814743dfaf7553258565e9d14ac716f171445ebac3d1fd4bccb",
+  "public": "ad14f2c16bb53814743dfaf7553258565e9d14ac716f171445ebac3d1fd4bccb",
+  "identical": true
+ },
+ "scripts/19_rerank_eval.py": {
+  "original": "5aab382b04626230c2a3a44ffcbc4bcb47c16f642c5ee952d231194ffb935810",
+  "public": "5aab382b04626230c2a3a44ffcbc4bcb47c16f642c5ee952d231194ffb935810",
+  "identical": true
+ },
+ "scripts/common.py": {
+  "original": "911da23768d579b67c7e89eba7f8331bd40dd6b13ede476c5d96fe52cc9aa046",
+  "public": "911da23768d579b67c7e89eba7f8331bd40dd6b13ede476c5d96fe52cc9aa046",
+  "identical": true
+ },
+ "scripts/goldset.py": {
+  "original": "ec4fca449da8bc6e5995cd3cc624a903506031d4277b9bdc3f6d76404081c162",
+  "public": "ec4fca449da8bc6e5995cd3cc624a903506031d4277b9bdc3f6d76404081c162",
+  "identical": true
+ }
+}

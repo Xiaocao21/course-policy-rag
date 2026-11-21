@@ -24,7 +24,7 @@ chunking (17 configurations, 4 families); reranking is a secondary 2×2 contrast
 ├── requirements-gpu.txt        # A5000: torch cu124, sentence-transformers, faiss
 ├── configs/                    # proposed_model.yaml, baseline.yaml, a5000.yaml
 ├── data/                       # README, REQUIRED_SOURCES.csv, snapshot instructions
-├── src/                        # entry points: verify (R1), evaluate (R2), preprocess, config, repro/
+├── src/                        # entry points: verify (R1), evaluate (R2), train (R3), inference, preprocess
 ├── tools/                      # fetch_data, fetch_indexes, fetch_models, check_data, exporters
 ├── scripts/                    # the pipeline (01–28): collection → chunking → indexing → stats
 ├── results/                    # per-question scores, stats.json, OUTCOME.json, figures, HASHES.csv
@@ -160,6 +160,13 @@ python src/verify.py --split test2
 
 `REPRODUCE.md` covers R1/R2 in full, with expected outputs and failure modes. `LIMITATIONS.md`
 lists what this package cannot claim.
+
+## Code provenance
+
+CODE_MANIFEST.csv lists every script with its original and public SHA-256; CODE_DELTA.md
+explains the three path-only edits; RESULTS_CODE_SHA256.json shows the eight result-generating
+files are byte-identical. The historical FINAL_RUN.json/FROZEN.json were not modified.
+ACCEPTANCE.md records what was actually run and what was not.
 
 ## Citation and attribution
 

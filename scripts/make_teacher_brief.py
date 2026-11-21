@@ -6,7 +6,7 @@ fails loudly if a figure or a source document is missing.
 
 Run with the bundled Python that ships python-docx:
 
-    C:\\Users\\...\\dependencies\\python\\python.exe scripts/make_teacher_brief.py
+    python scripts/make_teacher_brief.py
 """
 from __future__ import annotations
 
