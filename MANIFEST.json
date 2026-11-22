@@ -4,7 +4,7 @@
  "frozen_at": "2026-10-21T18:46:45+0800",
  "frozen_by": "scripts/04_freeze_manifest.py",
  "random_seed": 20261013,
- "settings_sha256": "8489027f27bcf29d8c0fc5d12d2b23caf383e81d57e0e35c57091746a3982d95",
+ "settings_sha256": "c2d7603a1cc505cff50cb316cefd705289ed15195a2e0859a0c1b4de4bdd78fa",
  "previous_settings_sha256": "d858b591ff5450d46a5fc9046ed3c7606faf373842b98d85849063922cbe5776",
  "settings_changed_since_last_freeze": true,
  "taxonomy_sha256": "1d3c68c92d39bee0a9663634afd04cbd005559b5b9d98db0f2eaf347e2423ceb",
