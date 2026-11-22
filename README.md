@@ -24,7 +24,7 @@ chunking (17 configurations, 4 families); reranking is a secondary 2×2 contrast
 ├── requirements-gpu.txt        # A5000: torch cu124, sentence-transformers, faiss
 ├── configs/                    # proposed_model.yaml, baseline.yaml, a5000.yaml
 ├── data/                       # README, REQUIRED_SOURCES.csv, snapshot instructions
-├── src/                        # entry points: verify (R1), evaluate (R2), train (R3), inference, preprocess
+├── src/                        # entry points: verify, evaluate, train, inference, preprocess, utils
 ├── tools/                      # fetch_data, fetch_indexes, fetch_models, check_data, exporters
 ├── scripts/                    # the pipeline (01–28): collection → chunking → indexing → stats
 ├── results/                    # per-question scores, stats.json, OUTCOME.json, figures, HASHES.csv

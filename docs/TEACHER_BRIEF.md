@@ -155,4 +155,4 @@ assignment.
   protocol, or the interpretation; those were set by the student and supervisor. No
   inter-annotator agreement is claimed, because there was no second human annotator.
 - **Models.** `BAAI/bge-small-en-v1.5` (frozen encoder), `BAAI/bge-reranker-base`
-  (fine-tuned reranker), DeepSeek (annotation and drafting).
+  (fine-tuned reranker), DeepSeek (annotation and drafting), Codex (code development).

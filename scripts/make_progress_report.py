@@ -27,7 +27,7 @@ try:
     from docx.shared import Pt, RGBColor, Cm
 except ImportError:  # pragma: no cover
     print("python-docx is required. Run this with the bundled interpreter:\n"
-          "  C:\\Users\\QJC_Wing\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\python.exe "
+          "  python "
           "scripts\\make_progress_report.py", file=sys.stderr)
     raise
 

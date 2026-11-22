@@ -7,7 +7,7 @@ number and file in this repository.
 
 | Area | AI involvement | Human check |
 |---|---|---|
-| Pipeline code (`scripts/`, `src/`, `tools/`) | written with AI assistance; the author directed the design and reviewed the code | the author can explain every module; tests and assertions cover the transformations |
+| Pipeline code (`scripts/`, `src/`, `tools/`) | written with AI assistance (DeepSeek and Codex); the author directed the design and reviewed the code | the author can explain every module; tests and assertions cover the transformations |
 | First question set (172 questions, 112 dev / 60 test) | drafted by the AI from frozen corpus clauses | **the student reviewed all 172**, raised 23 defects that were corrected, and accepted every question (timestamped in `reports/lock_audit.jsonl`) |
 | Second held-out set (45 questions, test2) | drafted by the AI from frozen evidence bundles | **jointly reviewed by the student and the AI**; two answers were corrected (T2Q003, T2Q021). See `annotations/TEST2_REVIEW_ATTESTATION.md` |
 | Evidence selection | AI proposed candidate clauses and bundles | the author froze the bundles before writing questions; the freeze is hashed and dated |
@@ -34,5 +34,6 @@ number and file in this repository.
 
 ## Tools
 
-The assistant was DeepSeek (via the DeepSeek Harness coding agent). No other AI system
-generated code, questions or text for this repository.
+The assistant was DeepSeek (via the DeepSeek Harness coding agent). Codex also assisted with
+code development. These are the only AI systems used for code, questions or text in this
+repository.

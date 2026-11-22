@@ -1,0 +1,1528 @@
+{
+ "note": "Diagnostic retrieval for paper case studies; not an official evaluation.",
+ "cases": [
+  {
+   "qid": "Q0001",
+   "question": "At University of Wisconsin-Madison, A student stopped attending one of my courses and then missed the final exam without contacting me. Can I record an Incomplete for them?",
+   "evidence_type": "rule-and-exception",
+   "strategy": "semantic",
+   "config": "thr0.70",
+   "track": "C1",
+   "coverage": {
+    "recall@10": 0.5,
+    "hit@10": 1.0,
+    "complete@10": 0.0,
+    "partial@10": 0.7765848670756645
+   },
+   "official_check": {
+    "hit@10": {
+     "computed": 1.0,
+     "official": 1.0
+    },
+    "complete@10": {
+     "computed": 0.0,
+     "official": 0.0
+    },
+    "recall@10": {
+     "computed": 0.5,
+     "official": 0.5
+    }
+   },
+   "gold": [
+    {
+     "clause_id": "UNIVERSITY-OF-WISC-VALID-GRADES#c8",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "span": [
+      2746,
+      3724
+     ],
+     "first_covering_rank": null,
+     "covered": false
+    },
+    {
+     "clause_id": "UNIVERSITY-OF-WISC-VALID-GRADES#c6",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "span": [
+      2458,
+      2575
+     ],
+     "first_covering_rank": 4,
+     "covered": true
+    }
+   ],
+   "top10": [
+    {
+     "chunk_id": "UNIVERSITY-OF-WISC-VALID-GRADES::semantic::thr0.70::2836-3288",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "token_count": 93,
+     "clause_ids": [
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c8"
+     ],
+     "ev_ranges": [
+      [
+       2836,
+       3288
+      ]
+     ],
+     "snippet": "If the answer is \"no\" for any of those items, it may not be appropriate to award an Incomplete. An Incomplete is not given to a student who stays away from a final examination unless the student proves to you that they w",
+     "rank": 1,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-WISC-VALID-GRADES::semantic::thr0.70::7607-7738",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "token_count": 28,
+     "clause_ids": [
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c15"
+     ],
+     "ev_ranges": [
+      [
+       7607,
+       7738
+      ]
+     ],
+     "snippet": "It is up to you whether to award an Incomplete. An Incomplete may be reported for a student for whom all of the following are true:",
+     "rank": 2,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-SUPPORT-TO-STUDY::semantic::thr0.70::18521-18707",
+     "doc_id": "UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-SUPPORT-TO-STUDY",
+     "token_count": 37,
+     "clause_ids": [
+      "UNIVERSITY-OF-GLAS-REGULATIONS-CURRENT-GENERAL-SUPPORT-TO-STUDY#c63"
+     ],
+     "ev_ranges": [
+      [
+       18521,
+       18707
+      ]
+     ],
+     "snippet": "[2] This may apply in cases where a student has submitted an Extenuating Circumstances claim in relation to missed learning or non-completion or underperformance in academic assessments.",
+     "rank": 3,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-WISC-VALID-GRADES::semantic::thr0.70::2084-2835",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "token_count": 145,
+     "clause_ids": [
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c3",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c4",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c5",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c6",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c7",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c8"
+     ],
+     "ev_ranges": [
+      [
+       2084,
+       2172
+      ],
+      [
+       2173,
+       2336
+      ],
+      [
+       2337,
+       2457
+      ],
+      [
+       2458,
+       2575
+      ],
+      [
+       2576,
+       2745
+      ],
+      [
+       2746,
+       2835
+      ]
+     ],
+     "snippet": "The student has carried a subject with a passing grade until near the end of a semester; The student is unable to complete a small amount of coursework or take a final exam due to extenuating circumstances beyond their c",
+     "rank": 4,
+     "covers_clause_ids": [
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c6"
+     ]
+    },
+    {
+     "chunk_id": "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL::semantic::thr0.70::23307-23804",
+     "doc_id": "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL",
+     "token_count": 105,
+     "clause_ids": [
+      "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL#c22"
+     ],
+     "ev_ranges": [
+      [
+       23540,
+       24037
+      ]
+     ],
+     "snippet": "Claims without The Registry will be informed of all student non-attendances as the university is obliged to report the If you do not engage satisfactorily with your studies, Imperial will consider what action is necessar",
+     "rank": 5,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-MARY-GRADES-RECORDS-TRANSCRIPTS::semantic::thr0.70::2620-2743",
+     "doc_id": "UNIVERSITY-OF-MARY-GRADES-RECORDS-TRANSCRIPTS",
+     "token_count": 33,
+     "clause_ids": [
+      "UNIVERSITY-OF-MARY-GRADES-RECORDS-TRANSCRIPTS#c8"
+     ],
+     "ev_ranges": [
+      [
+       2620,
+       2743
+      ]
+     ],
+     "snippet": "Contact the Office of Student Conduct at 301-314-8204 or studentconduct@umd.edu to resolve the hold on your student record.",
+     "rank": 6,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-WISC-VALID-GRADES::semantic::thr0.70::4386-4580",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "token_count": 36,
+     "clause_ids": [
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c10"
+     ],
+     "ev_ranges": [
+      [
+       4386,
+       4580
+      ]
+     ],
+     "snippet": "You may assign a Permanent Incomplete grade to a graduate student if the following occurs after the student is assigned a grade of Incomplete (I) and before the student completes the coursework:",
+     "rank": 7,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-15-515-FINANCIAL-ACCOUNTING-FALL-2003-SYLLAB::semantic::thr0.70::1883-2004",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-15-515-FINANCIAL-ACCOUNTING-FALL-2003-SYLLAB",
+     "token_count": 26,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-15-515-FINANCIAL-ACCOUNTING-FALL-2003-SYLLAB#c3"
+     ],
+     "ev_ranges": [
+      [
+       1883,
+       2004
+      ]
+     ],
+     "snippet": "If you believe an error has been made in grading your homework or exam, you may request a regrade by doing the following:",
+     "rank": 8,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-MARY-GRADES-RECORDS-TRANSCRIPTS::semantic::thr0.70::2765-2897",
+     "doc_id": "UNIVERSITY-OF-MARY-GRADES-RECORDS-TRANSCRIPTS",
+     "token_count": 33,
+     "clause_ids": [
+      "UNIVERSITY-OF-MARY-GRADES-RECORDS-TRANSCRIPTS#c9"
+     ],
+     "ev_ranges": [
+      [
+       2765,
+       2897
+      ]
+     ],
+     "snippet": "Contact the Office of the University Registrar at 301-314-8240 or registrar-help@umd.edu to resolve the hold on your student record.",
+     "rank": 9,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-WISC-VALID-GRADES::semantic::thr0.70::6752-6782",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "token_count": 6,
+     "clause_ids": [
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c15"
+     ],
+     "ev_ranges": [
+      [
+       6752,
+       6782
+      ]
+     ],
+     "snippet": "Failures/repeat course option:",
+     "rank": 10,
+     "covers_clause_ids": []
+    }
+   ]
+  },
+  {
+   "qid": "Q0001",
+   "question": "At University of Wisconsin-Madison, A student stopped attending one of my courses and then missed the final exam without contacting me. Can I record an Incomplete for them?",
+   "evidence_type": "rule-and-exception",
+   "strategy": "heading",
+   "config": "heading",
+   "track": "C1",
+   "coverage": {
+    "recall@10": 1.0,
+    "hit@10": 1.0,
+    "complete@10": 1.0,
+    "partial@10": 1.0
+   },
+   "official_check": {
+    "hit@10": {
+     "computed": 1.0,
+     "official": 1.0
+    },
+    "complete@10": {
+     "computed": 1.0,
+     "official": 1.0
+    },
+    "recall@10": {
+     "computed": 1.0,
+     "official": 1.0
+    }
+   },
+   "gold": [
+    {
+     "clause_id": "UNIVERSITY-OF-WISC-VALID-GRADES#c8",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "span": [
+      2746,
+      3724
+     ],
+     "first_covering_rank": 1,
+     "covered": true
+    },
+    {
+     "clause_id": "UNIVERSITY-OF-WISC-VALID-GRADES#c6",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "span": [
+      2458,
+      2575
+     ],
+     "first_covering_rank": 1,
+     "covered": true
+    }
+   ],
+   "top10": [
+    {
+     "chunk_id": "UNIVERSITY-OF-WISC-VALID-GRADES::heading::heading::2084-3880",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "token_count": 348,
+     "clause_ids": [
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c3",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c4",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c5",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c6",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c7",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c8",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c9"
+     ],
+     "ev_ranges": [
+      [
+       2084,
+       2172
+      ],
+      [
+       2173,
+       2336
+      ],
+      [
+       2337,
+       2457
+      ],
+      [
+       2458,
+       2575
+      ],
+      [
+       2576,
+       2745
+      ],
+      [
+       2746,
+       3724
+      ],
+      [
+       3725,
+       3880
+      ]
+     ],
+     "snippet": "The student has carried a subject with a passing grade until near the end of a semester; The student is unable to complete a small amount of coursework or take a final exam due to extenuating circumstances beyond their c",
+     "rank": 1,
+     "covers_clause_ids": [
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c8",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c6"
+     ]
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-WASH-WWW::heading::heading::2596-5182",
+     "doc_id": "UNIVERSITY-OF-WASH-WWW",
+     "token_count": 490,
+     "clause_ids": [
+      "UNIVERSITY-OF-WASH-WWW#c8",
+      "UNIVERSITY-OF-WASH-WWW#c9",
+      "UNIVERSITY-OF-WASH-WWW#c10",
+      "UNIVERSITY-OF-WASH-WWW#c11",
+      "UNIVERSITY-OF-WASH-WWW#c12",
+      "UNIVERSITY-OF-WASH-WWW#c13",
+      "UNIVERSITY-OF-WASH-WWW#c14",
+      "UNIVERSITY-OF-WASH-WWW#c15",
+      "UNIVERSITY-OF-WASH-WWW#c16",
+      "UNIVERSITY-OF-WASH-WWW#c17",
+      "UNIVERSITY-OF-WASH-WWW#c18"
+     ],
+     "ev_ranges": [
+      [
+       2596,
+       2678
+      ],
+      [
+       2679,
+       2786
+      ],
+      [
+       2787,
+       2992
+      ],
+      [
+       2993,
+       3103
+      ],
+      [
+       3104,
+       4176
+      ],
+      [
+       4177,
+       4413
+      ],
+      [
+       4414,
+       4530
+      ],
+      [
+       4531,
+       4661
+      ],
+      [
+       4662,
+       4843
+      ],
+      [
+       4844,
+       5010
+      ],
+      [
+       5011,
+       5182
+      ]
+     ],
+     "snippet": "Transcripts from institutions attended since last quarter at the UW, if applicable What has caused you to be dropped from the UW? Identify the barriers to your academic success. Be specific. What are the behaviors and ci",
+     "rank": 2,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL::heading::heading::23127-25404",
+     "doc_id": "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL",
+     "token_count": 459,
+     "clause_ids": [
+      "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL#c22",
+      "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL#c23"
+     ],
+     "ev_ranges": [
+      [
+       23360,
+       24498
+      ],
+      [
+       24499,
+       25637
+      ]
+     ],
+     "snippet": "examination or assessment deadline. If you are unable to provide evidence at the time you must submit the claim and indicate what evidence will follow and when it can be provided. Claims without The Registry will be info",
+     "rank": 3,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-WASH-WWW::heading::heading::22229-24215",
+     "doc_id": "UNIVERSITY-OF-WASH-WWW",
+     "token_count": 364,
+     "clause_ids": [
+      "UNIVERSITY-OF-WASH-WWW#c82",
+      "UNIVERSITY-OF-WASH-WWW#c83"
+     ],
+     "ev_ranges": [
+      [
+       22535,
+       23645
+      ],
+      [
+       23646,
+       24521
+      ]
+     ],
+     "snippet": "If a student chooses to appeal, submission of appeal documents as soon as possible after a student's final grades are posted is strongly encouraged. Students who have been academically dropped who wish to petition for re",
+     "rank": 4,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-14-30-INTRODUCTION-TO-STATISTICAL-METHODS-IN::heading::heading::2182-4554",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-14-30-INTRODUCTION-TO-STATISTICAL-METHODS-IN",
+     "token_count": 461,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-14-30-INTRODUCTION-TO-STATISTICAL-METHODS-IN#c3",
+      "MIT-OPENCOURSEWARE-COURSES-14-30-INTRODUCTION-TO-STATISTICAL-METHODS-IN#c4"
+     ],
+     "ev_ranges": [
+      [
+       2182,
+       3381
+      ],
+      [
+       3382,
+       4554
+      ]
+     ],
+     "snippet": "In fairness to students who complete assignments on time, late homework sets will not be accepted. You may turn in assignments during the lecture on the day they are due. After the lecture, assignments may be placed in a",
+     "rank": 5,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-14-13-PSYCHOLOGY-AND-ECONOMICS-SPRING-2020-S::heading::heading::1544-3685",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-14-13-PSYCHOLOGY-AND-ECONOMICS-SPRING-2020-S",
+     "token_count": 456,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-14-13-PSYCHOLOGY-AND-ECONOMICS-SPRING-2020-S#c3",
+      "MIT-OPENCOURSEWARE-COURSES-14-13-PSYCHOLOGY-AND-ECONOMICS-SPRING-2020-S#c4",
+      "MIT-OPENCOURSEWARE-COURSES-14-13-PSYCHOLOGY-AND-ECONOMICS-SPRING-2020-S#c5",
+      "MIT-OPENCOURSEWARE-COURSES-14-13-PSYCHOLOGY-AND-ECONOMICS-SPRING-2020-S#c6",
+      "MIT-OPENCOURSEWARE-COURSES-14-13-PSYCHOLOGY-AND-ECONOMICS-SPRING-2020-S#c7",
+      "MIT-OPENCOURSEWARE-COURSES-14-13-PSYCHOLOGY-AND-ECONOMICS-SPRING-2020-S#c8"
+     ],
+     "ev_ranges": [
+      [
+       1544,
+       1868
+      ],
+      [
+       1869,
+       1965
+      ],
+      [
+       1966,
+       2060
+      ],
+      [
+       2061,
+       2574
+      ],
+      [
+       2575,
+       3189
+      ],
+      [
+       3190,
+       3685
+      ]
+     ],
+     "snippet": "You may work jointly with other groups on problem sets but each of you must submit solutions individually. If you choose to work with other students, we expect that you work jointly on the solutions rather than simply co",
+     "rank": 6,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE::heading::heading::36156-37136",
+     "doc_id": "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE",
+     "token_count": 194,
+     "clause_ids": [
+      "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE#c62",
+      "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE#c63",
+      "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE#c64",
+      "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE#c65",
+      "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE#c66"
+     ],
+     "ev_ranges": [
+      [
+       36780,
+       37030
+      ],
+      [
+       37031,
+       37164
+      ],
+      [
+       37165,
+       37438
+      ],
+      [
+       37439,
+       37548
+      ],
+      [
+       37549,
+       37760
+      ]
+     ],
+     "snippet": "Because they are no longer enrolled in the course in question, the student would not incur an academic penalty if they agree to sign an Agreement for Resolution Form. A signed form, however, would still serve as a record",
+     "rank": 7,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE::heading::heading::53545-55299",
+     "doc_id": "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE",
+     "token_count": 380,
+     "clause_ids": [
+      "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE#c97",
+      "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE#c98"
+     ],
+     "ev_ranges": [
+      [
+       53633,
+       54735
+      ],
+      [
+       54736,
+       55387
+      ]
+     ],
+     "snippet": "A rejected claim leaves missing assessments as non-submissions, contributing zero grade points to the course grade. The student may request reconsideration of the Stage 1 decision under Student & Academic Services' publi",
+     "rank": 8,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL::heading::heading::45563-47854",
+     "doc_id": "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL",
+     "token_count": 456,
+     "clause_ids": [
+      "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL#c42",
+      "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL#c43"
+     ],
+     "ev_ranges": [
+      [
+       45796,
+       46937
+      ],
+      [
+       46938,
+       48087
+      ]
+     ],
+     "snippet": "Board are not permitted to amend the marks that you were awarded, only to take your claim into All claims must be supported by independent evidence and submitted within 10 working days of the affected assessment. Any cla",
+     "rank": 9,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-WASH-WWW::heading::heading::5183-7071",
+     "doc_id": "UNIVERSITY-OF-WASH-WWW",
+     "token_count": 360,
+     "clause_ids": [
+      "UNIVERSITY-OF-WASH-WWW#c19",
+      "UNIVERSITY-OF-WASH-WWW#c20",
+      "UNIVERSITY-OF-WASH-WWW#c21",
+      "UNIVERSITY-OF-WASH-WWW#c22",
+      "UNIVERSITY-OF-WASH-WWW#c23",
+      "UNIVERSITY-OF-WASH-WWW#c24",
+      "UNIVERSITY-OF-WASH-WWW#c25",
+      "UNIVERSITY-OF-WASH-WWW#c26",
+      "UNIVERSITY-OF-WASH-WWW#c27",
+      "UNIVERSITY-OF-WASH-WWW#c28",
+      "UNIVERSITY-OF-WASH-WWW#c29",
+      "UNIVERSITY-OF-WASH-WWW#c30"
+     ],
+     "ev_ranges": [
+      [
+       5183,
+       5344
+      ],
+      [
+       5345,
+       5449
+      ],
+      [
+       5450,
+       5579
+      ],
+      [
+       5580,
+       5711
+      ],
+      [
+       5712,
+       5832
+      ],
+      [
+       5833,
+       6119
+      ],
+      [
+       6120,
+       6374
+      ],
+      [
+       6375,
+       6516
+      ],
+      [
+       6517,
+       6628
+      ],
+      [
+       6629,
+       6834
+      ],
+      [
+       6835,
+       6980
+      ],
+      [
+       6981,
+       7071
+      ]
+     ],
+     "snippet": "The review must be waived if, at the time of the new violation, the student had not received written notice that the prior conduct investigation had been opened. If the student appeals the UW finding of misconduct, Colle",
+     "rank": 10,
+     "covers_clause_ids": []
+    }
+   ]
+  },
+  {
+   "qid": "Q0001",
+   "question": "At University of Wisconsin-Madison, A student stopped attending one of my courses and then missed the final exam without contacting me. Can I record an Incomplete for them?",
+   "evidence_type": "rule-and-exception",
+   "strategy": "fixed",
+   "config": "size128_ov0",
+   "track": "C1",
+   "coverage": {
+    "recall@10": 0.5,
+    "hit@10": 1.0,
+    "complete@10": 0.0,
+    "partial@10": 0.9815950920245399
+   },
+   "official_check": {
+    "hit@10": {
+     "computed": 1.0,
+     "official": 1.0
+    },
+    "complete@10": {
+     "computed": 0.0,
+     "official": 0.0
+    },
+    "recall@10": {
+     "computed": 0.5,
+     "official": 0.5
+    }
+   },
+   "gold": [
+    {
+     "clause_id": "UNIVERSITY-OF-WISC-VALID-GRADES#c8",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "span": [
+      2746,
+      3724
+     ],
+     "first_covering_rank": null,
+     "covered": false
+    },
+    {
+     "clause_id": "UNIVERSITY-OF-WISC-VALID-GRADES#c6",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "span": [
+      2458,
+      2575
+     ],
+     "first_covering_rank": 7,
+     "covered": true
+    }
+   ],
+   "top10": [
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-14-30-INTRODUCTION-TO-STATISTICAL-METHODS-IN::fixed::size128_ov0::2610-3251",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-14-30-INTRODUCTION-TO-STATISTICAL-METHODS-IN",
+     "token_count": 128,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-14-30-INTRODUCTION-TO-STATISTICAL-METHODS-IN#c3"
+     ],
+     "ev_ranges": [
+      [
+       2610,
+       3251
+      ]
+     ],
+     "snippet": "answers before the deadline, for alternative submissions you should ask the instructors for permission beforehand. Taking all three exams is a requirement of the course. Missing an exam without a valid excuse will result",
+     "rank": 1,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-WISC-VALID-GRADES::fixed::size128_ov0::3012-3689",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "token_count": 128,
+     "clause_ids": [
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c8"
+     ],
+     "ev_ranges": [
+      [
+       3012,
+       3689
+      ]
+     ],
+     "snippet": "unless the student proves to you that they were prevented from attending as indicated above. In the absence of such proof, the final course grade shall reflect the grade earned. Even with such proof, if their work has co",
+     "rank": 2,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-WASH-WWW::fixed::size128_ov0::3929-4639",
+     "doc_id": "UNIVERSITY-OF-WASH-WWW",
+     "token_count": 128,
+     "clause_ids": [
+      "UNIVERSITY-OF-WASH-WWW#c12",
+      "UNIVERSITY-OF-WASH-WWW#c13",
+      "UNIVERSITY-OF-WASH-WWW#c14",
+      "UNIVERSITY-OF-WASH-WWW#c15"
+     ],
+     "ev_ranges": [
+      [
+       3929,
+       4176
+      ],
+      [
+       4177,
+       4413
+      ],
+      [
+       4414,
+       4530
+      ],
+      [
+       4531,
+       4639
+      ]
+     ],
+     "snippet": "quarter. Reinstatement may be only one step you need to complete to be able to re-enroll and register for classes. The following are some of the related issues that may pertain to your specific situation. Please discuss ",
+     "rank": 3,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-WASH-WWW::fixed::size128_ov0::21933-22585",
+     "doc_id": "UNIVERSITY-OF-WASH-WWW",
+     "token_count": 128,
+     "clause_ids": [
+      "UNIVERSITY-OF-WASH-WWW#c81",
+      "UNIVERSITY-OF-WASH-WWW#c82"
+     ],
+     "ev_ranges": [
+      [
+       22239,
+       22534
+      ],
+      [
+       22535,
+       22891
+      ]
+     ],
+     "snippet": "142PHYS 143Q SCI 381STAT 311STAT 390 Students dropped from Engineering Undeclared status and transitioned to pre-major status as a result of not meeting continuation requirements may appeal for continuation as an Enginee",
+     "rank": 4,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL::fixed::size128_ov0::23343-23933",
+     "doc_id": "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL",
+     "token_count": 128,
+     "clause_ids": [
+      "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL#c22"
+     ],
+     "ev_ranges": [
+      [
+       23576,
+       24166
+      ]
+     ],
+     "snippet": "informed of all student non-attendances as the university is obliged to report the If you do not engage satisfactorily with your studies, Imperial will consider what action is necessary to support your continued study un",
+     "rank": 5,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-MARY-GRADES-RECORDS-TRANSCRIPTS::fixed::size128_ov0::2711-3281",
+     "doc_id": "UNIVERSITY-OF-MARY-GRADES-RECORDS-TRANSCRIPTS",
+     "token_count": 128,
+     "clause_ids": [
+      "UNIVERSITY-OF-MARY-GRADES-RECORDS-TRANSCRIPTS#c8",
+      "UNIVERSITY-OF-MARY-GRADES-RECORDS-TRANSCRIPTS#c9",
+      "UNIVERSITY-OF-MARY-GRADES-RECORDS-TRANSCRIPTS#c10",
+      "UNIVERSITY-OF-MARY-GRADES-RECORDS-TRANSCRIPTS#c11"
+     ],
+     "ev_ranges": [
+      [
+       2711,
+       2743
+      ],
+      [
+       2744,
+       2897
+      ],
+      [
+       2898,
+       3177
+      ],
+      [
+       3178,
+       3281
+      ]
+     ],
+     "snippet": "the hold on your student record. Administrative Hold: Contact the Office of the University Registrar at 301-314-8240 or registrar-help@umd.edu to resolve the hold on your student record. No Record Found: Please refer to ",
+     "rank": 6,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-WISC-VALID-GRADES::fixed::size128_ov0::2352-3011",
+     "doc_id": "UNIVERSITY-OF-WISC-VALID-GRADES",
+     "token_count": 128,
+     "clause_ids": [
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c5",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c6",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c7",
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c8"
+     ],
+     "ev_ranges": [
+      [
+       2352,
+       2457
+      ],
+      [
+       2458,
+       2575
+      ],
+      [
+       2576,
+       2745
+      ],
+      [
+       2746,
+       3011
+      ]
+     ],
+     "snippet": "positioned to pass the course by successfully completing the work needed to resolve the Incomplete grade. Whether the student can improve their grade and/or pass the course if provided the extra time for the remaining wo",
+     "rank": 7,
+     "covers_clause_ids": [
+      "UNIVERSITY-OF-WISC-VALID-GRADES#c6"
+     ]
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-GLAS-MYGLASGOW-STUDENTCONTRACT-TERMSANDCONDITIONS::fixed::size128_ov0::40738-41445",
+     "doc_id": "UNIVERSITY-OF-GLAS-MYGLASGOW-STUDENTCONTRACT-TERMSANDCONDITIONS",
+     "token_count": 128,
+     "clause_ids": [
+      "UNIVERSITY-OF-GLAS-MYGLASGOW-STUDENTCONTRACT-TERMSANDCONDITIONS#4.2",
+      "UNIVERSITY-OF-GLAS-MYGLASGOW-STUDENTCONTRACT-TERMSANDCONDITIONS#4.3",
+      "UNIVERSITY-OF-GLAS-MYGLASGOW-STUDENTCONTRACT-TERMSANDCONDITIONS#5.1"
+     ],
+     "ev_ranges": [
+      [
+       40821,
+       40908
+      ],
+      [
+       40909,
+       41147
+      ],
+      [
+       41148,
+       41528
+      ]
+     ],
+     "snippet": "programme or course and again at the beginning of each academic year of your programme: 4.3 What may happen if you fail to complete registration. If you do not complete registration in accordance with Section 4.2 above, ",
+     "rank": 8,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-WASH-WWW::fixed::size128_ov0::22586-23240",
+     "doc_id": "UNIVERSITY-OF-WASH-WWW",
+     "token_count": 128,
+     "clause_ids": [
+      "UNIVERSITY-OF-WASH-WWW#c82"
+     ],
+     "ev_ranges": [
+      [
+       22892,
+       23546
+      ]
+     ],
+     "snippet": "to complete all necessary steps before the deadline for the quarter you are petitioning to be reinstated for. If you are an ENGRUD, Dean's Scholar, or STARs student, please connect with your advising team. In major? Plea",
+     "rank": 9,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE::fixed::size128_ov0::35726-36409",
+     "doc_id": "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE",
+     "token_count": 128,
+     "clause_ids": [
+      "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE#c61",
+      "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE#c62",
+      "BOSTON-UNIVERSITY-ACADEMIC-CONDUCT-CODE#c63"
+     ],
+     "ev_ranges": [
+      [
+       36350,
+       36779
+      ],
+      [
+       36780,
+       37030
+      ],
+      [
+       37031,
+       37033
+      ]
+     ],
+     "snippet": ". The student then chooses to withdraw from the course. Step 2: Following typical protocol outlined in the University's Academic Conduct Code, the designated Dean checks the ADVOCATE database to see if the student has a ",
+     "rank": 10,
+     "covers_clause_ids": []
+    }
+   ]
+  },
+  {
+   "qid": "Q0088",
+   "question": "Does the first quiz in 15.053 (Spring 2013) count towards my quiz grade, or is it just practice?",
+   "evidence_type": "rule-and-exception",
+   "strategy": "fixed",
+   "config": "size128_ov0",
+   "track": "C1",
+   "coverage": {
+    "recall@10": 0.5,
+    "hit@10": 1.0,
+    "complete@10": 0.0,
+    "partial@10": 0.9993403693931399
+   },
+   "official_check": {
+    "hit@10": {
+     "computed": 1.0,
+     "official": 1.0
+    },
+    "complete@10": {
+     "computed": 0.0,
+     "official": 0.0
+    },
+    "recall@10": {
+     "computed": 0.5,
+     "official": 0.5
+    }
+   },
+   "gold": [
+    {
+     "clause_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#15.053",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC",
+     "span": [
+      0,
+      758
+     ],
+     "first_covering_rank": null,
+     "covered": false
+    },
+    {
+     "clause_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#c2",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC",
+     "span": [
+      759,
+      898
+     ],
+     "first_covering_rank": 1,
+     "covered": true
+    }
+   ],
+   "top10": [
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC::fixed::size128_ov0::646-1203",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC",
+     "token_count": 128,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#15.053",
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#c2",
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#c3",
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#c4",
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#c5"
+     ],
+     "ev_ranges": [
+      [
+       646,
+       758
+      ],
+      [
+       759,
+       898
+      ],
+      [
+       899,
+       1040
+      ],
+      [
+       1041,
+       1142
+      ],
+      [
+       1143,
+       1203
+      ]
+     ],
+     "snippet": "20 to 30 minutes long. Quizzes will be based on the same material as the problem set due on the day of the quiz. The first quiz is for practice, but it may count as part of the quiz grade if its inclusion leads to an inc",
+     "rank": 1,
+     "covers_clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#c2"
+     ]
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-16-050-THERMAL-ENERGY-FALL-2002-SYLLABUS::fixed::size128_ov0::2566-3181",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-16-050-THERMAL-ENERGY-FALL-2002-SYLLABUS",
+     "token_count": 128,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-16-050-THERMAL-ENERGY-FALL-2002-SYLLABUS#7.0",
+      "MIT-OPENCOURSEWARE-COURSES-16-050-THERMAL-ENERGY-FALL-2002-SYLLABUS#c14"
+     ],
+     "ev_ranges": [
+      [
+       2566,
+       2852
+      ],
+      [
+       2853,
+       3181
+      ]
+     ],
+     "snippet": "35%, the quizzes will count 15% each, and the final exam will count 30%. The instructor reserves the right to alter the percentages slightly, depending on circumstances. Homework assignments will be due at the beginning ",
+     "rank": 2,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-16-050-THERMAL-ENERGY-FALL-2002-SYLLABUS::fixed::size128_ov0::3182-3826",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-16-050-THERMAL-ENERGY-FALL-2002-SYLLABUS",
+     "token_count": 128,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-16-050-THERMAL-ENERGY-FALL-2002-SYLLABUS#c14"
+     ],
+     "ev_ranges": [
+      [
+       3182,
+       3826
+      ]
+     ],
+     "snippet": "to provide some flexibility for missed classes, etc. There will be no make-up opportunities granted for missing these activities. [Note: A student's performance on quizzes is an assessment of individual performance (vers",
+     "rank": 3,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE::fixed::size128_ov0::16377-16947",
+     "doc_id": "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE",
+     "token_count": 128,
+     "clause_ids": [
+      "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE#16.6~2"
+     ],
+     "ev_ranges": [
+      [
+       16377,
+       16947
+      ]
+     ],
+     "snippet": "attempt at assessment taken at a later date due to approved Extenuating Circumstances. Deferred assessment is not reassessment. A deferred assessment is a first attempt: its grade carries full value, it is never capped, ",
+     "rank": 4,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-15-063-COMMUNICATING-WITH-DATA-SUMMER-2003-S::fixed::size128_ov0::3505-4250",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-15-063-COMMUNICATING-WITH-DATA-SUMMER-2003-S",
+     "token_count": 128,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-15-063-COMMUNICATING-WITH-DATA-SUMMER-2003-S#c4",
+      "MIT-OPENCOURSEWARE-COURSES-15-063-COMMUNICATING-WITH-DATA-SUMMER-2003-S#c5"
+     ],
+     "ev_ranges": [
+      [
+       3505,
+       3786
+      ],
+      [
+       3787,
+       4250
+      ]
+     ],
+     "snippet": "be expected to be familiar with the readings, even though they might not understand all of the material in advance. In general, questions and comments are encouraged. Comments should be limited to the important aspects o",
+     "rank": 5,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-1-00-INTRODUCTION-TO-COMPUTERS-AND-ENGINEERI::fixed::size128_ov0::1845-2387",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-1-00-INTRODUCTION-TO-COMPUTERS-AND-ENGINEERI",
+     "token_count": 128,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-1-00-INTRODUCTION-TO-COMPUTERS-AND-ENGINEERI#c2",
+      "MIT-OPENCOURSEWARE-COURSES-1-00-INTRODUCTION-TO-COMPUTERS-AND-ENGINEERI#c3"
+     ],
+     "ev_ranges": [
+      [
+       1841,
+       2245
+      ],
+      [
+       2246,
+       2383
+      ]
+     ],
+     "snippet": "read the algorithm descriptions even if you don't wish to read the C code. Graded problem sets and quizzes will be returned in recitation about 10 days after they are submitted. Problem set grades, quiz and final exam gr",
+     "rank": 6,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-14-13-PSYCHOLOGY-AND-ECONOMICS-SPRING-2020-S::fixed::size128_ov0::0-703",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-14-13-PSYCHOLOGY-AND-ECONOMICS-SPRING-2020-S",
+     "token_count": 128,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-14-13-PSYCHOLOGY-AND-ECONOMICS-SPRING-2020-S#c1"
+     ],
+     "ev_ranges": [
+      [
+       0,
+       703
+      ]
+     ],
+     "snippet": "Given that the class does not follow a textbook, most of the course materials will be based on empirical and theoretical papers from leading academic journals. While the lecture notes are fairly comprehensive, the course",
+     "rank": 7,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC::fixed::size128_ov0::0-645",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC",
+     "token_count": 128,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#15.053"
+     ],
+     "ev_ranges": [
+      [
+       0,
+       645
+      ]
+     ],
+     "snippet": "15.053 is structured as two longer modules followed by three short modules. There are six problem sets. Problem sets are an important part of the learning experience, which is why they are required. Problem sets are to b",
+     "rank": 8,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-10-37-CHEMICAL-AND-BIOLOGICAL-REACTION-ENGIN::fixed::size128_ov0::1371-1918",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-10-37-CHEMICAL-AND-BIOLOGICAL-REACTION-ENGIN",
+     "token_count": 128,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-10-37-CHEMICAL-AND-BIOLOGICAL-REACTION-ENGIN#c2",
+      "MIT-OPENCOURSEWARE-COURSES-10-37-CHEMICAL-AND-BIOLOGICAL-REACTION-ENGIN#c3"
+     ],
+     "ev_ranges": [
+      [
+       1371,
+       1864
+      ],
+      [
+       1865,
+       1918
+      ]
+     ],
+     "snippet": ". One quiz can be missed or dropped from grading. Most quizzes will be given during recitations. The first two exams will be 1 hour long and will be given during class time. The third exam will be given during the final ",
+     "rank": 9,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL::fixed::size128_ov0::49320-49963",
+     "doc_id": "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL",
+     "token_count": 128,
+     "clause_ids": [
+      "IMPERIAL-COLLEGE-L-PUBLIC-HANDBOOKS-COMPUTING-UG-HANDBOOK-2627-FINAL#c45"
+     ],
+     "ev_ranges": [
+      [
+       49553,
+       50196
+      ]
+     ],
+     "snippet": "the adding up of your marks, you may request an arithmetic mark check. Please note that this must be requested within 10 working days of the official notification of your results from the Assessment Records team in Regis",
+     "rank": 10,
+     "covers_clause_ids": []
+    }
+   ]
+  },
+  {
+   "qid": "Q0088",
+   "question": "Does the first quiz in 15.053 (Spring 2013) count towards my quiz grade, or is it just practice?",
+   "evidence_type": "rule-and-exception",
+   "strategy": "heading",
+   "config": "heading",
+   "track": "C1",
+   "coverage": {
+    "recall@10": 1.0,
+    "hit@10": 1.0,
+    "complete@10": 1.0,
+    "partial@10": 1.0
+   },
+   "official_check": {
+    "hit@10": {
+     "computed": 1.0,
+     "official": 1.0
+    },
+    "complete@10": {
+     "computed": 1.0,
+     "official": 1.0
+    },
+    "recall@10": {
+     "computed": 1.0,
+     "official": 1.0
+    }
+   },
+   "gold": [
+    {
+     "clause_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#15.053",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC",
+     "span": [
+      0,
+      758
+     ],
+     "first_covering_rank": 3,
+     "covered": true
+    },
+    {
+     "clause_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#c2",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC",
+     "span": [
+      759,
+      898
+     ],
+     "first_covering_rank": 1,
+     "covered": true
+    }
+   ],
+   "top10": [
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC::heading::heading::759-1470",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC",
+     "token_count": 155,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#c2",
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#c3",
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#c4",
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#c5"
+     ],
+     "ev_ranges": [
+      [
+       759,
+       898
+      ],
+      [
+       899,
+       1040
+      ],
+      [
+       1041,
+       1142
+      ],
+      [
+       1143,
+       1470
+      ]
+     ],
+     "snippet": "The first quiz is for practice, but it may count as part of the quiz grade if its inclusion leads to an increase in the average quiz score. The lowest score in quizzes 2 to 5 will be dropped. The scores of the remaining ",
+     "rank": 1,
+     "covers_clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#c2"
+     ]
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-16-050-THERMAL-ENERGY-FALL-2002-SYLLABUS::heading::heading::2853-5005",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-16-050-THERMAL-ENERGY-FALL-2002-SYLLABUS",
+     "token_count": 427,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-16-050-THERMAL-ENERGY-FALL-2002-SYLLABUS#c14",
+      "MIT-OPENCOURSEWARE-COURSES-16-050-THERMAL-ENERGY-FALL-2002-SYLLABUS#c15"
+     ],
+     "ev_ranges": [
+      [
+       2853,
+       3921
+      ],
+      [
+       3922,
+       5005
+      ]
+     ],
+     "snippet": "The remaining 5% of the grade will be based on student performance in various exercises (many of which will occur in class). These may include answering questions in class, either verbally or using the PRS system, submit",
+     "rank": 2,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC::heading::heading::0-758",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC",
+     "token_count": 155,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#15.053"
+     ],
+     "ev_ranges": [
+      [
+       0,
+       758
+      ]
+     ],
+     "snippet": "15.053 is structured as two longer modules followed by three short modules. There are six problem sets. Problem sets are an important part of the learning experience, which is why they are required. Problem sets are to b",
+     "rank": 3,
+     "covers_clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-15-053-OPTIMIZATION-METHODS-IN-MANAGEMENT-SC#15.053"
+     ]
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE::heading::heading::86658-88236",
+     "doc_id": "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE",
+     "token_count": 371,
+     "clause_ids": [
+      "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE#c137",
+      "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE#16.30"
+     ],
+     "ev_ranges": [
+      [
+       86746,
+       87524
+      ],
+      [
+       87525,
+       88324
+      ]
+     ],
+     "snippet": "Example 5B. A 2-hour exam may be started at any time in a 24-hour window opening at 9.30am. A student starts at 10.15am. Their scheduled examination time is 2 hours plus 30 minutes upload, ending at 12.45pm. A submission",
+     "rank": 4,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-1-00-INTRODUCTION-TO-COMPUTERS-AND-ENGINEERI::heading::heading::3696-5992",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-1-00-INTRODUCTION-TO-COMPUTERS-AND-ENGINEERI",
+     "token_count": 483,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-1-00-INTRODUCTION-TO-COMPUTERS-AND-ENGINEERI#c5",
+      "MIT-OPENCOURSEWARE-COURSES-1-00-INTRODUCTION-TO-COMPUTERS-AND-ENGINEERI#c6",
+      "MIT-OPENCOURSEWARE-COURSES-1-00-INTRODUCTION-TO-COMPUTERS-AND-ENGINEERI#c7"
+     ],
+     "ev_ranges": [
+      [
+       3692,
+       4510
+      ],
+      [
+       4511,
+       5438
+      ],
+      [
+       5439,
+       5988
+      ]
+     ],
+     "snippet": "5. You may copy and modify programs given in lecture or recitation notes or used in lecture or recitation by the instructors or TAs. You may also copy and modify programs from the text used in this subject. 1. If you do ",
+     "rank": 5,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE::heading::heading::143816-145304",
+     "doc_id": "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE",
+     "token_count": 289,
+     "clause_ids": [
+      "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE#c184",
+      "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE#c185"
+     ],
+     "ev_ranges": [
+      [
+       143904,
+       144995
+      ],
+      [
+       144996,
+       145392
+      ]
+     ],
+     "snippet": "Consistent | Marker and moderator discuss each disagreement. If unresolved, a second moderator reviews a further sample. | A second moderator reviews a further sample. Not consistent | Marker and moderator discuss each d",
+     "rank": 6,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-14-01-PRINCIPLES-OF-MICROECONOMICS-FALL-2023::heading::heading::0-2075",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-14-01-PRINCIPLES-OF-MICROECONOMICS-FALL-2023",
+     "token_count": 419,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-14-01-PRINCIPLES-OF-MICROECONOMICS-FALL-2023#c1",
+      "MIT-OPENCOURSEWARE-COURSES-14-01-PRINCIPLES-OF-MICROECONOMICS-FALL-2023#c2"
+     ],
+     "ev_ranges": [
+      [
+       0,
+       1096
+      ],
+      [
+       1097,
+       2075
+      ]
+     ],
+     "snippet": "There will be eight mandatory problem sets which will be individually graded and returned to the students. At the end of the term, students will have the best seven homework grades cumulated up, and this will count for 2",
+     "rank": 7,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE::heading::heading::35868-37226",
+     "doc_id": "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE",
+     "token_count": 274,
+     "clause_ids": [
+      "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE#16.29~2",
+      "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE#Section 16.30"
+     ],
+     "ev_ranges": [
+      [
+       35868,
+       36095
+      ],
+      [
+       36096,
+       37226
+      ]
+     ],
+     "snippet": "16.29 Where the assessment scheme of a specific course or programme requires aggregation across two or more components to obtain an overall outcome, the grade points set out in Glasgow Grading Schemes 1 and 2 shall be em",
+     "rank": 8,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "MIT-OPENCOURSEWARE-COURSES-15-301-MANAGERIAL-PSYCHOLOGY-FALL-2006-SYLLA::heading::heading::1772-3982",
+     "doc_id": "MIT-OPENCOURSEWARE-COURSES-15-301-MANAGERIAL-PSYCHOLOGY-FALL-2006-SYLLA",
+     "token_count": 430,
+     "clause_ids": [
+      "MIT-OPENCOURSEWARE-COURSES-15-301-MANAGERIAL-PSYCHOLOGY-FALL-2006-SYLLA#15.301",
+      "MIT-OPENCOURSEWARE-COURSES-15-301-MANAGERIAL-PSYCHOLOGY-FALL-2006-SYLLA#15.310"
+     ],
+     "ev_ranges": [
+      [
+       1772,
+       2830
+      ],
+      [
+       2831,
+       3982
+      ]
+     ],
+     "snippet": "15.301 is a 15-unit course that includes a team project and assignments that fulfill the Communication Requirement. 15.310 is a 9-unit course that covers the same content but does not include the team project, nor does i",
+     "rank": 9,
+     "covers_clause_ids": []
+    },
+    {
+     "chunk_id": "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE::heading::heading::47895-49545",
+     "doc_id": "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE",
+     "token_count": 385,
+     "clause_ids": [
+      "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE#c89",
+      "UNIVERSITY-OF-GLAS-GENERAL-ASSESSMENT-REG-GUIDE#c90"
+     ],
+     "ev_ranges": [
+      [
+       47895,
+       49324
+      ],
+      [
+       49325,
+       49545
+      ]
+     ],
+     "snippet": "Check first whether compensation is available at all: some programmes disapply compensatory credit entirely, notably the clinical programmes and others whose degree regulations require every course to be passed (§16.44(b",
+     "rank": 10,
+     "covers_clause_ids": []
+    }
+   ]
+  }
+ ]
+}

@@ -5,12 +5,12 @@
   "run_id": "c3d403324448",
   "model": {
     "id": "BAAI/bge-reranker-base",
-    "source": "D:\\qjc\\course-policy-rag\\models\\reranker\\base",
+    "source": "<repo>\\models\\reranker\\base",
     "checkpoint_sha256": "d69da8db47755ab7db349c58eea9f8781490cd16d216731b65b5c69d5faf539e"
   },
   "tokenizer": {
     "id": "BAAI/bge-reranker-base",
-    "source": "D:\\qjc\\course-policy-rag\\models\\reranker\\base",
+    "source": "<repo>\\models\\reranker\\base",
     "max_query_len": 128,
     "max_pair_len": 512,
     "truncation": "question<=128; chunk gets 512-len(q)-3 (tail cut)"
