@@ -13,7 +13,7 @@ project:
 
 # ---------------------------------------------------------------- crawler
 crawler:
-  user_agent: "CPS5801-research-bot/0.1 (+academic research; contact: student@wku.edu.cn)"
+  user_agent: "CPS5801-research-bot/0.1 (+academic research; contact: Xiaocao21@users.noreply.github.com)"
   # Per-host minimum seconds between requests
   delay_seconds: 1.5
   respect_crawl_delay: true

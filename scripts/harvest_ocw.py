@@ -29,7 +29,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from common import PROJECT_ROOT, domain_hits, load_taxonomy  # noqa: E402
 
-UA = "CPS5801-research-bot/0.1 (+academic research; contact: student@wku.edu.cn)"
+UA = "CPS5801-research-bot/0.1 (+academic research; contact: Xiaocao21@users.noreply.github.com)"
 ROBOTS_OK_NOTE = "robots.txt Allow: / (verified)"
 
 # pages worth harvesting inside a course

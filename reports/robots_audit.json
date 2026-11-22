@@ -1,5 +1,5 @@
 {
-  "user_agent": "CPS5801-research-bot/0.1 (+academic research; contact: student@wku.edu.cn)",
+  "user_agent": "CPS5801-research-bot/0.1 (+academic research; contact: Xiaocao21@users.noreply.github.com)",
   "hosts": {
     "https://catalog.ufl.edu": {
       "robots_url": "https://catalog.ufl.edu/robots.txt",

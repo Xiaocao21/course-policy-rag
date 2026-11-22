@@ -29,7 +29,7 @@ from common import (  # noqa: E402
     PROJECT_ROOT, load_taxonomy, minhash_signature, minhash_similarity,
 )
 
-UA = "CPS5801-research-bot/0.1 (+academic research; contact: student@wku.edu.cn)"
+UA = "CPS5801-research-bot/0.1 (+academic research; contact: Xiaocao21@users.noreply.github.com)"
 
 LINK_TEXT_RE = re.compile(
     r"(?i)\b(polic|regulation|integrity|conduct|plagiar|misconduct|grading|grade|"

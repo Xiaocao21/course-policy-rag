@@ -34,7 +34,7 @@ The original values were taken before the edits (`data/CODE_MANIFEST.original.cs
 | public tree (this release) | `0a9e80ebf4d5f9d1…` |
 
 The three official values already differ from one another: the evaluation code advanced between
-the runs. The public value differs because of the three path-only edits above. The historical
+the runs. The public value differs because of the path-only edits and the crawler-contact change above. The historical
 `FINAL_RUN.json` / `FROZEN.json` are **not** modified to match; this document is the mapping
 between the original run and the public release.
 

@@ -53,3 +53,16 @@ originals; `data/CODE_MANIFEST.original.csv` records every original hash, and th
 release adds `CODE_MANIFEST.csv` with both columns plus `CODE_DELTA.md`. Because `code_sha()`
 hashes `scripts/*.py` as a set, the public tree's overall `code_sha256` **will differ** from
 the recorded values; that is expected and is not a change to experiment logic.
+
+## Crawler contact update (2026-11-22)
+
+The crawler User-Agent contact `student@wku.edu.cn` was replaced by
+`Xiaocao21@users.noreply.github.com` in `config/settings.yaml`, `MANIFEST.json`,
+`COMPLIANCE.md`, `reports/robots_audit.json` and the three crawler scripts. This removes a
+personal email address from the public repository; the crawler remains contactable.
+
+`MANIFEST.settings_sha256` was recomputed (`8489027f…`) because it hashes `settings.yaml`,
+`previous_settings_sha256` keeps the pre-change value, and
+`settings_changed_since_last_freeze` is now `true`. The corpus artefact hashes are unchanged.
+The test2 pre-registration does **not** cover `MANIFEST.json` or `settings.yaml`, so R1/R2 are
+unaffected; `results/HASHES.csv` records the new `MANIFEST.json` file hash.

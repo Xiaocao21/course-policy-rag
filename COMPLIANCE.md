@@ -19,7 +19,7 @@ for every document in `sources.csv`.
 
 ## Crawling policy
 
-- User agent: `CPS5801-research-bot/0.1 (+academic research; contact: student@wku.edu.cn)`
+- User agent: `CPS5801-research-bot/0.1 (+academic research; contact: Xiaocao21@users.noreply.github.com)`
 - Per-host delay: 1.5 s minimum, `Crawl-Delay` honoured when larger
 - Global page cap per run: 400
 - `robots.txt` is fetched once per host and evaluated before any request to that host.

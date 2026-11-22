@@ -24,7 +24,7 @@ try:
 except ImportError:  # pragma: no cover
     LH = None
 
-UA = "CPS5801-research-bot/0.1 (+academic research; contact: student@wku.edu.cn)"
+UA = "CPS5801-research-bot/0.1 (+academic research; contact: Xiaocao21@users.noreply.github.com)"
 
 # ---------------------------------------------------------------- candidates
 # tier: course | faculty | institution
