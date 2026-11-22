@@ -57,3 +57,14 @@ Thumbs.db
 .DS_Store
 docs/PUSH_GUIDE.md
 docs/RELEASE_UPLOAD.md
+
+# LaTeX build artefacts (paper/main.pdf is kept as the compiled paper)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/_probe.*
