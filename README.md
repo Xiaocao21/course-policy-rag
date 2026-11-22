@@ -47,7 +47,7 @@ The two official runs used the **same frozen checkpoint** (`547060da…`) but di
 different code versions; test-vs-test2 differences therefore mix split, hardware and code. This
 is recorded per row in `results/artifact_map.csv` and in `ENVIRONMENT_EVIDENCE.md`.
 
-## Software
+## Software and dependency requirements
 
 Python 3.12.14; CPU path: `requirements.txt`. GPU path (A5000):
 
@@ -59,6 +59,26 @@ py -3.12 -m venv .venv-gpu
 Recorded versions: torch 2.6.0+cu124, CUDA 12.4, transformers 5.20.2,
 sentence-transformers 6.2.0, faiss 1.15.1, numpy 2.5.4. Windows 11 was verified; Linux is
 expected but not tested.
+
+## Installation
+
+```powershell
+git clone https://github.com/Xiaocao21/course-policy-rag.git
+cd course-policy-rag
+py -3.12 -m venv .venv
+.\.venv\Scripts\python -m pip install -r requirements.txt
+```
+
+For R2/R3 (A5000), also create the GPU environment:
+
+```powershell
+py -3.12 -m venv .venv-gpu
+.\.venv-gpu\Scripts\python -m pip install -r requirements-gpu.txt
+```
+
+`requirements.txt` gives supported ranges; the exact versions used for the reported results
+(torch 2.6.0+cu124, CUDA 12.4, transformers 5.20.2, sentence-transformers 6.2.0, faiss 1.15.1,
+numpy 2.5.4) are recorded in `ENVIRONMENT_EVIDENCE.md` and `requirements-gpu.txt`.
 
 ## Dataset
 
